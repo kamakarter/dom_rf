@@ -315,15 +315,9 @@
 
 
 
-<div>
+<!-- <div>
     <img src="https://mc.yandex.ru/watch/metricaId" style="position:absolute; left:-9999px;" alt="" />
-</div>
-
-<style>
-    .lazyload {
-        display: none;
-    }
-</style>
+</div> -->
 
 <script data-noptimize="1">
     window.lazySizesConfig = window.lazySizesConfig || {};
@@ -368,6 +362,19 @@
         </div>
     </div>
 </div>
+
+
+<style>
+    .modal-wrapper.modal-opened {
+        opacity: 1;
+        z-index: 9999;
+        display: none;
+    }
+
+    /* .lazyload {
+        display: none;
+    } */
+</style>
 
 </body>
 

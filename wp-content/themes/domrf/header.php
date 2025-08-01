@@ -51,9 +51,7 @@
 </head>
 
 <body>
-
-
-	<div class="lazyload front-page-header" data-bg="superuploads/2021/07/home_bg.jpg"
+	<div class="lazyload front-page-header" data-bg="assets/superuploads/2021/07/home_bg.jpg"
 		style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 		<header class="hidden-print">
 			<div class="container">
