@@ -6365,6 +6365,8 @@ section#catalog-form {
   top: 0;
   left: 0;
   overflow: auto;
+  transition: all 0.3s ease;
+  background-color: transparent;
 }
 .search-modal-overlay {
   position: fixed;
@@ -6373,10 +6375,17 @@ section#catalog-form {
   background-color: rgba(0, 0, 0, 0.5);
   top: 0;
   left: 0;
+  z-index: 9998;
 }
 .search-input-box {
   position: sticky;
   top: 0;
+}
+
+/* Исправление для модального окна поиска */
+.search-modal-wrapper .search-input-box {
+  position: relative;
+  top: auto;
 }
 .search-input-box .form-control {
   width: calc(100% - 30px);

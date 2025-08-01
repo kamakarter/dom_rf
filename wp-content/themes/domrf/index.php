@@ -9,10 +9,10 @@
 					<div class="section-title text-center"><b>Получите предварительный расчет<br> стоимости</b> дома
 						за 1 минуту</div>
 					<div class="left-manager-box">
-						<div class="left-manager-photo"> <noscript><img src="superuploads/2021/07/sotrudnik-8.jpg"
+						<div class="left-manager-photo"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-8.jpg"
 									alt="Иван Михайленков" title="Иван Михайленков"></noscript><img class="lazyload"
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
 								title="Иван Михайленков"></div>
 						<div class="left-manager-fio">Иван Михайленков</div>
 						<div class="left-manager-post">Ведущий архитектор</div>
@@ -21,21 +21,21 @@
 						<div class="left-manager-pluses-title">Ответив на вопросы <b>вы получите:</b></div>
 						<div class="left-manager-pluses-list">
 							<div class="lazyload left-manager-plus-item left-manager-plus-item-0"
-								data-bg="superuploads/2021/05/lm1.png"
+								data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/lm1.png"
 								style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 								<span class="left-manager-plus-item-icon"></span> <span
 									class="left-manager-plus-item-text"><b>Ориентировочную стоимость</b>
 									строительства</span>
 							</div>
 							<div class="lazyload left-manager-plus-item left-manager-plus-item-1"
-								data-bg="superuploads/2021/05/lm2.png"
+								data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/lm2.png"
 								style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 								<span class="left-manager-plus-item-icon"></span> <span
 									class="left-manager-plus-item-text"><b>Точную подборку проектов</b> исходя из
 									ваших ответов либо предложим новый вариант</span>
 							</div>
 							<div class="lazyload left-manager-plus-item left-manager-plus-item-2"
-								data-bg="superuploads/2021/05/lm3.png"
+								data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/lm3.png"
 								style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 								<span class="left-manager-plus-item-icon"></span> <span
 									class="left-manager-plus-item-text"><b>Один из 3-х подарков</b> при заказе
@@ -61,11 +61,11 @@
 										for="quiz-doma-0-0"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
 										<noscript><img
-												src="superuploads/2021/06/c2e36cf12ff6c983fded8f46951c4b27-300x188.jpeg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/c2e36cf12ff6c983fded8f46951c4b27-300x188.jpeg"
 												class="quiz-label-item-image" alt="Дом из блоков"
 												title="Дом из блоков"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/06/c2e36cf12ff6c983fded8f46951c4b27-300x188.jpeg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/c2e36cf12ff6c983fded8f46951c4b27-300x188.jpeg"
 											class="lazyload quiz-label-item-image" alt="Дом из блоков"
 											title="Дом из блоков">
 										<div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -75,11 +75,11 @@
 										name="quiz-doma[0]" value="Каркасный дом"> <label for="quiz-doma-0-1"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
 										<noscript><img
-												src="superuploads/2021/06/9fc93cf86a5d053f77d33ea646f7b39b-300x225.jpeg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/9fc93cf86a5d053f77d33ea646f7b39b-300x225.jpeg"
 												class="quiz-label-item-image" alt="Каркасный дом"
 												title="Каркасный дом"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/06/9fc93cf86a5d053f77d33ea646f7b39b-300x225.jpeg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/9fc93cf86a5d053f77d33ea646f7b39b-300x225.jpeg"
 											class="lazyload quiz-label-item-image" alt="Каркасный дом"
 											title="Каркасный дом">
 										<div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -90,11 +90,11 @@
 										for="quiz-doma-0-2"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
 										<noscript><img
-												src="superuploads/2021/06/085248674f6f1d97c43ab8e800b73697-300x200.jpeg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/085248674f6f1d97c43ab8e800b73697-300x200.jpeg"
 												class="quiz-label-item-image" alt="Дом из профилированного бруса"
 												title="Дом из профилированного бруса"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/06/085248674f6f1d97c43ab8e800b73697-300x200.jpeg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/085248674f6f1d97c43ab8e800b73697-300x200.jpeg"
 											class="lazyload quiz-label-item-image"
 											alt="Дом из профилированного бруса"
 											title="Дом из профилированного бруса">
@@ -105,11 +105,11 @@
 										name="quiz-doma[0]" value="Дом из оцилиндрованного бревна"> <label
 										for="quiz-doma-0-3"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-										<noscript><img src="superuploads/2021/06/brevno.png"
+										<noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/brevno.png"
 												class="quiz-label-item-image" alt="Дом из оцилиндрованного бревна"
 												title="Дом из оцилиндрованного бревна"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/06/brevno.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/brevno.png"
 											class="lazyload quiz-label-item-image"
 											alt="Дом из оцилиндрованного бревна"
 											title="Дом из оцилиндрованного бревна">
@@ -120,11 +120,11 @@
 										name="quiz-doma[0]" value="Дом из кирпича"> <label for="quiz-doma-0-4"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
 										<noscript><img
-												src="superuploads/2021/07/97399578ee6e8bb880e30b4e9b17c2c1-300x225.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/97399578ee6e8bb880e30b4e9b17c2c1-300x225.jpg"
 												class="quiz-label-item-image" alt="Дом из кирпича"
 												title="Дом из кирпича"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/97399578ee6e8bb880e30b4e9b17c2c1-300x225.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/97399578ee6e8bb880e30b4e9b17c2c1-300x225.jpg"
 											class="lazyload quiz-label-item-image" alt="Дом из кирпича"
 											title="Дом из кирпича">
 										<div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -133,11 +133,11 @@
 									</label> <input type="radio" class="radio-hidden" id="quiz-doma-0-5"
 										name="quiz-doma[0]" value="Дом из SIP панелей"> <label for="quiz-doma-0-5"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-										<noscript><img src="superuploads/2021/05/doma-1-6.png"
+										<noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-1-6.png"
 												class="quiz-label-item-image" alt="Дом из SIP панелей"
 												title="Дом из SIP панелей"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/05/doma-1-6.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-1-6.png"
 											class="lazyload quiz-label-item-image" alt="Дом из SIP панелей"
 											title="Дом из SIP панелей">
 										<div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -299,11 +299,11 @@
 										id="quiz-doma-5-0" name="quiz-doma[5]" value="Бассейн"> <label
 										for="quiz-doma-5-0"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image label-item-is_long">
-										<noscript><img src="superuploads/2021/05/doma-p-1-198x300.png"
+										<noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p-1-198x300.png"
 												class="quiz-label-item-image" alt="Бассейн"
 												title="Бассейн"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/05/doma-p-1-198x300.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p-1-198x300.png"
 											class="lazyload quiz-label-item-image" alt="Бассейн" title="Бассейн">
 										<div class="quiz-label-item-radio"> <span class="checked"></span> <span
 												class="unchecked"></span></div>
@@ -312,11 +312,11 @@
 										name="quiz-doma[5]" value="Беседка"> <label for="quiz-doma-5-1"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image label-item-is_long">
 										<noscript><img
-												src="superuploads/2022/02/d5d656b9a444d423096f854cc889fba12-234x300.png"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2022/02/d5d656b9a444d423096f854cc889fba12-234x300.png"
 												class="quiz-label-item-image" alt="Беседка"
 												title="Беседка"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2022/02/d5d656b9a444d423096f854cc889fba12-234x300.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2022/02/d5d656b9a444d423096f854cc889fba12-234x300.png"
 											class="lazyload quiz-label-item-image" alt="Беседка" title="Беседка">
 										<div class="quiz-label-item-radio"> <span class="checked"></span> <span
 												class="unchecked"></span></div>
@@ -324,11 +324,11 @@
 									</label> <input type="radio" class="radio-hidden" id="quiz-doma-5-2"
 										name="quiz-doma[5]" value="Качели"> <label for="quiz-doma-5-2"
 										class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image label-item-is_long">
-										<noscript><img src="superuploads/2021/05/doma-p3-198x300.png"
+										<noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p3-198x300.png"
 												class="quiz-label-item-image" alt="Качели"
 												title="Качели"></noscript><img
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/05/doma-p3-198x300.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p3-198x300.png"
 											class="lazyload quiz-label-item-image" alt="Качели" title="Качели">
 										<div class="quiz-label-item-radio"> <span class="checked"></span> <span
 												class="unchecked"></span></div>
@@ -349,40 +349,40 @@
 												id="whatsapp-quiz-doma" name="send_to" value="whatsapp"> <label
 												class="form-group-social-label" for="whatsapp-quiz-doma">
 												<noscript><img
-														src="wp-content/themes/super_dom/icons/label-whatsapp.png"
+														src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
 														alt="Whatsapp" title="Whatsapp"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="wp-content/themes/super_dom/icons/label-whatsapp.png"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
 													alt="Whatsapp" title="Whatsapp"> <span
 													class="form-group-social-label-text">Whatsapp</span> </label>
 											<input type="radio" id="viber-quiz-doma" name="send_to" value="viber">
 											<label class="form-group-social-label" for="viber-quiz-doma">
 												<noscript><img
-														src="wp-content/themes/super_dom/icons/label-viber.png"
+														src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
 														alt="Viber" title="Viber"></noscript><img class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="wp-content/themes/super_dom/icons/label-viber.png"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
 													alt="Viber" title="Viber"> <span
 													class="form-group-social-label-text">Viber</span> </label>
 											<input type="radio" id="telegram-quiz-doma" name="send_to"
 												value="telegram"> <label class="form-group-social-label"
 												for="telegram-quiz-doma"> <noscript><img
-														src="wp-content/themes/super_dom/icons/label-telegram.png"
+														src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
 														alt="Telegram" title="Telegram"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="wp-content/themes/super_dom/icons/label-telegram.png"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
 													alt="Telegram" title="Telegram"> <span
 													class="form-group-social-label-text">Telegram</span> </label>
 											<input type="radio" id="pphone-quiz-doma" name="send_to" value="Телефон"
 												checked> <label class="form-group-social-label"
 												for="pphone-quiz-doma"> <noscript><img
-														src="wp-content/themes/super_dom/icons/label-phone.png"
+														src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
 														alt="Телефон" title="Телефон"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="wp-content/themes/super_dom/icons/label-phone.png"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
 													alt="Телефон" title="Телефон"> <span
 													class="form-group-social-label-text">Телефон</span> </label>
 										</div>
@@ -533,10 +533,10 @@
 			</div>
 			<div class="flex-row">
 				<div class="service-item service-item-medium">
-					<div class="service-item-image"> <noscript><img src="superuploads/2021/09/karkasnik.jpg"
+					<div class="service-item-image"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/karkasnik.jpg"
 								alt="Каркасные дома" title="Каркасные дома"></noscript><img class="lazyload"
 							src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-							data-src="superuploads/2021/09/karkasnik.jpg" alt="Каркасные дома"
+							data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/karkasnik.jpg" alt="Каркасные дома"
 							title="Каркасные дома"></div>
 					<div class="service-item-content">
 						<div class="service-item-title"> <a href="/karkasnye-doma/">Каркасные дома</a></div>
@@ -551,10 +551,10 @@
 					</div>
 				</div>
 				<div class="service-item service-item-medium">
-					<div class="service-item-image"> <noscript><img src="superuploads/2021/09/bloki.jpg"
+					<div class="service-item-image"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/bloki.jpg"
 								alt="Дома из блоков" title="Дома из блоков"></noscript><img class="lazyload"
 							src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-							data-src="superuploads/2021/09/bloki.jpg" alt="Дома из блоков" title="Дома из блоков">
+							data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/bloki.jpg" alt="Дома из блоков" title="Дома из блоков">
 						<ul class="service-other-links">
 							<li class="service-other-link"><a href="/doma-iz-gazobetona/">Газобетон</a></li>
 							<li class="service-other-link"><a
@@ -576,10 +576,10 @@
 					</div>
 				</div>
 				<div class="service-item service-item-medium">
-					<div class="service-item-image"> <noscript><img src="superuploads/2021/09/brusovoi.jpg"
+					<div class="service-item-image"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/brusovoi.jpg"
 								alt="Дома из бруса" title="Дома из бруса"></noscript><img class="lazyload"
 							src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-							data-src="superuploads/2021/09/brusovoi.jpg" alt="Дома из бруса" title="Дома из бруса">
+							data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/brusovoi.jpg" alt="Дома из бруса" title="Дома из бруса">
 						<ul class="service-other-links">
 							<li class="service-other-link"><a
 									href="/doma-iz-profilirovannogo-brusa/">Профилированный</a></li>
@@ -600,10 +600,10 @@
 					</div>
 				</div>
 				<div class="service-item service-item-big">
-					<div class="service-item-image"> <noscript><img src="superuploads/2021/09/brevnchatiy.jpg"
+					<div class="service-item-image"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/brevnchatiy.jpg"
 								alt="Дома из бревна" title="Дома из бревна"></noscript><img class="lazyload"
 							src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-							data-src="superuploads/2021/09/brevnchatiy.jpg" alt="Дома из бревна"
+							data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/brevnchatiy.jpg" alt="Дома из бревна"
 							title="Дома из бревна">
 						<ul class="service-other-links">
 							<li class="service-other-link"><a href="/doma-iz-brevna/">Оцилиндрованное</a></li>
@@ -624,10 +624,10 @@
 					</div>
 				</div>
 				<div class="service-item service-item-big">
-					<div class="service-item-image"> <noscript><img src="superuploads/2021/09/kirpichniy.jpg"
+					<div class="service-item-image"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/kirpichniy.jpg"
 								alt="Кирпичные" title="Кирпичные"></noscript><img class="lazyload"
 							src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-							data-src="superuploads/2021/09/kirpichniy.jpg" alt="Кирпичные" title="Кирпичные"></div>
+							data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/kirpichniy.jpg" alt="Кирпичные" title="Кирпичные"></div>
 					<div class="service-item-content">
 						<div class="service-item-title"> <a href="/doma-iz-kirpicha/">Кирпичные</a></div>
 						<div class="service-item-price hide-mobile">от <span>28900</span> руб/м<sup>2</sup></div>
@@ -825,12 +825,12 @@
 						<div class="project-item-image">
 							<div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
 							</div> <a href="/proekty/baderim/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/96e2f0fe41c0780b895eb8e6b44f8f8f-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/96e2f0fe41c0780b895eb8e6b44f8f8f-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Бадерим" itemprop="image" title="Бадерим"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/96e2f0fe41c0780b895eb8e6b44f8f8f-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/96e2f0fe41c0780b895eb8e6b44f8f8f-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Бадерим" itemprop="image" title="Бадерим" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3798"> <span class="number">97</span> <span
@@ -882,12 +882,12 @@
 					<div class="project-item">
 						<div class="project-item-image"> <a href="/proekty/borgo/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/66a2ba7ffac180079834c9a450634612-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/66a2ba7ffac180079834c9a450634612-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Борго" itemprop="image" title="Борго"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/66a2ba7ffac180079834c9a450634612-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/66a2ba7ffac180079834c9a450634612-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Борго" itemprop="image" title="Борго" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5024"> <span class="number">167</span> <span
@@ -940,12 +940,12 @@
 							<div class="project-labels"> <span class="project-label project-label-top_10">Топ
 									10</span> <span class="project-label project-label-hit">Хит</span></div> <a
 								href="/proekty/glyasse/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/6da50e2b72281aaa283cf4e5c003dca2-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/6da50e2b72281aaa283cf4e5c003dca2-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Гляссе" itemprop="image" title="Гляссе"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/6da50e2b72281aaa283cf4e5c003dca2-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/6da50e2b72281aaa283cf4e5c003dca2-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Гляссе" itemprop="image" title="Гляссе" loading="lazy" /></a>
 							<div class="project-item-like" data-id="4760"> <span class="number">106</span> <span
@@ -998,12 +998,12 @@
 						<div class="project-item-image">
 							<div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
 							</div> <a href="/proekty/everett/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/2f7444eb03e8cb37a796e4b1d9aa7afb-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2f7444eb03e8cb37a796e4b1d9aa7afb-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Эверетт" itemprop="image" title="Эверетт"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/2f7444eb03e8cb37a796e4b1d9aa7afb-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2f7444eb03e8cb37a796e4b1d9aa7afb-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Эверетт" itemprop="image" title="Эверетт" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5954"> <span class="number">187</span> <span
@@ -1057,12 +1057,12 @@
 							<div class="project-labels"> <span class="project-label project-label-top_10">Топ
 									10</span> <span class="project-label project-label-hit">Хит</span></div> <a
 								href="/proekty/luronium/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/b3b82c9eb7841616433c18eea6a04038-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/b3b82c9eb7841616433c18eea6a04038-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Лурониум" itemprop="image" title="Лурониум"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/b3b82c9eb7841616433c18eea6a04038-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/b3b82c9eb7841616433c18eea6a04038-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Лурониум" itemprop="image" title="Лурониум" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2020"> <span class="number">120</span> <span
@@ -1115,12 +1115,12 @@
 					<div class="project-item">
 						<div class="project-item-image"> <a href="/proekty/proksima/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/35d8fc0e429fa66ec2427491442bcb78-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/35d8fc0e429fa66ec2427491442bcb78-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Проксима" itemprop="image" title="Проксима"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/35d8fc0e429fa66ec2427491442bcb78-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/35d8fc0e429fa66ec2427491442bcb78-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Проксима" itemprop="image" title="Проксима" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5941"> <span class="number">48</span> <span
@@ -1173,12 +1173,12 @@
 						<div class="project-item-image">
 							<div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
 							</div> <a href="/proekty/sidnej/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/126da7c6d4b7c8eab493157f7fab0c32-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/126da7c6d4b7c8eab493157f7fab0c32-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Сидней" itemprop="image" title="Сидней"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/126da7c6d4b7c8eab493157f7fab0c32-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/126da7c6d4b7c8eab493157f7fab0c32-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Сидней" itemprop="image" title="Сидней" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5895"> <span class="number">41</span> <span
@@ -1230,12 +1230,12 @@
 					<div class="project-item">
 						<div class="project-item-image"> <a href="/proekty/siti/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/3884e22022dd24da11d32464f3a32283-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/3884e22022dd24da11d32464f3a32283-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Сити" itemprop="image" title="Сити"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/3884e22022dd24da11d32464f3a32283-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/3884e22022dd24da11d32464f3a32283-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Сити" itemprop="image" title="Сити" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2925"> <span class="number">85</span> <span
@@ -1286,12 +1286,12 @@
 					<div class="project-item">
 						<div class="project-item-image"> <a href="/proekty/gorodishhe/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/387a4ddd99159887f366ea716606bcd5-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/387a4ddd99159887f366ea716606bcd5-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Городище" itemprop="image" title="Городище"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/387a4ddd99159887f366ea716606bcd5-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/387a4ddd99159887f366ea716606bcd5-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Городище" itemprop="image" title="Городище" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5872"> <span class="number">99</span> <span
@@ -1344,12 +1344,12 @@
 					<div class="project-item">
 						<div class="project-item-image"> <a href="/proekty/protoka/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/066aaed93e21e9f147169416432b7ae5-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/066aaed93e21e9f147169416432b7ae5-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Протока" itemprop="image" title="Протока"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/066aaed93e21e9f147169416432b7ae5-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/066aaed93e21e9f147169416432b7ae5-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Протока" itemprop="image" title="Протока" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5769"> <span class="number">200</span> <span
@@ -1402,12 +1402,12 @@
 					<div class="project-item">
 						<div class="project-item-image"> <a href="/proekty/majya/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/7b1f391939f7bcce40631e3cdcf5ca54-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/7b1f391939f7bcce40631e3cdcf5ca54-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Майя" itemprop="image" title="Майя"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/7b1f391939f7bcce40631e3cdcf5ca54-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/7b1f391939f7bcce40631e3cdcf5ca54-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Майя" itemprop="image" title="Майя" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5676"> <span class="number">105</span> <span
@@ -1458,12 +1458,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/uprava/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/a3bd57932e9efbae175abc4ab1d30a90-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/a3bd57932e9efbae175abc4ab1d30a90-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Управа" itemprop="image" title="Управа"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/a3bd57932e9efbae175abc4ab1d30a90-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/a3bd57932e9efbae175abc4ab1d30a90-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Управа" itemprop="image" title="Управа" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5615"> <span class="number">85</span> <span
@@ -1515,12 +1515,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/teremok/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/355df3b4b7df7dea1be893ddfb9a41ca-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/355df3b4b7df7dea1be893ddfb9a41ca-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Теремок" itemprop="image" title="Теремок"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/355df3b4b7df7dea1be893ddfb9a41ca-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/355df3b4b7df7dea1be893ddfb9a41ca-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Теремок" itemprop="image" title="Теремок" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5599"> <span class="number">162</span> <span
@@ -1572,12 +1572,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/frida/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/87c8aa9ebe3c8d054bb4ad6f4798af8c-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/87c8aa9ebe3c8d054bb4ad6f4798af8c-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Фрида" itemprop="image" title="Фрида"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/87c8aa9ebe3c8d054bb4ad6f4798af8c-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/87c8aa9ebe3c8d054bb4ad6f4798af8c-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Фрида" itemprop="image" title="Фрида" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5423"> <span class="number">55</span> <span
@@ -1628,12 +1628,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/letnyaya/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/77403dfb95a57421562c19a0dc94081d-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/77403dfb95a57421562c19a0dc94081d-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Летняя" itemprop="image" title="Летняя"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/77403dfb95a57421562c19a0dc94081d-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/77403dfb95a57421562c19a0dc94081d-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Летняя" itemprop="image" title="Летняя" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5354"> <span class="number">171</span> <span
@@ -1685,12 +1685,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/berezhnyj/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/2a1206881828b301c2dc88b0f9509403-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2a1206881828b301c2dc88b0f9509403-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Бережный" itemprop="image" title="Бережный"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/2a1206881828b301c2dc88b0f9509403-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2a1206881828b301c2dc88b0f9509403-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Бережный" itemprop="image" title="Бережный" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5315"> <span class="number">105</span> <span
@@ -1742,12 +1742,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/goloczena/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/494509bf98b3266c3396bebb68e21758-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/494509bf98b3266c3396bebb68e21758-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Голоцена" itemprop="image" title="Голоцена"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/494509bf98b3266c3396bebb68e21758-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/494509bf98b3266c3396bebb68e21758-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Голоцена" itemprop="image" title="Голоцена" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5327"> <span class="number">107</span> <span
@@ -1799,12 +1799,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/belaya/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/ecbbd679520aac9ff3b1afd96bf343e5-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ecbbd679520aac9ff3b1afd96bf343e5-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Белая" itemprop="image" title="Белая"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/ecbbd679520aac9ff3b1afd96bf343e5-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ecbbd679520aac9ff3b1afd96bf343e5-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Белая" itemprop="image" title="Белая" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5235"> <span class="number">34</span> <span
@@ -1857,12 +1857,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/maksim/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/4f3b8664241ac7f8f8a36ca16841eccc-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/4f3b8664241ac7f8f8a36ca16841eccc-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Максим" itemprop="image" title="Максим"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/4f3b8664241ac7f8f8a36ca16841eccc-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/4f3b8664241ac7f8f8a36ca16841eccc-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Максим" itemprop="image" title="Максим" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5247"> <span class="number">197</span> <span
@@ -1914,12 +1914,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/polushkino/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/d2411882bb45d258e4904a3abe939399-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/d2411882bb45d258e4904a3abe939399-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Полушкино" itemprop="image" title="Полушкино"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/d2411882bb45d258e4904a3abe939399-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/d2411882bb45d258e4904a3abe939399-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Полушкино" itemprop="image" title="Полушкино" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5189"> <span class="number">65</span> <span
@@ -1972,12 +1972,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/siren/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/97399578ee6e8bb880e30b4e9b17c2c1-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/97399578ee6e8bb880e30b4e9b17c2c1-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Сирень" itemprop="image" title="Сирень"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/97399578ee6e8bb880e30b4e9b17c2c1-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/97399578ee6e8bb880e30b4e9b17c2c1-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Сирень" itemprop="image" title="Сирень" loading="lazy" /></a>
 							<div class="project-item-like" data-id="5081"> <span class="number">119</span> <span
@@ -2030,12 +2030,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/kingisepp/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/d918df1e18423e36e057cc853830e20d-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/d918df1e18423e36e057cc853830e20d-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Кингисепп" itemprop="image" title="Кингисепп"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/d918df1e18423e36e057cc853830e20d-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/d918df1e18423e36e057cc853830e20d-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Кингисепп" itemprop="image" title="Кингисепп" loading="lazy" /></a>
 							<div class="project-item-like" data-id="4886"> <span class="number">82</span> <span
@@ -2087,12 +2087,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/fortsmit/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/fe7d834fb287b5ad9535135340391808-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/fe7d834fb287b5ad9535135340391808-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Фортсмит" itemprop="image" title="Фортсмит"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/fe7d834fb287b5ad9535135340391808-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/fe7d834fb287b5ad9535135340391808-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Фортсмит" itemprop="image" title="Фортсмит" loading="lazy" /></a>
 							<div class="project-item-like" data-id="4580"> <span class="number">42</span> <span
@@ -2144,12 +2144,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/tradiczii/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/a85b57b86865891818c3f2d25c62b9e2-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/a85b57b86865891818c3f2d25c62b9e2-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Традиции" itemprop="image" title="Традиции"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/a85b57b86865891818c3f2d25c62b9e2-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/a85b57b86865891818c3f2d25c62b9e2-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Традиции" itemprop="image" title="Традиции" loading="lazy" /></a>
 							<div class="project-item-like" data-id="4136"> <span class="number">197</span> <span
@@ -2201,12 +2201,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/klassik/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/73e03b9e2c75e002ed86d51f3de14dfd-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/73e03b9e2c75e002ed86d51f3de14dfd-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Классик" itemprop="image" title="Классик"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/73e03b9e2c75e002ed86d51f3de14dfd-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/73e03b9e2c75e002ed86d51f3de14dfd-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Классик" itemprop="image" title="Классик" loading="lazy" /></a>
 							<div class="project-item-like" data-id="4099"> <span class="number">154</span> <span
@@ -2260,12 +2260,12 @@
 						<div class="project-item-image">
 							<div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
 							</div> <a href="/proekty/vorozheya/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/53ff428b16a0ea04ac1258825382a110-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/53ff428b16a0ea04ac1258825382a110-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Ворожея" itemprop="image" title="Ворожея"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/53ff428b16a0ea04ac1258825382a110-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/53ff428b16a0ea04ac1258825382a110-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Ворожея" itemprop="image" title="Ворожея" loading="lazy" /></a>
 							<div class="project-item-like" data-id="4011"> <span class="number">135</span> <span
@@ -2318,12 +2318,12 @@
 						<div class="project-item-image">
 							<div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
 							</div> <a href="/proekty/solnechnyj/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/05e72bf302fdf540bafeb1980734393a-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/05e72bf302fdf540bafeb1980734393a-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Солнечный" itemprop="image" title="Солнечный"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/05e72bf302fdf540bafeb1980734393a-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/05e72bf302fdf540bafeb1980734393a-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Солнечный" itemprop="image" title="Солнечный" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3922"> <span class="number">72</span> <span
@@ -2376,12 +2376,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/emo/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/f40a847f292621493b2dbb5f95882ffc-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/f40a847f292621493b2dbb5f95882ffc-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Эмо" itemprop="image" title="Эмо"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/f40a847f292621493b2dbb5f95882ffc-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/f40a847f292621493b2dbb5f95882ffc-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Эмо" itemprop="image" title="Эмо" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3911"> <span class="number">88</span> <span
@@ -2432,12 +2432,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/prioritet/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/6e7fc003f5334bc5a1d05344a0977f37-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/6e7fc003f5334bc5a1d05344a0977f37-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Приоритет" itemprop="image" title="Приоритет"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/6e7fc003f5334bc5a1d05344a0977f37-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/6e7fc003f5334bc5a1d05344a0977f37-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Приоритет" itemprop="image" title="Приоритет" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3918"> <span class="number">201</span> <span
@@ -2489,12 +2489,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/ispolin/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/9f885ea9ca31cb22dbee5e79b894fde2-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/9f885ea9ca31cb22dbee5e79b894fde2-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Исполин" itemprop="image" title="Исполин"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/9f885ea9ca31cb22dbee5e79b894fde2-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/9f885ea9ca31cb22dbee5e79b894fde2-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Исполин" itemprop="image" title="Исполин" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3864"> <span class="number">153</span> <span
@@ -2546,12 +2546,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/erika/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/1e7f3ca50c06754f19f00cfd291d945f-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/1e7f3ca50c06754f19f00cfd291d945f-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Эрика" itemprop="image" title="Эрика"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/1e7f3ca50c06754f19f00cfd291d945f-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/1e7f3ca50c06754f19f00cfd291d945f-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Эрика" itemprop="image" title="Эрика" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3847"> <span class="number">95</span> <span
@@ -2602,12 +2602,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/ohta/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/ec4e0c5d89383b948a5ced3fb06d695b-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ec4e0c5d89383b948a5ced3fb06d695b-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Охта" itemprop="image" title="Охта"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/ec4e0c5d89383b948a5ced3fb06d695b-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ec4e0c5d89383b948a5ced3fb06d695b-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Охта" itemprop="image" title="Охта" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3779"> <span class="number">185</span> <span
@@ -2658,12 +2658,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/demetra/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/962cc361bf0ecd0d676c94b3b7b3fce1-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/962cc361bf0ecd0d676c94b3b7b3fce1-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Деметра" itemprop="image" title="Деметра"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/962cc361bf0ecd0d676c94b3b7b3fce1-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/962cc361bf0ecd0d676c94b3b7b3fce1-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Деметра" itemprop="image" title="Деметра" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3731"> <span class="number">98</span> <span
@@ -2715,12 +2715,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/solonka/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/3361fc2db4709d66148f55d0a3a66478-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/3361fc2db4709d66148f55d0a3a66478-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Солонка" itemprop="image" title="Солонка"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/3361fc2db4709d66148f55d0a3a66478-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/3361fc2db4709d66148f55d0a3a66478-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Солонка" itemprop="image" title="Солонка" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3606"> <span class="number">93</span> <span
@@ -2773,12 +2773,12 @@
 						<div class="project-item-image">
 							<div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
 							</div> <a href="/proekty/karambola/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/104c70c2c4a0b63044f5c7298f2378c0-416x250.png"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/104c70c2c4a0b63044f5c7298f2378c0-416x250.png"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Карамбола" itemprop="image" title="Карамбола"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/104c70c2c4a0b63044f5c7298f2378c0-416x250.png"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/104c70c2c4a0b63044f5c7298f2378c0-416x250.png"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Карамбола" itemprop="image" title="Карамбола" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3553"> <span class="number">104</span> <span
@@ -2831,12 +2831,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/pinsk/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/ec8429fd422c3db975fcff1086ecd339-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ec8429fd422c3db975fcff1086ecd339-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Пинск" itemprop="image" title="Пинск"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/ec8429fd422c3db975fcff1086ecd339-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ec8429fd422c3db975fcff1086ecd339-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Пинск" itemprop="image" title="Пинск" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3530"> <span class="number">202</span> <span
@@ -2887,12 +2887,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/zhasmin/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/1c1e8cddbd0eb9f9517d74ce541b8847-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/1c1e8cddbd0eb9f9517d74ce541b8847-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Жасмин" itemprop="image" title="Жасмин"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/1c1e8cddbd0eb9f9517d74ce541b8847-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/1c1e8cddbd0eb9f9517d74ce541b8847-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Жасмин" itemprop="image" title="Жасмин" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3520"> <span class="number">152</span> <span
@@ -2944,12 +2944,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/korytovo/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/cec451d2bff67ea1c273c17f5b5cc978-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/cec451d2bff67ea1c273c17f5b5cc978-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Корытово" itemprop="image" title="Корытово"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/cec451d2bff67ea1c273c17f5b5cc978-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/cec451d2bff67ea1c273c17f5b5cc978-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Корытово" itemprop="image" title="Корытово" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3493"> <span class="number">54</span> <span
@@ -3002,12 +3002,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/izhma/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/61b9e9ca4ebd8f38805cecc9450c5438-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/61b9e9ca4ebd8f38805cecc9450c5438-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Ижма" itemprop="image" title="Ижма"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/61b9e9ca4ebd8f38805cecc9450c5438-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/61b9e9ca4ebd8f38805cecc9450c5438-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Ижма" itemprop="image" title="Ижма" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3362"> <span class="number">80</span> <span
@@ -3059,12 +3059,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/ornella/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/76e12bddf56a379068671f2d8c11e6e7-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/76e12bddf56a379068671f2d8c11e6e7-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Орнелла" itemprop="image" title="Орнелла"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/76e12bddf56a379068671f2d8c11e6e7-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/76e12bddf56a379068671f2d8c11e6e7-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Орнелла" itemprop="image" title="Орнелла" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3102"> <span class="number">87</span> <span
@@ -3116,12 +3116,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/kreod/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/288cf0c359dca1e19f35b91e6ffd5fc8-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/288cf0c359dca1e19f35b91e6ffd5fc8-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Креод" itemprop="image" title="Креод"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/288cf0c359dca1e19f35b91e6ffd5fc8-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/288cf0c359dca1e19f35b91e6ffd5fc8-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Креод" itemprop="image" title="Креод" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3086"> <span class="number">119</span> <span
@@ -3173,12 +3173,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/valma/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/389f076aa4ef80a698df123059420b66-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/389f076aa4ef80a698df123059420b66-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Вальма" itemprop="image" title="Вальма"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/389f076aa4ef80a698df123059420b66-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/389f076aa4ef80a698df123059420b66-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Вальма" itemprop="image" title="Вальма" loading="lazy" /></a>
 							<div class="project-item-like" data-id="3070"> <span class="number">146</span> <span
@@ -3230,12 +3230,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/udachnyj/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/a98ef334c6805cabe4b0a27850a4f0ce-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/a98ef334c6805cabe4b0a27850a4f0ce-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Удачный" itemprop="image" title="Удачный"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/a98ef334c6805cabe4b0a27850a4f0ce-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/a98ef334c6805cabe4b0a27850a4f0ce-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Удачный" itemprop="image" title="Удачный" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2865"> <span class="number">199</span> <span
@@ -3289,12 +3289,12 @@
 						<div class="project-item-image">
 							<div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
 							</div> <a href="/proekty/eridan/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/52c68cbf7ffb8e6db61d0b1195d980c2-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/52c68cbf7ffb8e6db61d0b1195d980c2-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Эридан" itemprop="image" title="Эридан"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/52c68cbf7ffb8e6db61d0b1195d980c2-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/52c68cbf7ffb8e6db61d0b1195d980c2-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Эридан" itemprop="image" title="Эридан" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2640"> <span class="number">111</span> <span
@@ -3346,12 +3346,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/orenburg/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/a0a08d393f377687c9c53de6e2e5db2b-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/a0a08d393f377687c9c53de6e2e5db2b-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Оренбург" itemprop="image" title="Оренбург"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/a0a08d393f377687c9c53de6e2e5db2b-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/a0a08d393f377687c9c53de6e2e5db2b-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Оренбург" itemprop="image" title="Оренбург" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2518"> <span class="number">114</span> <span
@@ -3404,12 +3404,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/mini/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/e750a7fd1dbdec8898f266cd402f2fb0-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/e750a7fd1dbdec8898f266cd402f2fb0-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Мини" itemprop="image" title="Мини"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/e750a7fd1dbdec8898f266cd402f2fb0-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/e750a7fd1dbdec8898f266cd402f2fb0-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Мини" itemprop="image" title="Мини" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2473"> <span class="number">43</span> <span
@@ -3460,12 +3460,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/loshhina/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/738c7fc57bc6d0b8f12e32febdb5a79c-416x250.jpeg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/738c7fc57bc6d0b8f12e32febdb5a79c-416x250.jpeg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Лощина" itemprop="image" title="Лощина"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/738c7fc57bc6d0b8f12e32febdb5a79c-416x250.jpeg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/738c7fc57bc6d0b8f12e32febdb5a79c-416x250.jpeg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Лощина" itemprop="image" title="Лощина" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2354"> <span class="number">198</span> <span
@@ -3520,12 +3520,12 @@
 									10</span> <span class="project-label project-label-sales">Акция</span> <span
 									class="project-label project-label-hit">Хит</span></div> <a
 								href="/proekty/primula/"><noscript><img width="416" height="250"
-										src="superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Примула" itemprop="image" title="Примула"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Примула" itemprop="image" title="Примула" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2349"> <span class="number">163</span> <span
@@ -3577,12 +3577,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/brandon/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/fea7c9bec040357f150c8bbc366118d9-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/fea7c9bec040357f150c8bbc366118d9-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Брандон" itemprop="image" title="Брандон"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/fea7c9bec040357f150c8bbc366118d9-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/fea7c9bec040357f150c8bbc366118d9-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Брандон" itemprop="image" title="Брандон" loading="lazy" /></a>
 							<div class="project-item-like" data-id="2015"> <span class="number">138</span> <span
@@ -3634,12 +3634,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/hamilton/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/d0f68a6a597008d6c5380bc274a3b7ca-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/d0f68a6a597008d6c5380bc274a3b7ca-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Хамилтон" itemprop="image" title="Хамилтон"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/d0f68a6a597008d6c5380bc274a3b7ca-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/d0f68a6a597008d6c5380bc274a3b7ca-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Хамилтон" itemprop="image" title="Хамилтон" loading="lazy" /></a>
 							<div class="project-item-like" data-id="1896"> <span class="number">174</span> <span
@@ -3692,12 +3692,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/andriya/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/cf720ad34799321b3b0be6cf5dc21c2d-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/cf720ad34799321b3b0be6cf5dc21c2d-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Андрия" itemprop="image" title="Андрия"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/cf720ad34799321b3b0be6cf5dc21c2d-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/cf720ad34799321b3b0be6cf5dc21c2d-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Андрия" itemprop="image" title="Андрия" loading="lazy" /></a>
 							<div class="project-item-like" data-id="1858"> <span class="number">193</span> <span
@@ -3749,12 +3749,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/villedzh/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/2aa0b8373c568d7a2890295e27231a34-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2aa0b8373c568d7a2890295e27231a34-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Виллэдж" itemprop="image" title="Виллэдж"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/2aa0b8373c568d7a2890295e27231a34-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2aa0b8373c568d7a2890295e27231a34-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Виллэдж" itemprop="image" title="Виллэдж" loading="lazy" /></a>
 							<div class="project-item-like" data-id="1849"> <span class="number">186</span> <span
@@ -3806,12 +3806,12 @@
 					<div class="project-item default-hide-mobile">
 						<div class="project-item-image"> <a href="/proekty/ameli/"><noscript><img width="416"
 										height="250"
-										src="superuploads/2021/07/e96c92450e59643f4d6fd2cab292ba9b-416x250.jpg"
+										src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/e96c92450e59643f4d6fd2cab292ba9b-416x250.jpg"
 										class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 										alt="Проект Амели" itemprop="image" title="Амели"
 										loading="lazy" /></noscript><img width="416" height="250"
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/07/e96c92450e59643f4d6fd2cab292ba9b-416x250.jpg"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/e96c92450e59643f4d6fd2cab292ba9b-416x250.jpg"
 									class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
 									alt="Проект Амели" itemprop="image" title="Амели" loading="lazy" /></a>
 							<div class="project-item-like" data-id="1778"> <span class="number">110</span> <span
@@ -3862,7 +3862,7 @@
 				<div class="project-item-last-wrapper">
 					<div class="project-last">
 						<div class="project-last-content lazyload"
-							data-bg="wp-content/themes/super_dom/images/last-bg.png"
+							data-bg="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/last-bg.png"
 							style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 							<div class="section-title-small text-center"><b>Скачайте каталог</b><br>топовых
 								проектов<br><b class="color-green">для Одессе</b></div>
@@ -3885,40 +3885,40 @@
 												id="whatsapp-project-last-0" name="send_to" value="whatsapp"> <label
 												class="form-group-social-label" for="whatsapp-project-last-0">
 												<noscript><img
-														src="wp-content/themes/super_dom/icons/label-whatsapp.png"
+														src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
 														alt="Whatsapp" title="Whatsapp"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="wp-content/themes/super_dom/icons/label-whatsapp.png"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
 													alt="Whatsapp" title="Whatsapp"> <span
 													class="form-group-social-label-text">Whatsapp</span> </label>
 											<input type="radio" id="viber-project-last-0" name="send_to"
 												value="viber"> <label class="form-group-social-label"
 												for="viber-project-last-0"> <noscript><img
-														src="wp-content/themes/super_dom/icons/label-viber.png"
+														src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
 														alt="Viber" title="Viber"></noscript><img class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="wp-content/themes/super_dom/icons/label-viber.png"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
 													alt="Viber" title="Viber"> <span
 													class="form-group-social-label-text">Viber</span> </label>
 											<input type="radio" id="telegram-project-last-0" name="send_to"
 												value="telegram"> <label class="form-group-social-label"
 												for="telegram-project-last-0"> <noscript><img
-														src="wp-content/themes/super_dom/icons/label-telegram.png"
+														src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
 														alt="Telegram" title="Telegram"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="wp-content/themes/super_dom/icons/label-telegram.png"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
 													alt="Telegram" title="Telegram"> <span
 													class="form-group-social-label-text">Telegram</span> </label>
 											<input type="radio" id="pphone-project-last-0" name="send_to"
 												value="Телефон" checked> <label class="form-group-social-label"
 												for="pphone-project-last-0"> <noscript><img
-														src="wp-content/themes/super_dom/icons/label-phone.png"
+														src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
 														alt="Телефон" title="Телефон"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="wp-content/themes/super_dom/icons/label-phone.png"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
 													alt="Телефон" title="Телефон"> <span
 													class="form-group-social-label-text">Телефон</span> </label>
 										</div>
@@ -3959,7 +3959,7 @@
 				<div class="home-plus1-item">
 					<div class="gflag-item-box gflag-item-box-1 gflag-item-has-bg">
 						<div class="gflag-item-flag">01</div>
-						<div class="lazyload gflag-item" data-bg="superuploads/2021/05/plus-1-1.png"
+						<div class="lazyload gflag-item" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/plus-1-1.png"
 							style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 							<div class="gflag-item-title"><b>Отдыхаете семьей</b> и встречаете друзей</div>
 							<ul class="gflag-item-pluses-list">
@@ -3974,7 +3974,7 @@
 				<div class="home-plus1-item">
 					<div class="gflag-item-box gflag-item-box-2 gflag-item-has-bg">
 						<div class="gflag-item-flag">02</div>
-						<div class="lazyload gflag-item" data-bg="superuploads/2021/05/plus-1-2.png"
+						<div class="lazyload gflag-item" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/plus-1-2.png"
 							style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 							<div class="gflag-item-title"><b>Восстанавливаете силы после работы</b> и занимаетесь
 								спортом на свежем воздухе</div>
@@ -3991,7 +3991,7 @@
 				<div class="home-plus1-item">
 					<div class="gflag-item-box gflag-item-box-3 gflag-item-has-bg">
 						<div class="gflag-item-flag">03</div>
-						<div class="lazyload gflag-item" data-bg="superuploads/2021/05/plus-1-3.png"
+						<div class="lazyload gflag-item" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/plus-1-3.png"
 							style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 							<div class="gflag-item-title"><b>Подарите своим детям здоровое и счастливое детство</b>
 								о котором сами мечтали</div>
@@ -4017,9 +4017,9 @@
 						семей</b></div>
 				<div class="projects-map-box">
 					<div class="projects-map-box-image"><noscript><img
-								src="superuploads/2021/05/map-default.png"></noscript><img class="lazyload"
+								src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/map-default.png"></noscript><img class="lazyload"
 							src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-							data-src="superuploads/2021/05/map-default.png"></div>
+							data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/map-default.png"></div>
 					<div class="projects-map-box-text">Это лишь несколько<br>домов, построенных<br>в прошлом году
 					</div>
 					<div class="projects-map-box-button"><a href="#modal" class="button orange modal-map-open"
@@ -4030,17 +4030,17 @@
 						<div class="portfolio-main-slider-track">
 							<div class="portfolio-slide">
 								<div class="portfolio-slide-gallery"> <a
-										href="superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg"
 										class="portfolio-slide-main-image" data-fancybox="gallery-1657">
 										<noscript><img width="1024" height="768"
-												src="superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-1024x768.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-1024x768.jpg"
 												class="attachment-large size-large wp-post-image" alt=""
 												loading="lazy"
-												srcset="superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-1024x768.jpg 1024w, superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg 300w, superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-768x576.jpg 768w, superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg 1365w"
+												srcset="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-1024x768.jpg 1024w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg 300w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-768x576.jpg 768w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg 1365w"
 												sizes="(max-width: 1024px) 100vw, 1024px" /></noscript><img
 											width="1024" height="768"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20768%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-1024x768.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-1024x768.jpg"
 											class="lazyload attachment-large size-large wp-post-image" alt=""
 											loading="lazy"
 											data-srcset="superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-1024x768.jpg 1024w, superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg 300w, superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-768x576.jpg 768w, superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg 1365w"
@@ -4048,45 +4048,45 @@
 										href="superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1657">
 										<noscript><img
-												src="superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg"
 												alt="Дом в стиле хай-тек 123 кв.м"
 												title="Дом в стиле хай-тек 123 кв.м"></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg"
 											alt="Дом в стиле хай-тек 123 кв.м"
 											title="Дом в стиле хай-тек 123 кв.м"> </a> <a
-										href="superuploads/2021/07/cf60203b318d3e33204bac4ea30075da-3.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/cf60203b318d3e33204bac4ea30075da-3.jpg"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1657">
 										<noscript><img
-												src="superuploads/2021/07/cf60203b318d3e33204bac4ea30075da-3-300x225.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/cf60203b318d3e33204bac4ea30075da-3-300x225.jpg"
 												alt="Дом в стиле хай-тек 123 кв.м"
 												title="Дом в стиле хай-тек 123 кв.м"></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/cf60203b318d3e33204bac4ea30075da-3-300x225.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/cf60203b318d3e33204bac4ea30075da-3-300x225.jpg"
 											alt="Дом в стиле хай-тек 123 кв.м"
 											title="Дом в стиле хай-тек 123 кв.м"> </a> <a
-										href="superuploads/2021/07/16fed8ce85995a5d6ba43a1bc276003c-3.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/16fed8ce85995a5d6ba43a1bc276003c-3.jpg"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1657">
 										<noscript><img
-												src="superuploads/2021/07/16fed8ce85995a5d6ba43a1bc276003c-3-300x225.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/16fed8ce85995a5d6ba43a1bc276003c-3-300x225.jpg"
 												alt="Дом в стиле хай-тек 123 кв.м"
 												title="Дом в стиле хай-тек 123 кв.м"></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/16fed8ce85995a5d6ba43a1bc276003c-3-300x225.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/16fed8ce85995a5d6ba43a1bc276003c-3-300x225.jpg"
 											alt="Дом в стиле хай-тек 123 кв.м"
 											title="Дом в стиле хай-тек 123 кв.м"> </a> <a
-										href="superuploads/2021/07/fd3e54868a363e8164c5fbd8fa26e5be-3.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/fd3e54868a363e8164c5fbd8fa26e5be-3.jpg"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1657">
 										<noscript><img
-												src="superuploads/2021/07/fd3e54868a363e8164c5fbd8fa26e5be-3-300x225.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/fd3e54868a363e8164c5fbd8fa26e5be-3-300x225.jpg"
 												alt="Дом в стиле хай-тек 123 кв.м"
 												title="Дом в стиле хай-тек 123 кв.м"></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/fd3e54868a363e8164c5fbd8fa26e5be-3-300x225.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/fd3e54868a363e8164c5fbd8fa26e5be-3-300x225.jpg"
 											alt="Дом в стиле хай-тек 123 кв.м"
 											title="Дом в стиле хай-тек 123 кв.м"> </a></div>
 								<div class="portfolio-slide-content">
@@ -4123,12 +4123,12 @@
 											заказчика:</div>
 										<div class="single-portfolio-review-wrap">
 											<div class="single-portfolio-review-author"> <noscript><img
-														src="superuploads/2021/07/otzyv-4-1.jpg"
+														src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/otzyv-4-1.jpg"
 														alt="Владимир Петренко"
 														title="Владимир Петренко"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="superuploads/2021/07/otzyv-4-1.jpg"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/otzyv-4-1.jpg"
 													alt="Владимир Петренко" title="Владимир Петренко"></div>
 											<div class="single-portfolio-review-text"><b>Владимир
 													Петренко</b><br>21 июня 2021<br>«Сдали дом в срок, не было
@@ -4140,63 +4140,63 @@
 							</div>
 							<div class="portfolio-slide">
 								<div class="portfolio-slide-gallery"> <a
-										href="superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg"
 										class="portfolio-slide-main-image" data-fancybox="gallery-1466">
 										<noscript><img width="825" height="618"
-												src="superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg"
 												class="attachment-large size-large wp-post-image" alt=""
 												loading="lazy"
-												srcset="superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg 825w, superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-300x225.jpg 300w, superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-768x575.jpg 768w"
+												srcset="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg 825w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-300x225.jpg 300w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-768x575.jpg 768w"
 												sizes="(max-width: 825px) 100vw, 825px" /></noscript><img
 											width="825" height="618"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20825%20618%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg"
 											class="lazyload attachment-large size-large wp-post-image" alt=""
 											loading="lazy"
 											data-srcset="superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg 825w, superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-300x225.jpg 300w, superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-768x575.jpg 768w"
 											data-sizes="(max-width: 825px) 100vw, 825px" /> </a> <a
-										href="superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997.jpg"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1466">
 										<noscript><img
-												src="superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-300x225.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-300x225.jpg"
 												alt="Дом из клееного бруса 82 м2"
 												title="Дом из клееного бруса 82 м2"></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-300x225.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/8dfca031a360ac65ce357837da3f5997-300x225.jpg"
 											alt="Дом из клееного бруса 82 м2"
 											title="Дом из клееного бруса 82 м2"> </a> <a
-										href="superuploads/2021/07/3cf9b7379eec2ba026c7ecad9512335a.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/3cf9b7379eec2ba026c7ecad9512335a.jpg"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1466">
 										<noscript><img
-												src="superuploads/2021/07/3cf9b7379eec2ba026c7ecad9512335a-300x225.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/3cf9b7379eec2ba026c7ecad9512335a-300x225.jpg"
 												alt="Дом из клееного бруса 82 м2"
 												title="Дом из клееного бруса 82 м2"></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/3cf9b7379eec2ba026c7ecad9512335a-300x225.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/3cf9b7379eec2ba026c7ecad9512335a-300x225.jpg"
 											alt="Дом из клееного бруса 82 м2"
 											title="Дом из клееного бруса 82 м2"> </a> <a
-										href="superuploads/2021/07/5e8429800f9c626def2b9b40434ac1fa.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/5e8429800f9c626def2b9b40434ac1fa.jpg"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1466">
 										<noscript><img
-												src="superuploads/2021/07/5e8429800f9c626def2b9b40434ac1fa-300x226.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/5e8429800f9c626def2b9b40434ac1fa-300x226.jpg"
 												alt="Дом из клееного бруса 82 м2"
 												title="Дом из клееного бруса 82 м2"></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/5e8429800f9c626def2b9b40434ac1fa-300x226.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/5e8429800f9c626def2b9b40434ac1fa-300x226.jpg"
 											alt="Дом из клееного бруса 82 м2"
 											title="Дом из клееного бруса 82 м2"> </a> <a
-										href="superuploads/2021/07/e0cd6ea471c0b4798ed61cf5f9aeba15.jpg"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/e0cd6ea471c0b4798ed61cf5f9aeba15.jpg"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1466">
 										<noscript><img
-												src="superuploads/2021/07/e0cd6ea471c0b4798ed61cf5f9aeba15-300x225.jpg"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/e0cd6ea471c0b4798ed61cf5f9aeba15-300x225.jpg"
 												alt="Дом из клееного бруса 82 м2"
 												title="Дом из клееного бруса 82 м2"></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/e0cd6ea471c0b4798ed61cf5f9aeba15-300x225.jpg"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/e0cd6ea471c0b4798ed61cf5f9aeba15-300x225.jpg"
 											alt="Дом из клееного бруса 82 м2"
 											title="Дом из клееного бруса 82 м2"> </a></div>
 								<div class="portfolio-slide-content">
@@ -4231,12 +4231,12 @@
 											заказчика:</div>
 										<div class="single-portfolio-review-wrap">
 											<div class="single-portfolio-review-author"> <noscript><img
-														src="superuploads/2021/07/otzyv-21.jpg"
+														src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/otzyv-21.jpg"
 														alt="Михаил Андреевич"
 														title="Михаил Андреевич"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="superuploads/2021/07/otzyv-21.jpg"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/otzyv-21.jpg"
 													alt="Михаил Андреевич" title="Михаил Андреевич"></div>
 											<div class="single-portfolio-review-text"><b>Михаил
 													Андреевич</b><br>12 сентября 2019<br>«Начал с ними работать
@@ -4249,63 +4249,63 @@
 
 							<div class="portfolio-slide">
 								<div class="portfolio-slide-gallery"> <a
-										href="superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a.png"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a.png"
 										class="portfolio-slide-main-image" data-fancybox="gallery-1271">
 										<noscript><img width="1024" height="682"
-												src="superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-1024x682.png"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-1024x682.png"
 												class="attachment-large size-large wp-post-image" alt=""
 												loading="lazy"
-												srcset="superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-1024x682.png 1024w, superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-300x200.png 300w, superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-768x512.png 768w, superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a.png 1280w"
+												srcset="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-1024x682.png 1024w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-300x200.png 300w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-768x512.png 768w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a.png 1280w"
 												sizes="(max-width: 1024px) 100vw, 1024px" /></noscript><img
 											width="1024" height="682"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20682%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-1024x682.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-1024x682.png"
 											class="lazyload attachment-large size-large wp-post-image" alt=""
 											loading="lazy"
 											data-srcset="superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-1024x682.png 1024w, superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-300x200.png 300w, superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-768x512.png 768w, superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a.png 1280w"
 											data-sizes="(max-width: 1024px) 100vw, 1024px" /> </a> <a
-										href="superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a.png"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a.png"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1271">
 										<noscript><img
-												src="superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-300x200.png"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-300x200.png"
 												alt="Дом из теплоблоков 112 кв.м."
 												title="Дом из теплоблоков 112 кв.м."></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-300x200.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ff3873297baf4c9e201a694a089ee67a-300x200.png"
 											alt="Дом из теплоблоков 112 кв.м."
 											title="Дом из теплоблоков 112 кв.м."> </a> <a
-										href="superuploads/2021/07/144c52e442b55fa11e71223f08b467a1.png"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/144c52e442b55fa11e71223f08b467a1.png"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1271">
 										<noscript><img
-												src="superuploads/2021/07/144c52e442b55fa11e71223f08b467a1-300x200.png"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/144c52e442b55fa11e71223f08b467a1-300x200.png"
 												alt="Дом из теплоблоков 112 кв.м."
 												title="Дом из теплоблоков 112 кв.м."></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/144c52e442b55fa11e71223f08b467a1-300x200.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/144c52e442b55fa11e71223f08b467a1-300x200.png"
 											alt="Дом из теплоблоков 112 кв.м."
 											title="Дом из теплоблоков 112 кв.м."> </a> <a
-										href="superuploads/2021/07/95aa2e7f0c7f0be17b5837111e751274.png"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/95aa2e7f0c7f0be17b5837111e751274.png"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1271">
 										<noscript><img
-												src="superuploads/2021/07/95aa2e7f0c7f0be17b5837111e751274-300x200.png"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/95aa2e7f0c7f0be17b5837111e751274-300x200.png"
 												alt="Дом из теплоблоков 112 кв.м."
 												title="Дом из теплоблоков 112 кв.м."></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/95aa2e7f0c7f0be17b5837111e751274-300x200.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/95aa2e7f0c7f0be17b5837111e751274-300x200.png"
 											alt="Дом из теплоблоков 112 кв.м."
 											title="Дом из теплоблоков 112 кв.м."> </a> <a
-										href="superuploads/2021/07/2a24b85e04aa7b9036415694b2383285.png"
+										href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2a24b85e04aa7b9036415694b2383285.png"
 										class="portfolio-slide-secondary-image" data-fancybox="gallery-1271">
 										<noscript><img
-												src="superuploads/2021/07/2a24b85e04aa7b9036415694b2383285-300x200.png"
+												src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2a24b85e04aa7b9036415694b2383285-300x200.png"
 												alt="Дом из теплоблоков 112 кв.м."
 												title="Дом из теплоблоков 112 кв.м."></noscript><img
 											class="lazyload"
 											src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-											data-src="superuploads/2021/07/2a24b85e04aa7b9036415694b2383285-300x200.png"
+											data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/2a24b85e04aa7b9036415694b2383285-300x200.png"
 											alt="Дом из теплоблоков 112 кв.м."
 											title="Дом из теплоблоков 112 кв.м."> </a></div>
 								<div class="portfolio-slide-content">
@@ -4339,11 +4339,11 @@
 											заказчика:</div>
 										<div class="single-portfolio-review-wrap">
 											<div class="single-portfolio-review-author"> <noscript><img
-														src="superuploads/2021/07/otzyv-32.jpg"
+														src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/otzyv-32.jpg"
 														alt="Таня Асылова" title="Таня Асылова"></noscript><img
 													class="lazyload"
 													src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-													data-src="superuploads/2021/07/otzyv-32.jpg"
+													data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/otzyv-32.jpg"
 													alt="Таня Асылова" title="Таня Асылова"></div>
 											<div class="single-portfolio-review-text"><b>Таня Асылова</b><br>3
 												апреля 2021<br>«Работают профессионалы»</div>
@@ -4364,11 +4364,10 @@
 		</div>
 	</section>
 
-	<script src="wp-content/cache/autoptimize/js/portfolio_slider.js" defer></script>
 
 	<section id="instagram">
 		<div class="container">
-			<div class="instagram-box lazyload" data-bg="wp-content/themes/super_dom/images/insta-bg.jpg"
+			<div class="instagram-box lazyload" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/insta-bg.jpg"
 				style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
 				<div class="instagram-box-icon"> <noscript><img
 							src="wp-content/themes/super_dom/images/insta-big.png"></noscript><img class="lazyload"
@@ -4379,20 +4378,20 @@
 					<div class="instagram-box-hashtag">#svoy_dom</div>
 				</div>
 				<div class="instagram-box-photos"> <noscript><img
-							src="superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76.jpg"
+							src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76.jpg"
 							class="instagram-box-photo"></noscript><img
 						src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-						data-src="superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76.jpg"
+						data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76.jpg"
 						class="lazyload instagram-box-photo"> <noscript><img
-							src="superuploads/2021/07/48fac8d040c503f7e7d9acf3ad3fbde3-3.jpg"
+							src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/48fac8d040c503f7e7d9acf3ad3fbde3-3.jpg"
 							class="instagram-box-photo"></noscript><img
 						src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-						data-src="superuploads/2021/07/48fac8d040c503f7e7d9acf3ad3fbde3-3.jpg"
+						data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/48fac8d040c503f7e7d9acf3ad3fbde3-3.jpg"
 						class="lazyload instagram-box-photo"> <noscript><img
-							src="superuploads/2021/07/c93bd1a565d212c3ea895d048aca0709.jpg"
+							src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/c93bd1a565d212c3ea895d048aca0709.jpg"
 							class="instagram-box-photo"></noscript><img
 						src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-						data-src="superuploads/2021/07/c93bd1a565d212c3ea895d048aca0709.jpg"
+						data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/c93bd1a565d212c3ea895d048aca0709.jpg"
 						class="lazyload instagram-box-photo"> <noscript><img
 							src="superuploads/2021/07/06d75664185794aff3177095de09498a.jpg"
 							class="instagram-box-photo"></noscript><img
@@ -4403,8 +4402,8 @@
 		</div>
 	</section>
 
-	<section id="pluses-slider" class="lazyload" data-bg="wp-content/themes/super_dom/images/psbg.png"
-		style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
+	<section id="pluses-slider" class="lazyload" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/psbg.png"
+		style="	 background-image: url('<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/psbg.png');">
 		<div class="container">
 			<div class="section-title text-center">Чтобы быть спокойным и уверенным в качественном доме - <b>вам
 					нужен надежный подрядчик</b></div>
@@ -4413,11 +4412,11 @@
 
 					<div class="gflag-item-box gflag-item-box-1 gflag-item-has-icon">
 						<div class="gflag-item-flag">01</div>
-						<div class="gflag-item"> <noscript><img src="superuploads/2021/05/ps1.png"
+						<div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps1.png"
 									alt="Строим дом всего за 3 месяца" title="Строим дом всего за 3 месяца"
 									class="gflag-item-icon"></noscript><img
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/05/ps1.png" alt="Строим дом всего за 3 месяца"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps1.png" alt="Строим дом всего за 3 месяца"
 								title="Строим дом всего за 3 месяца" class="lazyload gflag-item-icon">
 							<div class="gflag-item-title">Строим дом всего за 3 месяца</div>
 							<div class="gflag-item-text">Вы получаете дом, который не надо доделывать,
@@ -4427,11 +4426,11 @@
 
 					<div class="gflag-item-box gflag-item-box-2 gflag-item-has-icon">
 						<div class="gflag-item-flag">02</div>
-						<div class="gflag-item"> <noscript><img src="superuploads/2021/05/ps2.png"
+						<div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps2.png"
 									alt="5 этапов оплаты" title="5 этапов оплаты"
 									class="gflag-item-icon"></noscript><img
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/05/ps2.png" alt="5 этапов оплаты"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps2.png" alt="5 этапов оплаты"
 								title="5 этапов оплаты" class="lazyload gflag-item-icon">
 							<div class="gflag-item-title">5 этапов оплаты</div>
 							<div class="gflag-item-text">Вы платите только после окончания и проверки
@@ -4442,11 +4441,11 @@
 					<div class="swiper-slide">
 						<div class="gflag-item-box gflag-item-box-3 gflag-item-has-icon">
 							<div class="gflag-item-flag">03</div>
-							<div class="gflag-item"> <noscript><img src="superuploads/2021/05/ps3.png"
+							<div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps3.png"
 										alt="Проектировщики в штате" title="Проектировщики в штате"
 										class="gflag-item-icon"></noscript><img
 									src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-									data-src="superuploads/2021/05/ps3.png" alt="Проектировщики в штате"
+									data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps3.png" alt="Проектировщики в штате"
 									title="Проектировщики в штате" class="lazyload gflag-item-icon">
 								<div class="gflag-item-title">Проектировщики в штате</div>
 								<div class="gflag-item-text">Создадим с нуля или доработаем любой понравившийся
@@ -4457,11 +4456,11 @@
 
 					<div class="gflag-item-box gflag-item-box-4 gflag-item-has-icon">
 						<div class="gflag-item-flag">04</div>
-						<div class="gflag-item"> <noscript><img src="superuploads/2021/05/ps4.png"
+						<div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps4.png"
 									alt="Лучшие цены на материалы" title="Лучшие цены на материалы"
 									class="gflag-item-icon"></noscript><img
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/05/ps4.png" alt="Лучшие цены на материалы"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps4.png" alt="Лучшие цены на материалы"
 								title="Лучшие цены на материалы" class="lazyload gflag-item-icon">
 							<div class="gflag-item-title">Лучшие цены на материалы</div>
 							<div class="gflag-item-text">Работаем напрямую с поставщиками стройматериалов
@@ -4472,12 +4471,12 @@
 
 					<div class="gflag-item-box gflag-item-box-5 gflag-item-has-icon">
 						<div class="gflag-item-flag">05</div>
-						<div class="gflag-item"> <noscript><img src="superuploads/2021/05/ps1.png"
+						<div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps1.png"
 									alt="Сроки строительства и оплаты прописаны"
 									title="Сроки строительства и оплаты прописаны"
 									class="gflag-item-icon"></noscript><img
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/05/ps1.png"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps1.png"
 								alt="Сроки строительства и оплаты прописаны"
 								title="Сроки строительства и оплаты прописаны"
 								class="lazyload gflag-item-icon">
@@ -4490,12 +4489,12 @@
 
 					<div class="gflag-item-box gflag-item-box-6 gflag-item-has-icon">
 						<div class="gflag-item-flag">06</div>
-						<div class="gflag-item"> <noscript><img src="superuploads/2021/05/ps2.png"
+						<div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps2.png"
 									alt="Выполняем весь комплекс работ"
 									title="Выполняем весь комплекс работ"
 									class="gflag-item-icon"></noscript><img
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/05/ps2.png" alt="Выполняем весь комплекс работ"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps2.png" alt="Выполняем весь комплекс работ"
 								title="Выполняем весь комплекс работ" class="lazyload gflag-item-icon">
 							<div class="gflag-item-title">Выполняем весь комплекс работ</div>
 							<div class="gflag-item-text">От юридического согласования постройки и геологии
@@ -4506,12 +4505,12 @@
 
 					<div class="gflag-item-box gflag-item-box-7 gflag-item-has-icon">
 						<div class="gflag-item-flag">07</div>
-						<div class="gflag-item"> <noscript><img src="superuploads/2021/05/ps3.png"
+						<div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps3.png"
 									alt="Команда, которую подбирали 6 лет"
 									title="Команда, которую подбирали 6 лет"
 									class="gflag-item-icon"></noscript><img
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/05/ps3.png"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps3.png"
 								alt="Команда, которую подбирали 6 лет"
 								title="Команда, которую подбирали 6 лет" class="lazyload gflag-item-icon">
 							<div class="gflag-item-title">Команда, которую подбирали 6 лет</div>
@@ -4523,12 +4522,12 @@
 
 					<div class="gflag-item-box gflag-item-box-8 gflag-item-has-icon">
 						<div class="gflag-item-flag">08</div>
-						<div class="gflag-item"> <noscript><img src="superuploads/2021/05/ps4.png"
+						<div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps4.png"
 									alt="Контроль качества строительства"
 									title="Контроль качества строительства"
 									class="gflag-item-icon"></noscript><img
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/05/ps4.png"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/ps4.png"
 								alt="Контроль качества строительства"
 								title="Контроль качества строительства" class="lazyload gflag-item-icon">
 							<div class="gflag-item-title">Контроль качества строительства</div>
@@ -4563,15 +4562,15 @@
 				<div class="swiper-slide six-steps-tab-content active">
 					<div class="step-item">
 						<div class="step-item-image"> <noscript><img width="1024" height="683"
-									src="superuploads/2021/07/image-35-1024x683.png"
+									src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/image-35-1024x683.png"
 									class="attachment-large size-large"
 									alt="Согласовываем с вами все предварительные вопросы"
 									title="Согласовываем с вами все предварительные вопросы"
-									srcset="/superuploads/2021/07/image-35-1024x683.png 1024w, /superuploads/2021/07/image-35-300x200.png 300w, /superuploads/2021/07/image-35-768x512.png 768w, /superuploads/2021/07/image-35-1536x1024.png 1536w, /superuploads/2021/07/image-35.png 1800w"
+									srcset="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/image-35-1024x683.png 1024w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/image-35-300x200.png 300w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/image-35-768x512.png 768w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/image-35-1536x1024.png 1536w, <?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/image-35.png 1800w"
 									sizes="(max-width: 1024px) 100vw, 1024px" /></noscript><img width="1024"
 								height="683"
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201024%20683%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/07/image-35-1024x683.png"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/image-35-1024x683.png"
 								class="lazyload attachment-large size-large"
 								alt="Согласовываем с вами все предварительные вопросы"
 								title="Согласовываем с вами все предварительные вопросы"
@@ -4783,7 +4782,6 @@
 		</div>
 	</section>
 
-	<script src="wp-content/cache/autoptimize/js/six_steps_slider.js" defer></script>
 
 	<!-- <section id="specialists-slider">
 			<div class="container">
@@ -4799,10 +4797,10 @@
 								<div class="swiper-wrapper">
 									<div class="swiper-slide">
 										<div class="specialist-item"> <noscript><img
-													src="superuploads/2021/07/sotrudnik-2.jpg" alt="Василий Ермаков"
+													src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-2.jpg" alt="Василий Ермаков"
 													title="Василий Ермаков"></noscript><img class="lazyload"
 												src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-												data-src="superuploads/2021/07/sotrudnik-2.jpg" alt="Василий Ермаков"
+												data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-2.jpg" alt="Василий Ермаков"
 												title="Василий Ермаков">
 											<div class="specialist-item-fio text-center">Василий Ермаков</div>
 											<div class="specialist-item-post text-center">Генеральный директор</div>
@@ -4815,10 +4813,10 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="specialist-item"> <noscript><img
-													src="superuploads/2021/07/sotrudnik-1.jpg" alt="Сергей Селюнин"
+													src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-1.jpg" alt="Сергей Селюнин"
 													title="Сергей Селюнин"></noscript><img class="lazyload"
 												src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-												data-src="superuploads/2021/07/sotrudnik-1.jpg" alt="Сергей Селюнин"
+												data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-1.jpg" alt="Сергей Селюнин"
 												title="Сергей Селюнин">
 											<div class="specialist-item-fio text-center">Сергей Селюнин</div>
 											<div class="specialist-item-post text-center">Руководитель проектов</div>
@@ -4831,11 +4829,11 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="specialist-item"> <noscript><img
-													src="superuploads/2021/07/sotrudnik-9.jpg"
+													src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-9.jpg"
 													alt="Маргарита Алексеева"
 													title="Маргарита Алексеева"></noscript><img class="lazyload"
 												src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-												data-src="superuploads/2021/07/sotrudnik-9.jpg"
+												data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-9.jpg"
 												alt="Маргарита Алексеева" title="Маргарита Алексеева">
 											<div class="specialist-item-fio text-center">Маргарита Алексеева</div>
 											<div class="specialist-item-post text-center">Архитектор</div>
@@ -4848,10 +4846,10 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="specialist-item"> <noscript><img
-													src="superuploads/2021/07/sotrudnik-3.jpg" alt="Николай Иванченко"
+													src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-3.jpg" alt="Николай Иванченко"
 													title="Николай Иванченко"></noscript><img class="lazyload"
 												src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-												data-src="superuploads/2021/07/sotrudnik-3.jpg" alt="Николай Иванченко"
+												data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-3.jpg" alt="Николай Иванченко"
 												title="Николай Иванченко">
 											<div class="specialist-item-fio text-center">Николай Иванченко</div>
 											<div class="specialist-item-post text-center">Проектировщик</div>
@@ -4864,10 +4862,10 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="specialist-item"> <noscript><img
-													src="superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
+													src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
 													title="Иван Михайленков"></noscript><img class="lazyload"
 												src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-												data-src="superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
+												data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
 												title="Иван Михайленков">
 											<div class="specialist-item-fio text-center">Иван Михайленков</div>
 											<div class="specialist-item-post text-center">Главный архитектор</div>
@@ -4880,10 +4878,10 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="specialist-item"> <noscript><img
-													src="superuploads/2021/07/sotrudnik-4.jpg" alt="Артем Лесняков"
+													src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-4.jpg" alt="Артем Лесняков"
 													title="Артем Лесняков"></noscript><img class="lazyload"
 												src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-												data-src="superuploads/2021/07/sotrudnik-4.jpg" alt="Артем Лесняков"
+												data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-4.jpg" alt="Артем Лесняков"
 												title="Артем Лесняков">
 											<div class="specialist-item-fio text-center">Артем Лесняков</div>
 											<div class="specialist-item-post text-center">Инженер ПТО</div>
@@ -4896,10 +4894,10 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="specialist-item"> <noscript><img
-													src="superuploads/2021/07/sotrudnik-7.jpg" alt="Михаил Сармин"
+													src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-7.jpg" alt="Михаил Сармин"
 													title="Михаил Сармин"></noscript><img class="lazyload"
 												src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-												data-src="superuploads/2021/07/sotrudnik-7.jpg" alt="Михаил Сармин"
+												data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-7.jpg" alt="Михаил Сармин"
 												title="Михаил Сармин">
 											<div class="specialist-item-fio text-center">Михаил Сармин</div>
 											<div class="specialist-item-post text-center">Специалист по снабжению</div>
@@ -4912,10 +4910,10 @@
 									</div>
 									<div class="swiper-slide">
 										<div class="specialist-item"> <noscript><img
-													src="superuploads/2021/07/sotrudnik-5.jpg" alt="Евгений Мельников"
+													src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-5.jpg" alt="Евгений Мельников"
 													title="Евгений Мельников"></noscript><img class="lazyload"
 												src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-												data-src="superuploads/2021/07/sotrudnik-5.jpg" alt="Евгений Мельников"
+												data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-5.jpg" alt="Евгений Мельников"
 												title="Евгений Мельников">
 											<div class="specialist-item-fio text-center">Евгений Мельников</div>
 											<div class="specialist-item-post text-center">Производитель работ (Прораб)
@@ -5093,17 +5091,16 @@
 		</div>
 	</section>
 
-	<script src="wp-content/cache/autoptimize/js/reviews_slider.js" defer></script>
 
 
 	<section id="directors-word">
 		<div class="container">
 			<div class="flex-row">
 				<div class="directors-word-col"> <noscript><img
-							src="superuploads/2021/07/kopiya-direktor-tipa-2-1.png"
+							src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/kopiya-direktor-tipa-2-1.png"
 							class="directors-word-image"></noscript><img
 						src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-						data-src="superuploads/2021/07/kopiya-direktor-tipa-2-1.png"
+						data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/kopiya-direktor-tipa-2-1.png"
 						class="lazyload directors-word-image">
 					<div class="section-title section-title-mobile"><b>Здравствуйте, я Ермаков Василий,</b> директор
 						и основатель компании.</div>
@@ -5309,7 +5306,6 @@
 		</div>
 	</section>
 
-	<script src="wp-content/cache/autoptimize/js/empolyes_slider.js" defer></script>
 
 	<section id="faq-list">
 		<div class="container">

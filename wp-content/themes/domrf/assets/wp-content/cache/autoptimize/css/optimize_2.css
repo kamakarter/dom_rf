@@ -622,10 +622,10 @@ span.vc-item-name {
 .orange-link:hover:after {
   background-color: #e4891d;
 }
-.front-page-header {
-  background-size: cover;
-  background-color: #30373f;
-}
+  .front-page-header {
+    background-size: cover;
+    background-color: #30373f;
+  }
 .category-header {
   background-size: cover;
   background-color: #30373f;

@@ -2,13 +2,13 @@
 
     @font-face {
         font-family: 'Montserrat';
-        src: url('/wp-content/themes/super_dom/fonts/Montserrat-VariableFont_wght.ttf');
+        src: url('../fonts/Montserrat-VariableFont_wght.ttf');
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Montserrat';
-        src: url('/wp-content/themes/super_dom/fonts/Montserrat-Italic-VariableFont_wght.ttf');
+        src: url('../fonts/Montserrat-Italic-VariableFont_wght.ttf');
         font-style: italic;
     }
 

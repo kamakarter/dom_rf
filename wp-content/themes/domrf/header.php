@@ -14,7 +14,8 @@
 	<meta property="og:title" content="Строительство домов под ключ - проекты и цены в Одессе" />
 	<meta property="og:description"
 		content="⭐️⭐️⭐️⭐️⭐️ Качественные дома под ключ в Одессе и Одесской области. ⏩️ Проекты и цены на любой вкус и бюджет от 2 000 000 руб. ⏩️ Комплексное возведение дома от фундамента до крыши." />
-	<meta property="og:url" content="/lugansk/" />
+	<!-- <meta property="og:url" content="/lugansk/" /> -->
+	<meta property="og:url" content="<?php echo home_url(); ?>/lugansk/" />
 	<meta property="og:site_name" content="СтройДом" />
 	<meta property="article:modified_time" content="2022-07-20T11:07:53+00:00" />
 	<meta property="og:image" content="superuploads/2021/07/home_bg.jpg" />
@@ -25,9 +26,9 @@
 	<link rel='dns-prefetch' href='//s.w.org' />
 
 	<?php
-		wp_head();
+	wp_head();
 	?>
-	
+
 	<!-- <link
 		rel="preload"
 		as="style"
@@ -51,23 +52,31 @@
 </head>
 
 <body>
-	<div class="lazyload front-page-header" data-bg="assets/superuploads/2021/07/home_bg.jpg"
-		style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
+	<div class="front-page-header header-bg"
+		style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/home_bg.jpg');">
+
+		<style>
+			.front-page-header.header-bg {
+				background-image: url('<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/home_bg.jpg');
+			}
+		</style>
 		<header class="hidden-print">
 			<div class="container">
 				<div class="header-top-wrap">
-					<div class="header-logo-wrapper"> <a href="https://amstroj.com" class="header-logo"> <noscript><img
-									src="superuploads/2021/04/logo.png" class="header-logo-image" alt="СтройДом"
+					<div class="header-logo-wrapper">
+						<a href="<?php echo get_template_directory_uri(); ?>" class="header-logo"> <noscript><img
+									src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png" class="header-logo-image" alt="СтройДом"
 									title="СтройДом"></noscript><img
 								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/04/logo.png" class="lazyload header-logo-image"
+								data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png" class="lazyload header-logo-image"
 								alt="СтройДом" title="СтройДом">
 							<div class="header-logo-text"> <span class="header-logo-text-main">СтройДом</span> <span
 									class="header-logo-text-main header-logo-text-main-mobile">
 									<noindex>СтройДом</noindex>
 								</span> <span class="header-logo-text-default">Строительство качественных домов в Одессе
 									и Одесской области</span></div>
-						</a></div>
+						</a>
+					</div>
 					<div class="header-google-rating-wrapper">
 						<div class="header-google-rating">
 							<div class="header-google-rating-value"><span>4.8</span></div>
@@ -90,25 +99,25 @@
 								<span class="flicker-text-content">Пишите, мы онлайн</span>
 							</div>
 							<div class="socials-list"> <a href="#viber" class="social-item"> <noscript><img
-											src="wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
+											src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
 										class="lazyload"
 										src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-										data-src="wp-content/themes/super_dom/icons/label-viber.png">
+										data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png">
 								</a> <a href="#telegram" class="social-item"> <noscript><img
-											src="wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
+											src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
 										class="lazyload"
 										src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-										data-src="wp-content/themes/super_dom/icons/label-telegram.png">
+										data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png">
 								</a> <a href="#whatsapp" class="social-item"> <noscript><img
-											src="wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
+											src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
 										class="lazyload"
 										src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-										data-src="wp-content/themes/super_dom/icons/label-whatsapp.png">
+										data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png">
 								</a> <a href="mailto:mail@amstroj.com" class="social-item"> <noscript><img
-											src="wp-content/themes/super_dom/icons/label-email.png"></noscript><img
+											src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-email.png"></noscript><img
 										class="lazyload"
 										src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-										data-src="wp-content/themes/super_dom/icons/label-email.png">
+										data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-email.png">
 								</a></div>
 						</div>
 					</div>

@@ -4902,16 +4902,33 @@ try {
     $("body").on("click", "#sidebar-fixed-btn", function (event) {
       $("#sidebar-filter").trigger("submit");
     });
-    $("body").on(
-      "click",
-      ".menu-item-search, .search-modal-overlay, .search-modal-close",
-      function (event) {
-        $("#search-modal-wrapper").slideToggle();
+    $("body").on("click", ".menu-item-search", function (event) {
+      $(".search-modal-overlay").fadeIn();
+      $("#search-modal-wrapper").slideDown();
+      $("#modal-search").val("");
+      $("#search-result-box").html("");
+      $("body").toggleClass("is-body-hidden");
+    });
+    
+    $("body").on("click", ".search-modal-overlay, .search-modal-close", function (event) {
+      event.preventDefault();
+      $(".search-modal-overlay").fadeOut();
+      $("#search-modal-wrapper").slideUp();
+      $("#modal-search").val("");
+      $("#search-result-box").html("");
+      $("body").toggleClass("is-body-hidden");
+    });
+    
+    // Закрытие по Escape
+    $(document).on("keydown", function(event) {
+      if (event.key === "Escape" && $("#search-modal-wrapper").is(":visible")) {
+        $(".search-modal-overlay").fadeOut();
+        $("#search-modal-wrapper").slideUp();
         $("#modal-search").val("");
         $("#search-result-box").html("");
         $("body").toggleClass("is-body-hidden");
       }
-    );
+    });
     $("body").on("input", "#modal-search", function (event) {
       let search = $("#modal-search").val();
       if (search.length >= 3) {
