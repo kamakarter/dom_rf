@@ -4500,22 +4500,7 @@ try {
       ymaps.ready(init);
     else if (typeof coords == "object" && typeof ymaps != "object")
       load_map_script(false);
-    $("body").on("click", ".accordion-button", function (event) {
-      let obj = this,
-        parent = $(obj).parents(".accordion"),
-        show = $(parent)
-          .find(".accordion-collapse.show")
-          .parents(".accordion-item"),
-        has_collapsed = false;
-      if ($(obj).hasClass("collapsed")) has_collapsed = true;
-      $(show).find(".accordion-collapse").removeClass("show").slideToggle();
-      $(show).find(".accordion-button").addClass("collapsed");
-      if (has_collapsed) {
-        $(obj).removeClass("collapsed");
-        $(obj).parent().next().addClass("show");
-        $(obj).parent().next().slideToggle();
-      }
-    });
+    // Отключен старый обработчик аккордеона
     function create_mobile_menu(menu, id) {
       let new_html = $(menu).clone();
       $(new_html).find(".mega-menu").removeClass("mega-menu");
@@ -10643,14 +10628,11 @@ try {
                     return 0 === parseInt(k(this).attr("tabIndex"), 10);
                   })
                   .attr("tabIndex", -1),
-            e
-              .attr("aria-hidden", "false")
-              .prev()
-              .attr({
-                "aria-selected": "true",
-                "aria-expanded": "true",
-                tabIndex: 0,
-              });
+            e.attr("aria-hidden", "false").prev().attr({
+              "aria-selected": "true",
+              "aria-expanded": "true",
+              tabIndex: 0,
+            });
         },
         _animate: function (t, i, e) {
           var s,
@@ -16251,13 +16233,11 @@ try {
         this._setOptionDisabled(this.options.disabled),
           this._setupEvents(this.options.event),
           this._setupHeightStyle(this.options.heightStyle),
-          this.tabs
-            .not(this.active)
-            .attr({
-              "aria-selected": "false",
-              "aria-expanded": "false",
-              tabIndex: -1,
-            }),
+          this.tabs.not(this.active).attr({
+            "aria-selected": "false",
+            "aria-expanded": "false",
+            tabIndex: -1,
+          }),
           this.panels
             .not(this._getPanelForTab(this.active))
             .hide()
@@ -17537,15 +17517,13 @@ try {
                 height: i.outerHeight(!0),
                 float: i.css("float"),
               },
-              t = k("<div></div>")
-                .addClass("ui-effects-wrapper")
-                .css({
-                  fontSize: "100%",
-                  background: "transparent",
-                  border: "none",
-                  margin: 0,
-                  padding: 0,
-                }),
+              t = k("<div></div>").addClass("ui-effects-wrapper").css({
+                fontSize: "100%",
+                background: "transparent",
+                border: "none",
+                margin: 0,
+                padding: 0,
+              }),
               e = { width: i.width(), height: i.height() },
               n = document.activeElement;
             try {

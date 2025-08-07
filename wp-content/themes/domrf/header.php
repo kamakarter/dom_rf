@@ -18,7 +18,7 @@
 	<meta property="og:url" content="<?php echo home_url(); ?>/lugansk/" />
 	<meta property="og:site_name" content="СтройДом" />
 	<meta property="article:modified_time" content="2022-07-20T11:07:53+00:00" />
-	<meta property="og:image" content="superuploads/2021/07/home_bg.jpg" />
+	<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/home_bg.jpg" />
 	<meta property="og:image:width" content="1920" />
 	<meta property="og:image:height" content="1122" />
 	<meta property="og:image:type" content="image/jpeg" />
@@ -44,10 +44,10 @@
 
 
 	<!-- Fav Icons -->
-	<!-- <link rel="icon" href="superuploads/2021/08/cropped-favicon-32x32.png" sizes="32x32" />
-	<link rel="icon" href="superuploads/2021/08/cropped-favicon-192x192.png" sizes="192x192" />
-	<link rel="apple-touch-icon" href="superuploads/2021/08/cropped-favicon-180x180.png" />
-	<meta name="msapplication-TileImage" content="superuploads/2021/08/cropped-favicon-270x270.png" /> -->
+	<!-- <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/cropped-favicon-32x32.png" sizes="32x32" />
+	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/cropped-favicon-192x192.png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/cropped-favicon-180x180.png" />
+	<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/cropped-favicon-270x270.png" /> -->
 
 </head>
 
@@ -650,7 +650,7 @@
 										href="/portfolio/">Портфолио и отзывы</a></li>
 								<li id="menu-item-19"
 									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a
-										href="/kontakty/">Контакты</a></li>
+										href="/contacts/">Контакты</a></li>
 								<li class="menu-item menu-item-after menu-item-favorite"><a
 										href="/favorites/">Избранное</a></li>
 								<li class="menu-item menu-item-after menu-item-search"><a href="#">Поиск</a></li>

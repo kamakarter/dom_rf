@@ -34,18 +34,23 @@
 
 
 #portfolio-slider .portfolio-main-slider-wrapper {
-    padding: 32px 0;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 16px;
-    position: relative;
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+/* Контейнер для слайдера с кнопками */
+.portfolio-main-slider-wrapper {
+  position: relative;
 }
 
 /* Стили для слайдера портфолио */
 .portfolio-main-slider {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .portfolio-main-slider-track {
@@ -54,11 +59,44 @@
   width: calc(100% * var(--slides-count, 3));
 }
 
-.portfolio-slide {
-  flex: 0 0 100%;
+.portfolio-slide-secondary-image {
+  height: 100px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.portfolio-slide-main-image {
+  width: 25%;
+  height: auto;
+}
+
+.portfolio-slide-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
-  padding: 0 15px;
-  box-sizing: border-box;
+  justify-content: start;
+  gap: 0px;
+}
+
+.portfolio-slide-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.portfolio-slide-gallery a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-slide-gallery a:hover {
+  transform: scale(1.05);
 }
 
 /* Кнопки навигации для портфолио */
@@ -92,6 +130,20 @@
 
 .portfolio-button-next {
   right: -20px;
+}
+
+/* Улучшенные стили для кнопок портфолио */
+.portfolio-button-prev:hover,
+.portfolio-button-next:hover {
+  background: #74bb16;
+  color: white;
+  border-color: #74bb16;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.portfolio-button-prev:active,
+.portfolio-button-next:active {
+  transform: translateY(-50%) scale(0.95);
 }
 
 /* Пагинация для портфолио */
@@ -272,6 +324,7 @@ section#excursion {
 
 /* Пагинация */
 .reviews-slider-pagination {
+  margin-top: 32px;
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -443,4 +496,295 @@ a.review-item-read-more:after {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+}
+
+
+/* specialists-slider */
+
+.specialists-slider-wrapper {
+  padding: 0;
+  width: 100%;
+}
+
+.specialists-slider-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.specialists-slider-right {
+  width: auto;
+  width: 100%;
+}
+
+.specialists-slide {
+  min-width: auto;
+  max-width: auto;
+}
+
+/* Новый аккордеон FAQ с CSS Grid */
+.new-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.new-faq-card {
+  background: #ffffff;
+  border: 2px solid #e8e8e8;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-faq-card:hover {
+  border-color: #74bb16;
+  box-shadow: 0 4px 20px rgba(116, 187, 22, 0.2);
+  transform: translateY(-2px);
+}
+
+.new-faq-header {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.new-faq-toggle {
+  width: 100%;
+  padding: 20px 25px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.new-faq-toggle:hover {
+  background: linear-gradient(135deg, #74bb16 0%, #5a9c0f 100%);
+  color: white;
+}
+
+.new-faq-toggle:hover .new-faq-icon {
+  color: white;
+  transform: rotate(45deg);
+}
+
+.new-faq-title {
+  flex: 1;
+  margin-right: 15px;
+  line-height: 1.4;
+}
+
+.new-faq-icon {
+  font-size: 24px;
+  font-weight: bold;
+  color: #74bb16;
+  transition: all 0.3s ease;
+  min-width: 24px;
+  text-align: center;
+}
+
+.new-faq-card.active .new-faq-icon {
+  transform: rotate(45deg);
+  color: #74bb16;
+}
+
+.new-faq-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  background: #ffffff;
+}
+
+.new-faq-card.active .new-faq-content {
+  max-height: 500px;
+}
+
+.new-faq-text {
+  padding: 25px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.new-faq-text p {
+  margin-bottom: 15px;
+}
+
+.new-faq-text ul,
+.new-faq-text ol {
+  margin: 15px 0;
+  padding-left: 20px;
+}
+
+.new-faq-text li {
+  margin-bottom: 8px;
+}
+
+.new-faq-card.active {
+  border-color: #74bb16;
+  box-shadow: 0 6px 25px rgba(116, 187, 22, 0.15);
+}
+
+.new-faq-card.active .new-faq-header {
+  background: linear-gradient(135deg, #74bb16 0%, #5a9c0f 100%);
+}
+
+.new-faq-card.active .new-faq-toggle {
+  color: white;
+}
+
+.new-faq-card.active .new-faq-icon {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .new-faq-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+  }
+  
+  .new-faq-toggle {
+    padding: 18px 20px;
+    font-size: 15px;
+  }
+  
+  .new-faq-text {
+    padding: 20px;
+  }
+  
+  .new-faq-icon {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .new-faq-grid {
+    padding: 10px;
+  }
+  
+  .new-faq-toggle {
+    padding: 15px 18px;
+    font-size: 14px;
+  }
+  
+  .new-faq-text {
+    padding: 18px;
+    font-size: 14px;
+  }
+}
+
+.new-faq-toggle:focus {
+  outline: 2px solid #74bb16;
+  outline-offset: 2px;
+}
+
+
+.container {
+  border-left: 1px solid red;
+  border-right: 1px solid red;
+}
+
+.portfolio-slide-gallery {
+  width: 400px;
+  height: 400px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 4px;
+}
+
+.portfolio-slide:first-child {
+  margin-left: 400px;
+}
+
+.portfolio-slide {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  padding: 0 22px;
+  overflow: hidden;
+  /* width: 33.3333333%;
+  max-width: 33.3333333%;
+  max-width: 33.3333333%; */
+}
+
+.pluses-slider {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 16px;
+  grid-template-rows: repeat(4, 220px);
+  row-gap: 24px;
+}
+
+.portfolio-slide-content {
+  width: 0;
+  width: 100%;
+}
+
+.gflag-item-box {
+  background: transparent;
+}
+
+#pluses-slider .gflag-item {
+  overflow: hidden;
+}
+
+#pluses-slider .gflag-item-icon {
+  height: 64px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.gflag-item-flag {
+  width: 64px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+
+
+.gflag-item-text {
+  max-width: 75%;
+  line-height: 150%;
+  opacity: 0.75;
+}
+
+/* portfolio-slider */
+
+.portfolio-slide{
+  width: 300px;
+}
+
+/* reviews-slider */
+
+.reviews-slide {
+  padding: 0;
+}
+
+.slider-button {
+  color: #fff;
+  border: none;
+  font-size: 23px;
+  font-weight: 500;
+  background:#d6892e;
+  top: 55%;
 }

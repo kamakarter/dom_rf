@@ -1834,13 +1834,13 @@ section.quiz-section:after {
   font-weight: 700;
 }
 .quiz-container.before-thanks:before {
-  background-image: url(/wp-content/themes/super_dom/images/rukaphone.png);
+  /* background-image: url(/wp-content/themes/super_dom/images/rukaphone.png); */
   background-size: 450px;
   background-repeat: no-repeat;
   background-position: right -120px bottom;
 }
 .quiz-container.thanks:before {
-  background-image: url(/wp-content/themes/super_dom/images/quiz-thanks.png);
+  /* background-image: url(/wp-content/themes/super_dom/images/quiz-thanks.png); */
   background-size: 800px;
   background-repeat: no-repeat;
   background-position: right -80px bottom;
@@ -2391,7 +2391,7 @@ section#popular-projects {
 }
 .project-last-content {
   border: 1px solid #eee;
-  background-image: url(/wp-content/themes/super_dom/images/last-bg.png);
+  /* background-image: url(/wp-content/themes/super_dom/images/last-bg.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2525,7 +2525,7 @@ section#popular-projects {
   display: block;
   width: 100px;
   height: 100px;
-  background-image: url(/wp-content/themes/super_dom/icons/project-last-button.png);
+  /* background-image: url('/wp-content/themes/super_dom/icons/project-last-button.png'); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -2537,7 +2537,7 @@ section#popular-projects {
 .quiz-send-button:after,
 .modal-form-send-button:after,
 .single-smeta-btn:after {
-  background-image: url(/wp-content/themes/super_dom/icons/quiz-send-button.png);
+  /* background-image: url('/wp-content/themes/super_dom/icons/quiz-send-button.png'); */
 }
 .privacy-group {
   font-size: 12px;
@@ -2781,7 +2781,7 @@ section#instagram {
   padding: 40px 0 0;
 }
 .instagram-box {
-  background-image: url('/wp-content/themes/super_dom/images/insta-bg.jpg');
+  /* background-image: url('/wp-content/themes/super_dom/images/insta-bg.jpg'); */
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -3148,15 +3148,17 @@ section#instagram {
 #excursion {
   padding: 60px 0 0;
 }
+
 .excursion-wrapper {
   padding: 60px 50px 50px;
-  background-image: url('/wp-content/themes/super_dom/images/excursion_bg.jpg');
+  /* background-image: url('/wp-content/themes/super_dom/images/excursion_bg.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left center;
   border-radius: 20px;
   position: relative;
 }
+
 .excursion-wrapper:before {
   content: "";
   display: block;
@@ -3399,7 +3401,7 @@ a.review-item-read-more:after {
 
 #pluses-slider {
   padding: 60px 0;
-  background-image: url('/wp-content/themes/super_dom/images/psbg.png');
+  /* background-image: url('/wp-content/themes/super_dom/images/psbg.png'); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center bottom;
@@ -3571,7 +3573,7 @@ a.review-item-read-more:after {
 }
 .smeta-box {
   padding: 40px 60px;
-  background-image: url('/wp-content/themes/super_dom/images/smeta-bg.jpg');
+  /* background-image: url('/wp-content/themes/super_dom/images/smeta-bg.jpg'); */
   background-size: cover;
   background-position: center center;
   border-radius: 10px;

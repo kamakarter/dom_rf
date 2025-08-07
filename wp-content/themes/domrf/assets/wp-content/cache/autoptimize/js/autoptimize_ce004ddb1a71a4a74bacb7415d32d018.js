@@ -4500,21 +4500,36 @@ try {
       ymaps.ready(init);
     else if (typeof coords == "object" && typeof ymaps != "object")
       load_map_script(false);
-    $("body").on("click", ".accordion-button", function (event) {
-      let obj = this,
-        parent = $(obj).parents(".accordion"),
-        show = $(parent)
-          .find(".accordion-collapse.show")
-          .parents(".accordion-item"),
-        has_collapsed = false;
-      if ($(obj).hasClass("collapsed")) has_collapsed = true;
-      $(show).find(".accordion-collapse").removeClass("show").slideToggle();
-      $(show).find(".accordion-button").addClass("collapsed");
-      if (has_collapsed) {
-        $(obj).removeClass("collapsed");
-        $(obj).parent().next().addClass("show");
-        $(obj).parent().next().slideToggle();
-      }
+    // Полностью отключаем все обработчики аккордеона
+    $(document).ready(function () {
+      $("body").off("click", ".accordion-button");
+      $(".accordion-button").off("click");
+
+      // Добавляем новый обработчик с задержкой
+      setTimeout(function () {
+        $("body").on("click", ".accordion-button", function (event) {
+          event.preventDefault();
+          event.stopPropagation();
+          event.stopImmediatePropagation();
+
+          let $button = $(this);
+          let $accordionItem = $button.closest(".accordion-item");
+          let $accordionCollapse = $accordionItem.find(".accordion-collapse");
+          let $parent = $button.closest(".accordion");
+
+          // Закрываем все открытые элементы
+          $parent.find(".accordion-collapse.show").each(function () {
+            $(this).removeClass("show").slideUp(200);
+            $(this).prev().find(".accordion-button").addClass("collapsed");
+          });
+
+          // Открываем текущий элемент
+          $accordionCollapse.addClass("show").slideDown(200);
+          $button.removeClass("collapsed");
+
+          return false;
+        });
+      }, 100);
     });
     function create_mobile_menu(menu, id) {
       let new_html = $(menu).clone();
@@ -4909,18 +4924,22 @@ try {
       $("#search-result-box").html("");
       $("body").toggleClass("is-body-hidden");
     });
-    
-    $("body").on("click", ".search-modal-overlay, .search-modal-close", function (event) {
-      event.preventDefault();
-      $(".search-modal-overlay").fadeOut();
-      $("#search-modal-wrapper").slideUp();
-      $("#modal-search").val("");
-      $("#search-result-box").html("");
-      $("body").toggleClass("is-body-hidden");
-    });
-    
+
+    $("body").on(
+      "click",
+      ".search-modal-overlay, .search-modal-close",
+      function (event) {
+        event.preventDefault();
+        $(".search-modal-overlay").fadeOut();
+        $("#search-modal-wrapper").slideUp();
+        $("#modal-search").val("");
+        $("#search-result-box").html("");
+        $("body").toggleClass("is-body-hidden");
+      }
+    );
+
     // Закрытие по Escape
-    $(document).on("keydown", function(event) {
+    $(document).on("keydown", function (event) {
       if (event.key === "Escape" && $("#search-modal-wrapper").is(":visible")) {
         $(".search-modal-overlay").fadeOut();
         $("#search-modal-wrapper").slideUp();
