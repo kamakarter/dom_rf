@@ -2827,7 +2827,7 @@ section#instagram {
   margin-bottom: 30px;
 }
 .six-steps-btn {
-  background-color: #f4f2f2;
+  background-color: #e6e6e6;
   font-weight: 400;
   width: calc((100% - 150px) / 6);
   padding: 15px 0;
@@ -5401,7 +5401,7 @@ section#catalog-form {
   top: 90px;
 }
 #quiz-modal.modal-opened {
-  z-index: 99999;
+  z-index: 99999; 
 }
 #quiz-modal .modal-content {
   margin-top: 0;
@@ -5937,12 +5937,12 @@ section#catalog-form {
   background-color: #282828;
 }
 .sidebar-banner-single-calc {
-  background-image: url(//amstroj.com/wp-content/themes/super_dom/images/banner-single-calc.png);
+  background-image: url('<?php echo get_template_directory_uri(); ?>assets/wp-content/themes/super_dom/images/banner-single-calc.png');
   background-color: #eece35;
   padding-bottom: 350px;
 }
 .sidebar-banner-single-podbor {
-  background-image: url(//amstroj.com/wp-content/themes/super_dom/images/banner-single-podbor.png);
+  background-image: url('assets/wp-content/themes/super_dom/images/banner-single-podbor.png');
   background-color: #9ec9d1;
   padding-bottom: 400px;
 }

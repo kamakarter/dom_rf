@@ -21,7 +21,7 @@
 								href="#akczii">Акции</a></li>
 						<li id="menu-item-139"
 							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-139"><a
-								href="/proekty/">Проекты домов</a></li>
+								href="/projects">Проекты домов</a></li>
 						<li id="menu-item-142"
 							class="menu-item menu-item-type-custom menu-item-object-custom menu-item-142"><a
 								href="/%5Bsubfolder%5Dportfolio/">Наши работы</a></li>
@@ -30,7 +30,7 @@
 								href="/o-nas/">Компания</a></li>
 						<li id="menu-item-144"
 							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-144"><a
-								href="/kontakty/">Контакты</a></li>
+								href="/contacts">Контакты</a></li>
 					</ul>
 				</div>
 			</div>
@@ -82,7 +82,7 @@
 										href="#">Каркасно-щитовые</a></li>
 								<li id="menu-item-155"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-155"><a
-										href="/proekty/dachnyi/">Дачные дома</a></li>
+										href="/projectsdachnyi/">Дачные дома</a></li>
 							</ul>
 						</li>
 						<li id="menu-item-156"
@@ -115,22 +115,22 @@
 							<ul class="sub-menu">
 								<li id="menu-item-164"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-164"><a
-										href="/proekty/50-kv-m/">~ 50 кв.м</a></li>
+										href="/projects50-kv-m/">~ 50 кв.м</a></li>
 								<li id="menu-item-165"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-165"><a
-										href="/proekty/100-kv-m/">~ 100 кв.м</a></li>
+										href="/projects100-kv-m/">~ 100 кв.м</a></li>
 								<li id="menu-item-166"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-166"><a
-										href="/proekty/150-kv-m/">~ 150 кв.м.</a></li>
+										href="/projects150-kv-m/">~ 150 кв.м.</a></li>
 								<li id="menu-item-167"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-167"><a
-										href="/proekty/200-kv-m/">~ 200 кв.м.</a></li>
+										href="/projects200-kv-m/">~ 200 кв.м.</a></li>
 								<li id="menu-item-168"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-168"><a
-										href="/proekty/250-kv-m/">~ 250 кв.м.</a></li>
+										href="/projects250-kv-m/">~ 250 кв.м.</a></li>
 								<li id="menu-item-169"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-169"><a
-										href="/proekty/300-kv-m/">~ 300 кв.м.</a></li>
+										href="/projects300-kv-m/">~ 300 кв.м.</a></li>
 							</ul>
 						</li>
 						<li id="menu-item-170"
@@ -139,53 +139,53 @@
 							<ul class="sub-menu">
 								<li id="menu-item-172"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-172"><a
-										href="/proekty/8-na-8/">8х8</a></li>
+										href="/projects8-na-8/">8х8</a></li>
 								<li id="menu-item-173"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-173"><a
-										href="/proekty/10-na-10/">10х10</a></li>
+										href="/projects10-na-10/">10х10</a></li>
 								<li id="menu-item-174"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-174"><a
-										href="/proekty/9-na-9/">9х9</a></li>
+										href="/projects9-na-9/">9х9</a></li>
 								<li id="menu-item-175"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-175"><a
-										href="/proekty/12-na-12/">12х12</a></li>
+										href="/projects12-na-12/">12х12</a></li>
 								<li id="menu-item-178"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-178"><a
-										href="/proekty/6-na-9/">6х9</a></li>
+										href="/projects6-na-9/">6х9</a></li>
 								<li id="menu-item-179"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-179"><a
-										href="/proekty/10-na-12/">10х12</a></li>
+										href="/projects10-na-12/">10х12</a></li>
 								<li id="menu-item-180"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-180"><a
-										href="/proekty/8-na-10/">8х10</a></li>
+										href="/projects8-na-10/">8х10</a></li>
 								<li id="menu-item-181"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-181"><a
-										href="/proekty/15-na-15/">15х15</a></li>
+										href="/projects15-na-15/">15х15</a></li>
 								<li id="menu-item-182"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-182"><a
-										href="/proekty/9-na-12/">9х12</a></li>
+										href="/projects9-na-12/">9х12</a></li>
 								<li id="menu-item-183"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-183"><a
-										href="/proekty/8-na-12/">8х12</a></li>
+										href="/projects8-na-12/">8х12</a></li>
 								<li id="menu-item-184"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-184"><a
-										href="/proekty/15-na-15/">15х15</a></li>
+										href="/projects15-na-15/">15х15</a></li>
 								<li id="menu-item-185"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a
-										href="/proekty/9-na-12/">9х12</a></li>
+										href="/projects9-na-12/">9х12</a></li>
 								<li id="menu-item-186"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186"><a
-										href="/proekty/15-na-15/">10х15</a></li>
+										href="/projects15-na-15/">10х15</a></li>
 								<li id="menu-item-187"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-187"><a
-										href="/proekty/15-na-15/">7х12</a></li>
+										href="/projects15-na-15/">7х12</a></li>
 								<li id="menu-item-10027"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10027">
-									<a href="/proekty/15-na-15/">6х6</a>
+									<a href="/projects15-na-15/">6х6</a>
 								</li>
 								<li id="menu-item-10028"
 									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10028">
-									<a href="/proekty/8-na-9/">8х9</a>
+									<a href="/projects8-na-9/">8х9</a>
 								</li>
 							</ul>
 						</li>
@@ -193,7 +193,7 @@
 				</div>
 			</div>
 			<div class="footer-border"></div>
-			<div class="footer-last footer-logo-wrapper"> <a href="https://amstroj.com" class="header-logo">
+			<div class="footer-last footer-logo-wrapper"> <a href="/" class="header-logo">
 					<noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png" class="header-logo-image" alt="СтройДом"
 							title="СтройДом"></noscript><img
 						src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
@@ -268,7 +268,7 @@
 			data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/fixed-project.png" class="lazyload right-fixed-item-icon"
 			alt="Экскурсия по объектам" title="Экскурсия по объектам"> <span
 			class="right-fixed-item-text">Экскурсия<br>по объектам</span> </a> <a href="#"
-		class="right-fixed-item link-imitation" data-location="/akczii/"> <noscript><img
+		class="right-fixed-item link-imitation" data-location="/sales"> <noscript><img
 				src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/fixed-sales.png" class="right-fixed-item-icon"
 				alt="Акции сегодня!" title="Акции сегодня!"></noscript><img
 			src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
@@ -316,7 +316,7 @@
 
 
 
-<div class="modal-wrapper form-modal modal-opened" id="smeta-   phone">
+<div class="modal-wrapper form-modal modal-opened" id="smeta-phone">
 	<div class="modal-layout"></div>
 	<div class="modal-content">
 		<div class="modal-body">
@@ -346,7 +346,7 @@
 					<button type="submit" class="button orange project-last-button modal-form-send-button">Получить коммерческое предложение на строительство</button>
 					<input type="hidden" name="form_id" value="smeta-form">
 				</div>
-				<div class="form-group privacy-group text-center">Нажимая на кнопку вы соглашаетесь с условиями <span onclick="window.open('https://amstroj.com/privacy-policy/')">Политики конфиденциальности</span></div>
+				<div class="form-group privacy-group text-center">Нажимая на кнопку вы соглашаетесь с условиями <span onclick="window.open('privacy-policy/')">Политики конфиденциальности</span></div>
 			</form>
 		</div>
 	</div>

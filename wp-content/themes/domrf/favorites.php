@@ -7,16 +7,16 @@ Template Name: favorites
 
 <?php get_header(); ?>
     
-<!-- 
+
 <div class="default-header">
     <header class="hidden-print">
         <div class="container">
             <div class="header-top-wrap">
                 <div class="header-logo-wrapper"> <a href="" class="header-logo"> <noscript><img
-                                src="superuploads/2021/04/logo.png" class="header-logo-image" alt="СтройДом"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png" class="header-logo-image" alt="СтройДом"
                                 title="СтройДом"></noscript><img
                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="superuploads/2021/04/logo.png" class="lazyload header-logo-image"
+                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png" class="lazyload header-logo-image"
                             alt="СтройДом" title="СтройДом">
                         <div class="header-logo-text"> <span class="header-logo-text-main">СтройДом</span> <span
                                 class="header-logo-text-main header-logo-text-main-mobile">
@@ -45,25 +45,25 @@ Template Name: favorites
                         <div class="socials-text flicker-text"> <span class="green-dot animate-flicker"></span>
                             <span class="flicker-text-content">Пишите, мы онлайн</span></div>
                         <div class="socials-list"> <a href="#viber" class="social-item"> <noscript><img
-                                        src="wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
                                     class="lazyload"
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="wp-content/themes/super_dom/icons/label-viber.png">
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png">
                             </a> <a href="#telegram" class="social-item"> <noscript><img
-                                        src="wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
                                     class="lazyload"
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="wp-content/themes/super_dom/icons/label-telegram.png">
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png">
                             </a> <a href="#whatsapp" class="social-item"> <noscript><img
-                                        src="wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
                                     class="lazyload"
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="wp-content/themes/super_dom/icons/label-whatsapp.png">
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png">
                             </a> <a href="mailto:mail@amstroj.com" class="social-item"> <noscript><img
-                                        src="wp-content/themes/super_dom/icons/label-email.png"></noscript><img
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-email.png"></noscript><img
                                     class="lazyload"
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="wp-content/themes/super_dom/icons/label-email.png">
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-email.png">
                             </a></div>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ Template Name: favorites
                                     href="/o-nas/">О компании</a></li>
                             <li id="menu-item-465"
                                 class="mega-menu menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-465">
-                                <a href="/proekty/">Проекты и цены</a>
+                                <a href="/projects">Проекты и цены</a>
                                 <ul class="sub-menu">
                                     <li id="menu-item-416"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-416">
@@ -272,23 +272,23 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-468"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-468">
-                                                        <a href="/proekty/kottedj/">Коттедж</a></li>
+                                                        <a href="/projectskottedj/">Коттедж</a></li>
                                                     <li id="menu-item-469"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-469">
-                                                        <a href="/proekty/dachnyi/">Дачный</a></li>
+                                                        <a href="/projectsdachnyi/">Дачный</a></li>
                                                     <li id="menu-item-472"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-472">
-                                                        <a href="/proekty/dupleks/">Дуплекс</a></li>
+                                                        <a href="/projectsdupleks/">Дуплекс</a></li>
                                                     <li id="menu-item-470"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-470">
-                                                        <a href="/proekty/gostevoi/">Гостевой</a></li>
+                                                        <a href="/projectsgostevoi/">Гостевой</a></li>
                                                     <li id="menu-item-90800"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-90800">
                                                         <a href="/stroitelstvo-gostinic-pod-klyuch/">Гостиница</a>
                                                     </li>
                                                     <li id="menu-item-471"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-471">
-                                                        <a href="/proekty/taunhaus/">Таунхаус</a></li>
+                                                        <a href="/projectstaunhaus/">Таунхаус</a></li>
                                                 </ul>
                                             </li>
                                             <li id="menu-item-413"
@@ -297,10 +297,10 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-414"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-414">
-                                                        <a href="/proekty/postoyannoe/">Постоянное</a></li>
+                                                        <a href="/projectspostoyannoe/">Постоянное</a></li>
                                                     <li id="menu-item-415"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-415">
-                                                        <a href="/proekty/letnee/">Летнее</a></li>
+                                                        <a href="/projectsletnee/">Летнее</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -315,29 +315,29 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-387"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-387">
-                                                        <a href="/proekty/s-terrasoi/">терраса</a></li>
+                                                        <a href="/projectss-terrasoi/">терраса</a></li>
                                                     <li id="menu-item-386"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-386">
-                                                        <a href="/proekty/s-garajom/">гараж</a></li>
+                                                        <a href="/projectss-garajom/">гараж</a></li>
                                                     <li id="menu-item-388"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-388">
-                                                        <a href="/proekty/s-verandoi/">веранда</a></li>
+                                                        <a href="/projectss-verandoi/">веранда</a></li>
                                                     <li id="menu-item-389"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-389">
-                                                        <a href="/proekty/s-balkonom/">балкон</a></li>
+                                                        <a href="/projectss-balkonom/">балкон</a></li>
                                                     <li id="menu-item-390"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-390">
-                                                        <a href="/proekty/s-panoramnymi-oknami/">панорамные окна</a>
+                                                        <a href="/projectss-panoramnymi-oknami/">панорамные окна</a>
                                                     </li>
                                                     <li id="menu-item-391"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-391">
-                                                        <a href="/proekty/so-vtorym-svetom/">второй свет</a></li>
+                                                        <a href="/projectsso-vtorym-svetom/">второй свет</a></li>
                                                     <li id="menu-item-392"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-392">
-                                                        <a href="/proekty/s-kotelnoi/">котельная</a></li>
+                                                        <a href="/projectss-kotelnoi/">котельная</a></li>
                                                     <li id="menu-item-393"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
-                                                        <a href="/proekty/s-saunoi/">с сауной</a></li>
+                                                        <a href="/projectss-saunoi/">с сауной</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -352,25 +352,25 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10441"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10441">
-                                                        <a href="/proekty/sovremennyi/">Современный</a></li>
+                                                        <a href="/projectssovremennyi/">Современный</a></li>
                                                     <li id="menu-item-10435"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10435">
-                                                        <a href="/proekty/fahverk/">Фахверк</a></li>
+                                                        <a href="/projectsfahverk/">Фахверк</a></li>
                                                     <li id="menu-item-10436"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10436">
-                                                        <a href="/proekty/shale/">Шале</a></li>
+                                                        <a href="/projectsshale/">Шале</a></li>
                                                     <li id="menu-item-10437"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10437">
-                                                        <a href="/proekty/stil-raita/">Стиль Райта</a></li>
+                                                        <a href="/projectsstil-raita/">Стиль Райта</a></li>
                                                     <li id="menu-item-10438"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10438">
-                                                        <a href="/proekty/hai-tek/">Хай-тек</a></li>
+                                                        <a href="/projectshai-tek/">Хай-тек</a></li>
                                                     <li id="menu-item-10439"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10439">
-                                                        <a href="/proekty/barnhaus/">Барнхаус</a></li>
+                                                        <a href="/projectsbarnhaus/">Барнхаус</a></li>
                                                     <li id="menu-item-10440"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10440">
-                                                        <a href="/proekty/evropeiskii/">Европейский</a></li>
+                                                        <a href="/projectsevropeiskii/">Европейский</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -385,16 +385,16 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-395"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
-                                                        <a href="/proekty/odnoetajnye/">одноэтажные</a></li>
+                                                        <a href="/projectsodnoetajnye/">одноэтажные</a></li>
                                                     <li id="menu-item-396"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-396">
-                                                        <a href="/proekty/s-mansardoi/">с мансардой</a></li>
+                                                        <a href="/projectss-mansardoi/">с мансардой</a></li>
                                                     <li id="menu-item-397"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-397">
-                                                        <a href="/proekty/dvuhetajnye/">двухэтажные</a></li>
+                                                        <a href="/projectsdvuhetajnye/">двухэтажные</a></li>
                                                     <li id="menu-item-398"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-398">
-                                                        <a href="/proekty/s-cokolnym-etajom/">цокольный этаж</a>
+                                                        <a href="/projectss-cokolnym-etajom/">цокольный этаж</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -404,19 +404,19 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10053"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10053">
-                                                        <a href="/proekty/50-kv-m/">50 кв.м</a></li>
+                                                        <a href="/projects50-kv-m/">50 кв.м</a></li>
                                                     <li id="menu-item-409"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
-                                                        <a href="/proekty/100-kv-m/">100 кв.м</a></li>
+                                                        <a href="/projects100-kv-m/">100 кв.м</a></li>
                                                     <li id="menu-item-410"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-410">
-                                                        <a href="/proekty/150-kv-m/">150 кв.м</a></li>
+                                                        <a href="/projects150-kv-m/">150 кв.м</a></li>
                                                     <li id="menu-item-411"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-411">
-                                                        <a href="/proekty/200-kv-m/">200 кв.м</a></li>
+                                                        <a href="/projects200-kv-m/">200 кв.м</a></li>
                                                     <li id="menu-item-412"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-412">
-                                                        <a href="/proekty/300-kv-m/">300 кв.м</a></li>
+                                                        <a href="/projects300-kv-m/">300 кв.м</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -508,24 +508,24 @@ Template Name: favorites
                                         <ul class="sub-menu">
                                             <li id="menu-item-10319"
                                                 class="mega-item-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10319">
-                                                <a href="/proektirovanie-domov/">Проектирование домов</a>
+                                                <a href="/create-houses">Проектирование домов</a>
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10320"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10320">
                                                         <a
-                                                            href="/proektirovanie-domov/karkasnyh-domov/">Каркасных</a>
+                                                            href="/create-houseskarkasnyh-domov/">Каркасных</a>
                                                     </li>
                                                     <li id="menu-item-10323"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10323">
-                                                        <a href="/proektirovanie-domov/iz-brevna/">Из бревна</a>
+                                                        <a href="/create-housesiz-brevna/">Из бревна</a>
                                                     </li>
                                                     <li id="menu-item-10321"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10321">
-                                                        <a href="/proektirovanie-domov/domov-iz-brusa/">Из бруса</a>
+                                                        <a href="/create-housesdomov-iz-brusa/">Из бруса</a>
                                                     </li>
                                                     <li id="menu-item-10322"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10322">
-                                                        <a href="/proektirovanie-domov/iz-gazobetona/">Из
+                                                        <a href="/create-housesiz-gazobetona/">Из
                                                             газобетона</a></li>
                                                 </ul>
                                             </li>
@@ -537,7 +537,7 @@ Template Name: favorites
                                         <ul class="sub-menu">
                                             <li id="menu-item-10188"
                                                 class="mega-item-medium menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10188">
-                                                <a href="/montazh-inzhenernyh-sistem/">Монтаж
+                                                <a href="/engineer-systems">Монтаж
                                                     инженерных систем</a>
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10187"
@@ -560,13 +560,13 @@ Template Name: favorites
                             </li>
                             <li id="menu-item-69"
                                 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69"><a
-                                    href="/akczii/">Акции</a></li>
+                                    href="/sales">Акции</a></li>
                             <li id="menu-item-277"
                                 class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-277"><a
                                     href="/portfolio/">Портфолио и отзывы</a></li>
                             <li id="menu-item-19"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a
-                                    href="/kontakty/">Контакты</a></li>
+                                    href="/contacts">Контакты</a></li>
                             <li class="menu-item menu-item-after menu-item-favorite"><a
                                     href="/favorites/">Избранное</a></li>
                             <li class="menu-item menu-item-after menu-item-search"><a href="#">Поиск</a></li>
@@ -600,9 +600,8 @@ Template Name: favorites
             </div>
         </div>
     </div>
-</div> -->
+</div>
 
-<!-- начало -->
 
 <main>
     <section id="category-wrapper" style="padding-top: 50px;">
@@ -615,7 +614,7 @@ Template Name: favorites
     <section id="smeta-form">
         <div class="container">
             <div class="smeta-box lazyload"
-                data-bg="wp-content/themes/super_dom/images/smeta-bg.jpg"
+                data-bg="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/smeta-bg.jpg"
                 style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
                 <div class="flex-row">
                     <div class="smeta-form-left">
@@ -646,34 +645,34 @@ Template Name: favorites
                                 <div class="form-group form-group-socials-labels"> <input type="radio"
                                         id="whatsapp-smeta-form" name="send_to" value="whatsapp"> <label
                                         class="form-group-social-label" for="whatsapp-smeta-form"> <noscript><img
-                                                src="wp-content/themes/super_dom/icons/label-whatsapp.png"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
                                                 alt="Whatsapp" title="Whatsapp"></noscript><img class="lazyload"
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="wp-content/themes/super_dom/icons/label-whatsapp.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
                                             alt="Whatsapp" title="Whatsapp"> <span
                                             class="form-group-social-label-text">Whatsapp</span> </label> <input
                                         type="radio" id="viber-smeta-form" name="send_to" value="viber"> <label
                                         class="form-group-social-label" for="viber-smeta-form"> <noscript><img
-                                                src="wp-content/themes/super_dom/icons/label-viber.png"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
                                                 alt="Viber" title="Viber"></noscript><img class="lazyload"
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="wp-content/themes/super_dom/icons/label-viber.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
                                             alt="Viber" title="Viber"> <span
                                             class="form-group-social-label-text">Viber</span> </label> <input
                                         type="radio" id="telegram-smeta-form" name="send_to" value="telegram">
                                     <label class="form-group-social-label" for="telegram-smeta-form"> <noscript><img
-                                                src="wp-content/themes/super_dom/icons/label-telegram.png"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
                                                 alt="Telegram" title="Telegram"></noscript><img class="lazyload"
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="wp-content/themes/super_dom/icons/label-telegram.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
                                             alt="Telegram" title="Telegram"> <span
                                             class="form-group-social-label-text">Telegram</span> </label> <input
                                         type="radio" id="pphone-smeta-form" name="send_to" value="Телефон" checked>
                                     <label class="form-group-social-label" for="pphone-smeta-form"> <noscript><img
-                                                src="wp-content/themes/super_dom/icons/label-phone.png"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
                                                 alt="Телефон" title="Телефон"></noscript><img class="lazyload"
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="wp-content/themes/super_dom/icons/label-phone.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
                                             alt="Телефон" title="Телефон"> <span
                                             class="form-group-social-label-text">Телефон</span> </label></div>
                                 <div class="form-group">
@@ -734,26 +733,26 @@ Template Name: favorites
                     <div class="contacts-title text-center">Пишите в мессенджер,<br>отвечаем мгновенно</div>
                     <div class="socials-list contacts-socials-list"> <a href="#viber" class="social-item">
                             <noscript><img
-                                    src="wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
                                 class="lazyload"
                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                data-src="wp-content/themes/super_dom/icons/label-viber.png">
+                                data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png">
                         </a> <a href="#telegram" class="social-item"> <noscript><img
-                                    src="wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
                                 class="lazyload"
                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                data-src="wp-content/themes/super_dom/icons/label-telegram.png">
+                                data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png">
                         </a> <a href="#whatsapp" class="social-item"> <noscript><img
-                                    src="wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
                                 class="lazyload"
                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                data-src="wp-content/themes/super_dom/icons/label-whatsapp.png">
+                                data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png">
                         </a></div>
                     <div class="contacts-email-box"> <noscript><img
-                                src="wp-content/themes/super_dom/icons/label-email-min.png"></noscript><img
+                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-email-min.png"></noscript><img
                             class="lazyload"
                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="wp-content/themes/super_dom/icons/label-email-min.png">
+                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-email-min.png">
                         <div class="contacts-title text-center">Электронная почта</div>
                         <div class="contacts-email"><a href="mailto:mail@amstroj.com"><span
                                     itemprop="email">mail@amstroj.com</span></a></div>
@@ -762,16 +761,16 @@ Template Name: favorites
                 <div class="contacts-col contacts-col-photos">
                     <div class="section-title-small text-center"><b>До встречи</b></div>
                     <div class="meeting-box"> <noscript><img
-                                src="wp-content/themes/super_dom/images/meeting1.png"></noscript><img
+                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/meeting1.png"></noscript><img
                             class="lazyload"
                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="wp-content/themes/super_dom/images/meeting1.png"> <span
+                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/meeting1.png"> <span
                             class="meeting-label">В офисе</span></div>
                     <div class="meeting-box"> <noscript><img
-                                src="wp-content/themes/super_dom/images/meeting2.png"></noscript><img
+                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/meeting2.png"></noscript><img
                             class="lazyload"
                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="wp-content/themes/super_dom/images/meeting2.png"> <span
+                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/meeting2.png"> <span
                             class="meeting-label">На участке</span></div>
                 </div>
                 <div class="contacts-col contacts-col-bookmark">
@@ -791,6 +790,5 @@ Template Name: favorites
 </main>
 
 
-<!-- конец -->
 
 <?php get_footer(); ?>
