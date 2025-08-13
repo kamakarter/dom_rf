@@ -5716,18 +5716,6 @@ section#catalog-form {
   font-weight: 500;
   text-shadow: 1px 2px #00000069;
 }
-#about-certificates {
-  padding: 60px 0;
-}
-.certificates-slider-wrapper {
-  padding: 0 50px;
-}
-.certificates-slider-wrapper a {
-  display: block;
-}
-.certificates-slider-wrapper img {
-  max-width: 100%;
-}
 .sidebar-filter-overlay {
   position: fixed;
   width: 100%;

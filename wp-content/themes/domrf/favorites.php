@@ -1,4 +1,3 @@
-
 <?php
 /*
 Template Name: favorites
@@ -6,18 +5,28 @@ Template Name: favorites
 ?>
 
 <?php get_header(); ?>
-    
+
 
 <div class="default-header">
+    <style>
+    .single-header,
+    .default-header {
+        background-image: url("<?php echo get_template_directory_uri(); ?>/assets/superuploads/images/single-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    </style>
+
     <header class="hidden-print">
         <div class="container">
             <div class="header-top-wrap">
-                <div class="header-logo-wrapper"> <a href="" class="header-logo"> <noscript><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png" class="header-logo-image" alt="СтройДом"
-                                title="СтройДом"></noscript><img
+                <div class="header-logo-wrapper"> <a href="/" class="header-logo"> <noscript><img
+                                src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png"
+                                class="header-logo-image" alt="СтройДом" title="СтройДом"></noscript><img
                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png" class="lazyload header-logo-image"
-                            alt="СтройДом" title="СтройДом">
+                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/04/logo.png"
+                            class="lazyload header-logo-image" alt="СтройДом" title="СтройДом">
                         <div class="header-logo-text"> <span class="header-logo-text-main">СтройДом</span> <span
                                 class="header-logo-text-main header-logo-text-main-mobile">
                                 <noindex>СтройДом</noindex>
@@ -31,19 +40,22 @@ Template Name: favorites
                             <div class="header-google-rating-stars"> <span class="google-rating-star"></span> <span
                                     class="google-rating-star"></span> <span class="google-rating-star"></span>
                                 <span class="google-rating-star"></span> <span
-                                    class="google-rating-star google-rating-star-80"></span></div>
+                                    class="google-rating-star google-rating-star-80"></span>
+                            </div>
                             <div class="header-google-rating-text">
                                 <noindex><b>Рейтинг в Google</b> на основании 50 отзывов</noindex>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="text-center header-button-wrapper"> <a href="#modal" class="button green header-button"
-                        data-modal="#smeta-phone">Отправить проект на просчет</a></div>
+                <div class="text-center header-button-wrapper"> <a href="#modal"
+                        class="button green header-button custom-modal-open-button" data-modal="#smeta-phone">Отправить
+                        проект на просчет</a></div>
                 <div class="header-socials-wrapper">
                     <div class="socials-box">
                         <div class="socials-text flicker-text"> <span class="green-dot animate-flicker"></span>
-                            <span class="flicker-text-content">Пишите, мы онлайн</span></div>
+                            <span class="flicker-text-content">Пишите, мы онлайн</span>
+                        </div>
                         <div class="socials-list"> <a href="#viber" class="social-item"> <noscript><img
                                         src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
                                     class="lazyload"
@@ -105,18 +117,16 @@ Template Name: favorites
                                                         <ul class="sub-menu">
                                                             <li id="menu-item-446"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-446">
-                                                                <a
-                                                                    href="/doma-iz-gazobetona/">Газобетон</a>
+                                                                <a href="/doma-iz-gazobetona/">Газобетон</a>
                                                             </li>
                                                             <li id="menu-item-450"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-450">
-                                                                <a
-                                                                    href="/doma-iz-keramicheskih-blokov/">Теплая
-                                                                    керамика</a></li>
+                                                                <a href="/doma-iz-keramicheskih-blokov/">Теплая
+                                                                    керамика</a>
+                                                            </li>
                                                             <li id="menu-item-441"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-441">
-                                                                <a
-                                                                    href="/doma-iz-arbolita/">Арболит</a>
+                                                                <a href="/doma-iz-arbolita/">Арболит</a>
                                                             </li>
                                                             <li id="menu-item-447"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-447">
@@ -125,8 +135,7 @@ Template Name: favorites
                                                             </li>
                                                             <li id="menu-item-456"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-456">
-                                                                <a
-                                                                    href="/doma-iz-penoblokov/">Пеноблок</a>
+                                                                <a href="/doma-iz-penoblokov/">Пеноблок</a>
                                                             </li>
                                                             <li id="menu-item-449"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-449">
@@ -135,20 +144,19 @@ Template Name: favorites
                                                             </li>
                                                             <li id="menu-item-457"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-457">
-                                                                <a
-                                                                    href="/doma-iz-polistirolbetona/">Полистиролбетон</a>
+                                                                <a href="/doma-iz-polistirolbetona/">Полистиролбетон</a>
                                                             </li>
                                                             <li id="menu-item-459"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-459">
-                                                                <a
-                                                                    href="/doma-iz-teploblokov/">Теплоблок</a>
+                                                                <a href="/doma-iz-teploblokov/">Теплоблок</a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li id="menu-item-451"
                                                         class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-451">
                                                         <a href="/doma-iz-kirpicha/">Дома из
-                                                            кирпича</a></li>
+                                                            кирпича</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -168,8 +176,7 @@ Template Name: favorites
                                                         <ul class="sub-menu">
                                                             <li id="menu-item-452"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-452">
-                                                                <a
-                                                                    href="/doma-iz-kleenogo-brusa/">Клееный</a>
+                                                                <a href="/doma-iz-kleenogo-brusa/">Клееный</a>
                                                             </li>
                                                             <li id="menu-item-458"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-458">
@@ -178,8 +185,7 @@ Template Name: favorites
                                                             </li>
                                                             <li id="menu-item-448"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-448">
-                                                                <a
-                                                                    href="/doma-iz-dvojnogo-brusa/">Двойной</a>
+                                                                <a href="/doma-iz-dvojnogo-brusa/">Двойной</a>
                                                             </li>
                                                         </ul>
                                                     </li>
@@ -195,20 +201,19 @@ Template Name: favorites
                                                             </li>
                                                             <li id="menu-item-10310"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10310">
-                                                                <a
-                                                                    href="/doma-iz-rublennogo-brevna/">Рубленное</a>
+                                                                <a href="/doma-iz-rublennogo-brevna/">Рубленное</a>
                                                             </li>
                                                             <li id="menu-item-453"
                                                                 class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-453">
-                                                                <a
-                                                                    href="/doma-iz-lafeta/">Лафет</a>
+                                                                <a href="/doma-iz-lafeta/">Лафет</a>
                                                             </li>
                                                         </ul>
                                                     </li>
                                                     <li id="menu-item-462"
                                                         class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-462">
                                                         <a href="/kombinirovannye-doma/">Комбинированные
-                                                            дома</a></li>
+                                                            дома</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -228,8 +233,7 @@ Template Name: favorites
                                                     </li>
                                                     <li id="menu-item-440"
                                                         class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-440">
-                                                        <a
-                                                            href="/doma-iz-sip-panelej/">SIP-панели</a>
+                                                        <a href="/doma-iz-sip-panelej/">SIP-панели</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -240,10 +244,12 @@ Template Name: favorites
                                                     <li id="menu-item-454"
                                                         class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-454">
                                                         <a href="/doma-iz-nesemnoj-opalubki/">Несъемная
-                                                            опалубка</a></li>
+                                                            опалубка</a>
+                                                    </li>
                                                     <li id="menu-item-442"
                                                         class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-442">
-                                                        <a href="/doma-iz-betona/">Бетон</a></li>
+                                                        <a href="/doma-iz-betona/">Бетон</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                             <li id="menu-item-10318"
@@ -272,23 +278,28 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-468"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-468">
-                                                        <a href="/projectskottedj/">Коттедж</a></li>
+                                                        <a href="/projectskottedj/">Коттедж</a>
+                                                    </li>
                                                     <li id="menu-item-469"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-469">
-                                                        <a href="/projectsdachnyi/">Дачный</a></li>
+                                                        <a href="/projectsdachnyi/">Дачный</a>
+                                                    </li>
                                                     <li id="menu-item-472"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-472">
-                                                        <a href="/projectsdupleks/">Дуплекс</a></li>
+                                                        <a href="/projectsdupleks/">Дуплекс</a>
+                                                    </li>
                                                     <li id="menu-item-470"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-470">
-                                                        <a href="/projectsgostevoi/">Гостевой</a></li>
+                                                        <a href="/projectsgostevoi/">Гостевой</a>
+                                                    </li>
                                                     <li id="menu-item-90800"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-90800">
                                                         <a href="/stroitelstvo-gostinic-pod-klyuch/">Гостиница</a>
                                                     </li>
                                                     <li id="menu-item-471"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-471">
-                                                        <a href="/projectstaunhaus/">Таунхаус</a></li>
+                                                        <a href="/projectstaunhaus/">Таунхаус</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                             <li id="menu-item-413"
@@ -297,10 +308,12 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-414"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-414">
-                                                        <a href="/projectspostoyannoe/">Постоянное</a></li>
+                                                        <a href="/projectspostoyannoe/">Постоянное</a>
+                                                    </li>
                                                     <li id="menu-item-415"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-415">
-                                                        <a href="/projectsletnee/">Летнее</a></li>
+                                                        <a href="/projectsletnee/">Летнее</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -315,29 +328,36 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-387"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-387">
-                                                        <a href="/projectss-terrasoi/">терраса</a></li>
+                                                        <a href="/projectss-terrasoi/">терраса</a>
+                                                    </li>
                                                     <li id="menu-item-386"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-386">
-                                                        <a href="/projectss-garajom/">гараж</a></li>
+                                                        <a href="/projectss-garajom/">гараж</a>
+                                                    </li>
                                                     <li id="menu-item-388"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-388">
-                                                        <a href="/projectss-verandoi/">веранда</a></li>
+                                                        <a href="/projectss-verandoi/">веранда</a>
+                                                    </li>
                                                     <li id="menu-item-389"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-389">
-                                                        <a href="/projectss-balkonom/">балкон</a></li>
+                                                        <a href="/projectss-balkonom/">балкон</a>
+                                                    </li>
                                                     <li id="menu-item-390"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-390">
                                                         <a href="/projectss-panoramnymi-oknami/">панорамные окна</a>
                                                     </li>
                                                     <li id="menu-item-391"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-391">
-                                                        <a href="/projectsso-vtorym-svetom/">второй свет</a></li>
+                                                        <a href="/projectsso-vtorym-svetom/">второй свет</a>
+                                                    </li>
                                                     <li id="menu-item-392"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-392">
-                                                        <a href="/projectss-kotelnoi/">котельная</a></li>
+                                                        <a href="/projectss-kotelnoi/">котельная</a>
+                                                    </li>
                                                     <li id="menu-item-393"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
-                                                        <a href="/projectss-saunoi/">с сауной</a></li>
+                                                        <a href="/projectss-saunoi/">с сауной</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -352,25 +372,32 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10441"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10441">
-                                                        <a href="/projectssovremennyi/">Современный</a></li>
+                                                        <a href="/projectssovremennyi/">Современный</a>
+                                                    </li>
                                                     <li id="menu-item-10435"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10435">
-                                                        <a href="/projectsfahverk/">Фахверк</a></li>
+                                                        <a href="/projectsfahverk/">Фахверк</a>
+                                                    </li>
                                                     <li id="menu-item-10436"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10436">
-                                                        <a href="/projectsshale/">Шале</a></li>
+                                                        <a href="/projectsshale/">Шале</a>
+                                                    </li>
                                                     <li id="menu-item-10437"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10437">
-                                                        <a href="/projectsstil-raita/">Стиль Райта</a></li>
+                                                        <a href="/projectsstil-raita/">Стиль Райта</a>
+                                                    </li>
                                                     <li id="menu-item-10438"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10438">
-                                                        <a href="/projectshai-tek/">Хай-тек</a></li>
+                                                        <a href="/projectshai-tek/">Хай-тек</a>
+                                                    </li>
                                                     <li id="menu-item-10439"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10439">
-                                                        <a href="/projectsbarnhaus/">Барнхаус</a></li>
+                                                        <a href="/projectsbarnhaus/">Барнхаус</a>
+                                                    </li>
                                                     <li id="menu-item-10440"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10440">
-                                                        <a href="/projectsevropeiskii/">Европейский</a></li>
+                                                        <a href="/projectsevropeiskii/">Европейский</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -385,13 +412,16 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-395"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
-                                                        <a href="/projectsodnoetajnye/">одноэтажные</a></li>
+                                                        <a href="/projectsodnoetajnye/">одноэтажные</a>
+                                                    </li>
                                                     <li id="menu-item-396"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-396">
-                                                        <a href="/projectss-mansardoi/">с мансардой</a></li>
+                                                        <a href="/projectss-mansardoi/">с мансардой</a>
+                                                    </li>
                                                     <li id="menu-item-397"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-397">
-                                                        <a href="/projectsdvuhetajnye/">двухэтажные</a></li>
+                                                        <a href="/projectsdvuhetajnye/">двухэтажные</a>
+                                                    </li>
                                                     <li id="menu-item-398"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-398">
                                                         <a href="/projectss-cokolnym-etajom/">цокольный этаж</a>
@@ -404,19 +434,24 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10053"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10053">
-                                                        <a href="/projects50-kv-m/">50 кв.м</a></li>
+                                                        <a href="/projects50-kv-m/">50 кв.м</a>
+                                                    </li>
                                                     <li id="menu-item-409"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
-                                                        <a href="/projects100-kv-m/">100 кв.м</a></li>
+                                                        <a href="/projects100-kv-m/">100 кв.м</a>
+                                                    </li>
                                                     <li id="menu-item-410"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-410">
-                                                        <a href="/projects150-kv-m/">150 кв.м</a></li>
+                                                        <a href="/projects150-kv-m/">150 кв.м</a>
+                                                    </li>
                                                     <li id="menu-item-411"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-411">
-                                                        <a href="/projects200-kv-m/">200 кв.м</a></li>
+                                                        <a href="/projects200-kv-m/">200 кв.м</a>
+                                                    </li>
                                                     <li id="menu-item-412"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-412">
-                                                        <a href="/projects300-kv-m/">300 кв.м</a></li>
+                                                        <a href="/projects300-kv-m/">300 кв.м</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -437,22 +472,22 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10182"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10182">
-                                                        <a
-                                                            href="/lentochnyj-fundament/">Ленточный</a>
+                                                        <a href="/lentochnyj-fundament/">Ленточный</a>
                                                     </li>
                                                     <li id="menu-item-10168"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10168">
-                                                        <a
-                                                            href="/stolbchatyj-fundament/">Столбчатый</a>
+                                                        <a href="/stolbchatyj-fundament/">Столбчатый</a>
                                                     </li>
                                                     <li id="menu-item-10175"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10175">
                                                         <a href="/fundament-na-vintovyh-svayah/">На
-                                                            винтовых сваях</a></li>
+                                                            винтовых сваях</a>
+                                                    </li>
                                                     <li id="menu-item-10174"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10174">
                                                         <a href="/fundament-monolitnaya-plita/">Монолитная
-                                                            плита</a></li>
+                                                            плита</a>
+                                                    </li>
                                                     <li id="menu-item-10179"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10179">
                                                         <a
@@ -460,44 +495,47 @@ Template Name: favorites
                                                     </li>
                                                     <li id="menu-item-10178"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10178">
-                                                        <a
-                                                            href="/fundament-s-czokolnym-etazhom/">С
-                                                            цокольным этажом</a></li>
+                                                        <a href="/fundament-s-czokolnym-etazhom/">С
+                                                            цокольным этажом</a>
+                                                    </li>
                                                     <li id="menu-item-10180"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10180">
-                                                        <a
-                                                            href="/blochnyj-fundament/">Блочный</a>
+                                                        <a href="/blochnyj-fundament/">Блочный</a>
                                                     </li>
                                                     <li id="menu-item-10181"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10181">
-                                                        <a
-                                                            href="/buronabivnoj-fundament/">Буронабивной</a>
+                                                        <a href="/buronabivnoj-fundament/">Буронабивной</a>
                                                     </li>
                                                     <li id="menu-item-10183"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10183">
                                                         <a href="/uteplennaya-shvedskaya-plita/">Утепленная
-                                                            шведская плита</a></li>
+                                                            шведская плита</a>
+                                                    </li>
                                                     <li id="menu-item-10177"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10177">
                                                         <a href="/fundament-pod-kirpichnyj-dom/">Под
-                                                            кирпичный дом</a></li>
+                                                            кирпичный дом</a>
+                                                    </li>
                                                     <li id="menu-item-10172"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10172">
-                                                        <a
-                                                            href="/fundament-dlya-derevyannogo-doma/">Для
-                                                            деревянного дома</a></li>
+                                                        <a href="/fundament-dlya-derevyannogo-doma/">Для
+                                                            деревянного дома</a>
+                                                    </li>
                                                     <li id="menu-item-10176"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10176">
                                                         <a href="/fundament-pod-garazh/">Под
-                                                            гараж</a></li>
+                                                            гараж</a>
+                                                    </li>
                                                     <li id="menu-item-10171"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10171">
                                                         <a href="/fundament-dlya-dachi/">Для
-                                                            дачи</a></li>
+                                                            дачи</a>
+                                                    </li>
                                                     <li id="menu-item-10170"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10170">
                                                         <a href="/fundament-dlya-bani/">Для
-                                                            бани</a></li>
+                                                            бани</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -512,8 +550,7 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10320"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10320">
-                                                        <a
-                                                            href="/create-houseskarkasnyh-domov/">Каркасных</a>
+                                                        <a href="/create-houseskarkasnyh-domov/">Каркасных</a>
                                                     </li>
                                                     <li id="menu-item-10323"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10323">
@@ -526,7 +563,8 @@ Template Name: favorites
                                                     <li id="menu-item-10322"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10322">
                                                         <a href="/create-housesiz-gazobetona/">Из
-                                                            газобетона</a></li>
+                                                            газобетона</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -542,16 +580,18 @@ Template Name: favorites
                                                 <ul class="sub-menu">
                                                     <li id="menu-item-10187"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10187">
-                                                        <a
-                                                            href="/montazh-otopleniya-chastnyh-domov/">Монтаж
-                                                            отопления частных домов</a></li>
+                                                        <a href="/montazh-otopleniya-chastnyh-domov/">Монтаж
+                                                            отопления частных домов</a>
+                                                    </li>
                                                     <li id="menu-item-10186"
                                                         class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10186">
                                                         <a href="/montazh-kotlov-otopleniya/">Монтаж
-                                                            котлов отопления</a></li>
+                                                            котлов отопления</a>
+                                                    </li>
                                                     <li id="menu-item-10456"
                                                         class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10456">
-                                                        <a href="/septik-pod-klyuch/">Установка септиков</a></li>
+                                                        <a href="/septik-pod-klyuch/">Установка септиков</a>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -567,8 +607,8 @@ Template Name: favorites
                             <li id="menu-item-19"
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a
                                     href="/contacts">Контакты</a></li>
-                            <li class="menu-item menu-item-after menu-item-favorite"><a
-                                    href="/favorites/">Избранное</a></li>
+                            <li class="menu-item menu-item-after menu-item-favorite"><a href="/favorites/">Избранное</a>
+                            </li>
                             <li class="menu-item menu-item-after menu-item-search"><a href="#">Поиск</a></li>
                         </ul>
                     </div>
@@ -591,8 +631,7 @@ Template Name: favorites
         <div class="container">
             <div class="flex-row">
                 <div class="top-preroll-wrap">
-                    <div class="breadcrumbs-real hidden-print"><span><span><a
-                                    href="/lugansk/">ОдессаСтрой</a> <span
+                    <div class="breadcrumbs-real hidden-print"><span><span><a href="/lugansk/">ОдессаСтрой</a> <span
                                     class="separator">|</span> <span class="breadcrumb_last"
                                     aria-current="page">Избранное</span></span></span></div>
                     <h1 class="imitation-h1">Избранное</h1>
@@ -611,182 +650,16 @@ Template Name: favorites
             </div>
         </div>
     </section> <input type="hidden" id="is_favorites" value="1">
-    <section id="smeta-form">
-        <div class="container">
-            <div class="smeta-box lazyload"
-                data-bg="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/smeta-bg.jpg"
-                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
-                <div class="flex-row">
-                    <div class="smeta-form-left">
-                        <div class="section-title"><b>Если у вас уже есть <br>смета на строительство</b> <br>в 95%
-                            случаев мы предлагаем <br>меньшую стоимость и без <br>потери качества</div>
-                        <div class="section-title-small"><b>Как мы этого добиваемся?</b></div>
-                        <ul class="smeta-pluses">
-                            <li><b>Оптовые скидки</b> на проверенные материалы от партнеров (экономия до 30%);</li>
-                            <li><b>Оптимальный подбор материалов</b> и поставщиков (экономия до 15%);</li>
-                            <li><b>Налаженный рабочий процесс</b> без потери времени (экономия до 20%).</li>
-                        </ul>
-                    </div>
-                    <div class="smeta-form-right">
-                        <form class="smeta-form" method="POST" action="javascript:void(0)">
-                            <div class="form-group-socials">
-                                <div class="form-group-title text-center">Просто прикрепите<br>готовую смету и вы
-                                    узнаете<br> как сэкономить на стройке</div>
-                                <div class="before-title text-center">Инженер-сметчик рассчитает стоимость<br>работ
-                                    и материалов по оптовым ценам</div>
-                                <div class="form-group file-form-group"> <label class="file-label"> <input
-                                            type="file" name="smeta-files[]" multiple class="form-control"> <span
-                                            class="file-label-text">Прикрепить файл</span> <span
-                                            class="files-list"></span> </label></div>
-                                <div class="form-group">
-                                    <div class="text-center"><label class="form-label"><b>Куда выслать наш вариант
-                                                сметы?</b></label></div>
-                                </div>
-                                <div class="form-group form-group-socials-labels"> <input type="radio"
-                                        id="whatsapp-smeta-form" name="send_to" value="whatsapp"> <label
-                                        class="form-group-social-label" for="whatsapp-smeta-form"> <noscript><img
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
-                                                alt="Whatsapp" title="Whatsapp"></noscript><img class="lazyload"
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
-                                            alt="Whatsapp" title="Whatsapp"> <span
-                                            class="form-group-social-label-text">Whatsapp</span> </label> <input
-                                        type="radio" id="viber-smeta-form" name="send_to" value="viber"> <label
-                                        class="form-group-social-label" for="viber-smeta-form"> <noscript><img
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
-                                                alt="Viber" title="Viber"></noscript><img class="lazyload"
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
-                                            alt="Viber" title="Viber"> <span
-                                            class="form-group-social-label-text">Viber</span> </label> <input
-                                        type="radio" id="telegram-smeta-form" name="send_to" value="telegram">
-                                    <label class="form-group-social-label" for="telegram-smeta-form"> <noscript><img
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
-                                                alt="Telegram" title="Telegram"></noscript><img class="lazyload"
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
-                                            alt="Telegram" title="Telegram"> <span
-                                            class="form-group-social-label-text">Telegram</span> </label> <input
-                                        type="radio" id="pphone-smeta-form" name="send_to" value="Телефон" checked>
-                                    <label class="form-group-social-label" for="pphone-smeta-form"> <noscript><img
-                                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
-                                                alt="Телефон" title="Телефон"></noscript><img class="lazyload"
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
-                                            alt="Телефон" title="Телефон"> <span
-                                            class="form-group-social-label-text">Телефон</span> </label></div>
-                                <div class="form-group">
-                                    <div class="text-center"> <label class="form-label"
-                                            for="phone-smeta-form">Введите телефон</label></div> <input type="tel"
-                                        name="phone" id="phone-smeta-form" class="form-control" placeholder="+7"
-                                        required>
-                                </div>
-                                <div class="form-group">
-                                    <div class="text-center" style="display: none;"> <label class="form-label"
-                                            for="your-name-smeta-form">Введите имя</label></div> <input type="text"
-                                        name="your-name" id="your-name-smeta-form" class="form-control"
-                                        placeholder="Введите имя">
-                                </div>
-                                <div class="form-group submit-group"> <button type="submit"
-                                        class="button orange smeta-form-button">Получить смету</button> <input
-                                        type="hidden" name="form_id" value="smeta-form"></div>
-                                <div class="form-group privacy-group">Нажимая на кнопку вы соглашаетесь с условиями
-                                    <span onclick="window.open('/privacy-policy/')">Политики
-                                        конфиденциальности</span></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contacts" class="hidden-print"> <span style="display: none;" itemprop="name">СтройДом</span>
-        <div class="container">
-            <div class="flex-row">
-                <div class="contacts-col contacts-col-map">
-                    <div class="section-title-small"><b>Мы на карте</b></div>
-                    <div class="contacts-adderss-item" itemprop="address" itemscope
-                        itemtype="https://schema.org/PostalAddress"> <span style="display: none;"
-                            itemprop="streetAddress">Одесса, Греческая улица, 1А<br>(Перед приездом -
-                            позвоните!)</span>
-                        <div class="contacts-adderss-icon"></div>
-                        <div class="contacts-adderss-content">
-                            <div class="contacts-title">Адрес офиса</div>
-                            <div class="contacts-adderss-value">Одесса, Греческая улица, 1А<br>(Перед приездом -
-                                позвоните!)</div>
-                        </div>
-                    </div>
-                    <div class="foorter-contacts-map" id="foorter-contacts-map" style="width: 100%;height: 200px;">
-                    </div>
-                    <script type="text/javascript">var coords = JSON.parse('["46.481861","30.747392"]');
-                        var address = 'Одесса, Греческая улица, 1А<br>(Перед приездом - позвоните!)';
-                        var coords_2 = undefined;
-                        var address_2 = undefined;</script>
-                </div>
-                <div class="contacts-col contacts-col-data">
-                    <div class="section-title-small text-center"><b>Наши контакты</b></div>
-                    <div class="socials-text flicker-text"> <span class="green-dot animate-flicker"></span> <span
-                            class="flicker-text-content">Без выходных: 9:00-18:00</span></div>
-                    <div class="phone-box"> <a href="tel:+7 (967) 555-75-92"><span itemprop="telephone">+7 (967)
-                                555-75-92</span></a></div> <a href="#modal" class="button orange contacts-button"
-                        data-modal="#call-modal">Позвоните мне</a>
-                    <div class="contacts-title text-center">Пишите в мессенджер,<br>отвечаем мгновенно</div>
-                    <div class="socials-list contacts-socials-list"> <a href="#viber" class="social-item">
-                            <noscript><img
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
-                                class="lazyload"
-                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png">
-                        </a> <a href="#telegram" class="social-item"> <noscript><img
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
-                                class="lazyload"
-                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png">
-                        </a> <a href="#whatsapp" class="social-item"> <noscript><img
-                                    src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
-                                class="lazyload"
-                                src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png">
-                        </a></div>
-                    <div class="contacts-email-box"> <noscript><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-email-min.png"></noscript><img
-                            class="lazyload"
-                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-email-min.png">
-                        <div class="contacts-title text-center">Электронная почта</div>
-                        <div class="contacts-email"><a href="mailto:mail@amstroj.com"><span
-                                    itemprop="email">mail@amstroj.com</span></a></div>
-                    </div>
-                </div>
-                <div class="contacts-col contacts-col-photos">
-                    <div class="section-title-small text-center"><b>До встречи</b></div>
-                    <div class="meeting-box"> <noscript><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/meeting1.png"></noscript><img
-                            class="lazyload"
-                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/meeting1.png"> <span
-                            class="meeting-label">В офисе</span></div>
-                    <div class="meeting-box"> <noscript><img
-                                src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/meeting2.png"></noscript><img
-                            class="lazyload"
-                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/images/meeting2.png"> <span
-                            class="meeting-label">На участке</span></div>
-                </div>
-                <div class="contacts-col contacts-col-bookmark">
-                    <div class="add-bookmark-box text-center">
-                        <div class="section-title-small text-center"><b>Добавьте сайт в избранное</b></div>
-                        <div class="add-bookmark-text-item">Обратившись к нам, вы<br>получите лучшую цену
-                            на<br>строительство дома</div>
-                        <div class="add-bookmark-text-item"><b>И чтобы не потерять сайт, добавьте его в закладки</b>
-                        </div> <a href="#" class="button green add-bookmark">Добавить сайт<br>в избранное</a>
-                        <div class="add-bookmark-text-item"><b>Либо нажмите<br>сочетание клавиш</b></div>
-                        <div class="add-bookmark-text-big">CTRL + D</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
+
+    <?php
+        include_once('blocks/smeta-form.php')
+    ?>
+
+
+    <?php
+        include_once('blocks/contacts.php')
+    ?>
 </main>
 
 

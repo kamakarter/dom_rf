@@ -1,4 +1,3 @@
-
 <?php
 /*
 Template Name: project-page
@@ -9,611 +8,637 @@ Template Name: project-page
 
 
 <div class="lazyload category-header category-catalog-header" data-bg="superuploads/2021/08/brus-centraln.jpg"
-		style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
-		<header class="hidden-print">
-			<div class="container">
-				<div class="header-top-wrap">
-					<div class="header-logo-wrapper"> <a href="/" class="header-logo"> <noscript><img
-									src="superuploads/2021/04/logo.png" class="header-logo-image" alt="СтройДом"
-									title="СтройДом"></noscript><img
-								src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-								data-src="superuploads/2021/04/logo.png" class="lazyload header-logo-image"
-								alt="СтройДом" title="СтройДом">
-							<div class="header-logo-text"> <span class="header-logo-text-main">СтройДом</span> <span
-									class="header-logo-text-main header-logo-text-main-mobile">
-									<noindex>СтройДом</noindex>
-								</span> <span class="header-logo-text-default">Строительство качественных домов в Одессе
-									и Одесской области</span></div>
-						</a></div>
-					<div class="header-google-rating-wrapper">
-						<div class="header-google-rating">
-							<div class="header-google-rating-value"><span>4.8</span></div>
-							<div class="header-google-rating-content">
-								<div class="header-google-rating-stars"> <span class="google-rating-star"></span> <span
-										class="google-rating-star"></span> <span class="google-rating-star"></span>
-									<span class="google-rating-star"></span> <span
-										class="google-rating-star google-rating-star-80"></span></div>
-								<div class="header-google-rating-text">
-									<noindex><b>Рейтинг в Google</b> на основании 50 отзывов</noindex>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="text-center header-button-wrapper"> <a href="#modal" class="button green header-button"
-							data-modal="#smeta-phone">Отправить проект на просчет</a></div>
-					<div class="header-socials-wrapper">
-						<div class="socials-box">
-							<div class="socials-text flicker-text"> <span class="green-dot animate-flicker"></span>
-								<span class="flicker-text-content">Пишите, мы онлайн</span></div>
-							<div class="socials-list"> <a href="#viber" class="social-item"> <noscript><img
-											src="wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
-										class="lazyload"
-										src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-										data-src="wp-content/themes/super_dom/icons/label-viber.png">
-								</a> <a href="#telegram" class="social-item"> <noscript><img
-											src="wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
-										class="lazyload"
-										src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-										data-src="wp-content/themes/super_dom/icons/label-telegram.png">
-								</a> <a href="#whatsapp" class="social-item"> <noscript><img
-											src="wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
-										class="lazyload"
-										src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-										data-src="wp-content/themes/super_dom/icons/label-whatsapp.png">
-								</a> <a href="mailto:mail@amstroj.com" class="social-item"> <noscript><img
-											src="wp-content/themes/super_dom/icons/label-email.png"></noscript><img
-										class="lazyload"
-										src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-										data-src="wp-content/themes/super_dom/icons/label-email.png">
-								</a></div>
-						</div>
-					</div>
-					<div class="header-phone-wrapper">
-						<div class="socials-text flicker-text before-phone-text"> <span
-								class="green-dot animate-flicker"></span> <span class="flicker-text-content">Без
-								выходных: 9:00-18:00</span></div>
-						<div class="phone-box"> <a href="tel:+7 (967) 555-75-92">+7 (967) 555-75-92</a></div>
-						<div class="call-phone-box"> <a href="#modal" data-modal="#call-modal">Заказать звонок</a></div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<nav class="header-menu-wrapper hidden-print">
-			<div class="container">
-				<div class="header-menu-cont">
-					<div class="header-menu-box" id="header-menu-box">
-						<div class="menu-osnovnoe-menyu-container">
-							<ul id="menu-osnovnoe-menyu" class="menu">
-								<li id="menu-item-17"
-									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a
-										href="o-nas/">О компании</a></li>
-								<li id="menu-item-465"
-									class="mega-menu menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor menu-item-has-children menu-item-465">
-									<a href="projects">Проекты и цены</a>
-									<ul class="sub-menu">
-										<li id="menu-item-416"
-											class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-416">
-											<a href="#">1</a>
-											<ul class="sub-menu">
-												<li id="menu-item-460"
-													class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children menu-item-460">
-													<a href="kamennye-doma/">Каменные дома</a>
-													<ul class="sub-menu">
-														<li id="menu-item-443"
-															class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-has-children menu-item-443">
-															<a href="doma-iz-blokov/"
-																aria-current="page">Дома из блоков</a>
-															<ul class="sub-menu">
-																<li id="menu-item-446"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-446">
-																	<a
-																		href="doma-iz-gazobetona/">Газобетон</a>
-																</li>
-																<li id="menu-item-450"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-450">
-																	<a
-																		href="doma-iz-keramicheskih-blokov/">Теплая
-																		керамика</a></li>
-																<li id="menu-item-441"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-441">
-																	<a
-																		href="doma-iz-arbolita/">Арболит</a>
-																</li>
-																<li id="menu-item-447"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-447">
-																	<a
-																		href="doma-iz-gazosilikatnyh-blokov/">Газосиликат</a>
-																</li>
-																<li id="menu-item-456"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-456">
-																	<a
-																		href="doma-iz-penoblokov/">Пеноблок</a>
-																</li>
-																<li id="menu-item-449"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-449">
-																	<a
-																		href="doma-iz-keramzitobetonnyh-blokov/">Керамзитобетон</a>
-																</li>
-																<li id="menu-item-457"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-457">
-																	<a
-																		href="doma-iz-polistirolbetona/">Полистиролбетон</a>
-																</li>
-																<li id="menu-item-459"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-459">
-																	<a
-																		href="doma-iz-teploblokov/">Теплоблок</a>
-																</li>
-															</ul>
-														</li>
-														<li id="menu-item-451"
-															class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-451">
-															<a href="doma-iz-kirpicha/">Дома из
-																кирпича</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li id="menu-item-466"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-466">
-											<a href="#">2</a>
-											<ul class="sub-menu">
-												<li id="menu-item-439"
-													class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-439">
-													<a href="derevyannye-doma/">Деревянные дома</a>
-													<ul class="sub-menu">
-														<li id="menu-item-445"
-															class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-445">
-															<a href="doma-iz-brusa/">Дома из
-																бруса</a>
-															<ul class="sub-menu">
-																<li id="menu-item-452"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-452">
-																	<a
-																		href="doma-iz-kleenogo-brusa/">Клееный</a>
-																</li>
-																<li id="menu-item-458"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-458">
-																	<a
-																		href="doma-iz-profilirovannogo-brusa/">Профилированный</a>
-																</li>
-																<li id="menu-item-448"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-448">
-																	<a
-																		href="doma-iz-dvojnogo-brusa/">Двойной</a>
-																</li>
-															</ul>
-														</li>
-														<li id="menu-item-444"
-															class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-444">
-															<a href="doma-iz-brevna/">Дома из
-																бревна</a>
-															<ul class="sub-menu">
-																<li id="menu-item-455"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-455">
-																	<a
-																		href="doma-iz-oczilindrovannogo-brevna/">Оцилиндрованное</a>
-																</li>
-																<li id="menu-item-10310"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10310">
-																	<a
-																		href="doma-iz-rublennogo-brevna/">Рубленное</a>
-																</li>
-																<li id="menu-item-453"
-																	class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-453">
-																	<a
-																		href="doma-iz-lafeta/">Лафет</a>
-																</li>
-															</ul>
-														</li>
-														<li id="menu-item-462"
-															class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-462">
-															<a href="kombinirovannye-doma/">Комбинированные
-																дома</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li id="menu-item-473"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-473">
-											<a href="#">3</a>
-											<ul class="sub-menu">
-												<li id="menu-item-438"
-													class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-438">
-													<a href="bystrovozvodimye-doma/">Быстровозводимые
-														дома</a>
-													<ul class="sub-menu">
-														<li id="menu-item-461"
-															class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-461">
-															<a href="karkasnye-doma/">Каркасные</a>
-														</li>
-														<li id="menu-item-440"
-															class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-440">
-															<a
-																href="doma-iz-sip-panelej/">SIP-панели</a>
-														</li>
-													</ul>
-												</li>
-												<li id="menu-item-463"
-													class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-463">
-													<a href="monolitnye-doma/">Монолитные дома</a>
-													<ul class="sub-menu">
-														<li id="menu-item-454"
-															class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-454">
-															<a href="doma-iz-nesemnoj-opalubki/">Несъемная
-																опалубка</a></li>
-														<li id="menu-item-442"
-															class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-442">
-															<a href="doma-iz-betona/">Бетон</a></li>
-													</ul>
-												</li>
-												<li id="menu-item-10318"
-													class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10318">
-													<a href="bani/">Бани под ключ</a>
-													<ul class="sub-menu">
-														<li id="menu-item-10317"
-															class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10317">
-															<a href="bani-iz-brusa/">Из бруса</a>
-														</li>
-														<li id="menu-item-10316"
-															class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10316">
-															<a href="bani-iz-brevna/">Из бревна</a>
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li id="menu-item-474"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-474">
-											<a href="#">4</a>
-											<ul class="sub-menu">
-												<li id="menu-item-379"
-													class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-379">
-													<a href="#">Вид дома</a>
-													<ul class="sub-menu">
-														<li id="menu-item-468"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-468">
-															<a href="/projectskottedj/">Коттедж</a></li>
-														<li id="menu-item-469"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-469">
-															<a href="/projectsdachnyi/">Дачный</a></li>
-														<li id="menu-item-472"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-472">
-															<a href="/projectsdupleks/">Дуплекс</a></li>
-														<li id="menu-item-470"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-470">
-															<a href="/projectsgostevoi/">Гостевой</a></li>
-														<li id="menu-item-90800"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-90800">
-															<a href="/stroitelstvo-gostinic-pod-klyuch/">Гостиница</a>
-														</li>
-														<li id="menu-item-471"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-471">
-															<a href="/projectstaunhaus/">Таунхаус</a></li>
-													</ul>
-												</li>
-												<li id="menu-item-413"
-													class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-413">
-													<a href="#">Проживание</a>
-													<ul class="sub-menu">
-														<li id="menu-item-414"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-414">
-															<a href="/projectspostoyannoe/">Постоянное</a></li>
-														<li id="menu-item-415"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-415">
-															<a href="/projectsletnee/">Летнее</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li id="menu-item-419"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-419">
-											<a href="#">5</a>
-											<ul class="sub-menu">
-												<li id="menu-item-385"
-													class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-385">
-													<a href="#">Особенности</a>
-													<ul class="sub-menu">
-														<li id="menu-item-387"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-387">
-															<a href="/projectss-terrasoi/">терраса</a></li>
-														<li id="menu-item-386"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-386">
-															<a href="/projectss-garajom/">гараж</a></li>
-														<li id="menu-item-388"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-388">
-															<a href="/projectss-verandoi/">веранда</a></li>
-														<li id="menu-item-389"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-389">
-															<a href="/projectss-balkonom/">балкон</a></li>
-														<li id="menu-item-390"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-390">
-															<a href="/projectss-panoramnymi-oknami/">панорамные окна</a>
-														</li>
-														<li id="menu-item-391"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-391">
-															<a href="/projectsso-vtorym-svetom/">второй свет</a></li>
-														<li id="menu-item-392"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-392">
-															<a href="/projectss-kotelnoi/">котельная</a></li>
-														<li id="menu-item-393"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
-															<a href="/projectss-saunoi/">с сауной</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li id="menu-item-420"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-420">
-											<a href="#">6</a>
-											<ul class="sub-menu">
-												<li id="menu-item-10433"
-													class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10433">
-													<a href="#">Стиль</a>
-													<ul class="sub-menu">
-														<li id="menu-item-10441"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10441">
-															<a href="/projectssovremennyi/">Современный</a></li>
-														<li id="menu-item-10435"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10435">
-															<a href="/projectsfahverk/">Фахверк</a></li>
-														<li id="menu-item-10436"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10436">
-															<a href="/projectsshale/">Шале</a></li>
-														<li id="menu-item-10437"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10437">
-															<a href="/projectsstil-raita/">Стиль Райта</a></li>
-														<li id="menu-item-10438"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10438">
-															<a href="/projectshai-tek/">Хай-тек</a></li>
-														<li id="menu-item-10439"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10439">
-															<a href="/projectsbarnhaus/">Барнхаус</a></li>
-														<li id="menu-item-10440"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10440">
-															<a href="/projectsevropeiskii/">Европейский</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li id="menu-item-421"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-421">
-											<a href="#">7</a>
-											<ul class="sub-menu">
-												<li id="menu-item-394"
-													class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-394">
-													<a href="#">Этажность</a>
-													<ul class="sub-menu">
-														<li id="menu-item-395"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
-															<a href="/projectsodnoetajnye/">одноэтажные</a></li>
-														<li id="menu-item-396"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-396">
-															<a href="/projectss-mansardoi/">с мансардой</a></li>
-														<li id="menu-item-397"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-397">
-															<a href="/projectsdvuhetajnye/">двухэтажные</a></li>
-														<li id="menu-item-398"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-398">
-															<a href="/projectss-cokolnym-etajom/">цокольный этаж</a>
-														</li>
-													</ul>
-												</li>
-												<li id="menu-item-408"
-													class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-408">
-													<a href="#">Площадь</a>
-													<ul class="sub-menu">
-														<li id="menu-item-10053"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10053">
-															<a href="/projects50-kv-m/">50 кв.м</a></li>
-														<li id="menu-item-409"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
-															<a href="/projects100-kv-m/">100 кв.м</a></li>
-														<li id="menu-item-410"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-410">
-															<a href="/projects150-kv-m/">150 кв.м</a></li>
-														<li id="menu-item-411"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-411">
-															<a href="/projects200-kv-m/">200 кв.м</a></li>
-														<li id="menu-item-412"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-412">
-															<a href="/projects300-kv-m/">300 кв.м</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li id="menu-item-68"
-									class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-68">
-									<a href="#">Услуги</a>
-									<ul class="sub-menu">
-										<li id="menu-item-10184"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10184">
-											<a href="#">8</a>
-											<ul class="sub-menu">
-												<li id="menu-item-10169"
-													class="mega-item-medium menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10169">
-													<a href="fundament/">Фундамент</a>
-													<ul class="sub-menu">
-														<li id="menu-item-10182"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10182">
-															<a
-																href="lentochnyj-fundament/">Ленточный</a>
-														</li>
-														<li id="menu-item-10168"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10168">
-															<a
-																href="stolbchatyj-fundament/">Столбчатый</a>
-														</li>
-														<li id="menu-item-10175"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10175">
-															<a href="fundament-na-vintovyh-svayah/">На
-																винтовых сваях</a></li>
-														<li id="menu-item-10174"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10174">
-															<a href="fundament-monolitnaya-plita/">Монолитная
-																плита</a></li>
-														<li id="menu-item-10179"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10179">
-															<a
-																href="fundament-svajno-rostverkovyj/">Свайно-ростверковый</a>
-														</li>
-														<li id="menu-item-10178"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10178">
-															<a
-																href="fundament-s-czokolnym-etazhom/">С
-																цокольным этажом</a></li>
-														<li id="menu-item-10180"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10180">
-															<a
-																href="blochnyj-fundament/">Блочный</a>
-														</li>
-														<li id="menu-item-10181"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10181">
-															<a
-																href="buronabivnoj-fundament/">Буронабивной</a>
-														</li>
-														<li id="menu-item-10183"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10183">
-															<a href="uteplennaya-shvedskaya-plita/">Утепленная
-																шведская плита</a></li>
-														<li id="menu-item-10177"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10177">
-															<a href="fundament-pod-kirpichnyj-dom/">Под
-																кирпичный дом</a></li>
-														<li id="menu-item-10172"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10172">
-															<a
-																href="fundament-dlya-derevyannogo-doma/">Для
-																деревянного дома</a></li>
-														<li id="menu-item-10176"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10176">
-															<a href="fundament-pod-garazh/">Под
-																гараж</a></li>
-														<li id="menu-item-10171"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10171">
-															<a href="fundament-dlya-dachi/">Для
-																дачи</a></li>
-														<li id="menu-item-10170"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10170">
-															<a href="fundament-dlya-bani/">Для
-																бани</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li id="menu-item-10324"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10324">
-											<a href="#">10</a>
-											<ul class="sub-menu">
-												<li id="menu-item-10319"
-													class="mega-item-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10319">
-													<a href="/create-houses">Проектирование домов</a>
-													<ul class="sub-menu">
-														<li id="menu-item-10320"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10320">
-															<a
-																href="/create-houseskarkasnyh-domov/">Каркасных</a>
-														</li>
-														<li id="menu-item-10323"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10323">
-															<a href="/create-housesiz-brevna/">Из бревна</a>
-														</li>
-														<li id="menu-item-10321"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10321">
-															<a href="/create-housesdomov-iz-brusa/">Из бруса</a>
-														</li>
-														<li id="menu-item-10322"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10322">
-															<a href="/create-housesiz-gazobetona/">Из
-																газобетона</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-										<li id="menu-item-10185"
-											class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10185">
-											<a href="#">9</a>
-											<ul class="sub-menu">
-												<li id="menu-item-10188"
-													class="mega-item-medium menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10188">
-													<a href="engineer-systems">Монтаж
-														инженерных систем</a>
-													<ul class="sub-menu">
-														<li id="menu-item-10187"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10187">
-															<a
-																href="montazh-otopleniya-chastnyh-domov/">Монтаж
-																отопления частных домов</a></li>
-														<li id="menu-item-10186"
-															class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10186">
-															<a href="montazh-kotlov-otopleniya/">Монтаж
-																котлов отопления</a></li>
-														<li id="menu-item-10456"
-															class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10456">
-															<a href="/septik-pod-klyuch/">Установка септиков</a></li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li id="menu-item-69"
-									class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69"><a
-										href="/sales">Акции</a></li>
-								<li id="menu-item-277"
-									class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-277"><a
-										href="portfolio/">Портфолио и отзывы</a></li>
-								<li id="menu-item-19"
-									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a
-										href="contacts">Контакты</a></li>
-								<li class="menu-item menu-item-after menu-item-favorite"><a
-										href="favorites/">Избранное</a></li>
-								<li class="menu-item menu-item-after menu-item-search"><a href="#">Поиск</a></li>
-							</ul>
-						</div>
-						<div class="mobile-menu-btns"> <a href="#" class="mobile-menu-btn mobile-menu-btn-left"
-								data-menu="#main"> <span class="mobile-menu-btn-icon"> <span
-										class="mobile-menu-btn-icon-bar"></span> <span
-										class="mobile-menu-btn-icon-bar"></span> <span
-										class="mobile-menu-btn-icon-bar"></span> </span> <span
-									class="mobile-menu-btn-text">Меню</span> </a> <a href="#"
-								class="mobile-menu-btn mobile-menu-btn-right" data-menu="#katalog"> <span
-									class="mobile-menu-btn-text">Проекты</span> <span class="mobile-menu-btn-icon">
-									<span class="mobile-menu-btn-icon-bar"></span> <span
-										class="mobile-menu-btn-icon-bar"></span> <span
-										class="mobile-menu-btn-icon-bar"></span> </span> </a></div>
-					</div>
-				</div>
-			</div>
-		</nav>
-		<div class="top-preroll">
-			<div class="container">
-				<div class="flex-row">
-					<div class="top-preroll-wrap">
-						<div class="breadcrumbs-real hidden-print"><span><span><a
-										href="lugansk/">ОдессаСтрой</a> <span
-										class="separator">|</span> <span><a
-											href="projects">Проекты</a> <span
-											class="separator">|</span> <span class="breadcrumb_last"
-											aria-current="page">Дома из блоков</span></span></span></span></div>
-						<h1 class="breadcrumbs catalog">Дома из блоков под ключ</h1>
-						<div class="imitation-h1 categoryH1">Строим надежные дома из блоков со сроком эксплуатации от
-							150 лет</div>
-						<div class="after-title">По индивидуальному или готовому проекту</div>
-						<ul class="top-preroll-pluses">
-							<li class="top-preroll-plus"><b>Цена не изменится</b> в процессе строительства</li>
-							<li class="top-preroll-plus">Расширенная <b>гарантия 5 лет</b> включена в договор</li>
-							<li class="top-preroll-plus">От проекта до дома <b>”под ключ” за 120 дней</b></li>
-						</ul>
-						<div class="top-preroll-button-box"> <a href="#modal"
-								class="button orange top-preroll-button scroll-to-calc" data-modal="#quiz-modal">
-								Рассчитать стоимость<br>строительства дома </a></div>
-					</div>
-				</div>
-			</div>
-		</div>
+    style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
+    <header class="hidden-print">
+        <div class="container">
+            <div class="header-top-wrap">
+                <div class="header-logo-wrapper"> <a href="/" class="header-logo"> <noscript><img
+                                src="superuploads/2021/04/logo.png" class="header-logo-image" alt="СтройДом"
+                                title="СтройДом"></noscript><img
+                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                            data-src="superuploads/2021/04/logo.png" class="lazyload header-logo-image" alt="СтройДом"
+                            title="СтройДом">
+                        <div class="header-logo-text"> <span class="header-logo-text-main">СтройДом</span> <span
+                                class="header-logo-text-main header-logo-text-main-mobile">
+                                <noindex>СтройДом</noindex>
+                            </span> <span class="header-logo-text-default">Строительство качественных домов в Одессе
+                                и Одесской области</span></div>
+                    </a></div>
+                <div class="header-google-rating-wrapper">
+                    <div class="header-google-rating">
+                        <div class="header-google-rating-value"><span>4.8</span></div>
+                        <div class="header-google-rating-content">
+                            <div class="header-google-rating-stars"> <span class="google-rating-star"></span> <span
+                                    class="google-rating-star"></span> <span class="google-rating-star"></span>
+                                <span class="google-rating-star"></span> <span
+                                    class="google-rating-star google-rating-star-80"></span>
+                            </div>
+                            <div class="header-google-rating-text">
+                                <noindex><b>Рейтинг в Google</b> на основании 50 отзывов</noindex>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center header-button-wrapper"> <a href="#modal"
+                        class="button green header-button custom-modal-open-button" data-modal="#smeta-phone">Отправить
+                        проект на просчет</a></div>
+                <div class="header-socials-wrapper">
+                    <div class="socials-box">
+                        <div class="socials-text flicker-text"> <span class="green-dot animate-flicker"></span>
+                            <span class="flicker-text-content">Пишите, мы онлайн</span>
+                        </div>
+                        <div class="socials-list"> <a href="#viber" class="social-item"> <noscript><img
+                                        src="wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
+                                    class="lazyload"
+                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                    data-src="wp-content/themes/super_dom/icons/label-viber.png">
+                            </a> <a href="#telegram" class="social-item"> <noscript><img
+                                        src="wp-content/themes/super_dom/icons/label-telegram.png"></noscript><img
+                                    class="lazyload"
+                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                    data-src="wp-content/themes/super_dom/icons/label-telegram.png">
+                            </a> <a href="#whatsapp" class="social-item"> <noscript><img
+                                        src="wp-content/themes/super_dom/icons/label-whatsapp.png"></noscript><img
+                                    class="lazyload"
+                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                    data-src="wp-content/themes/super_dom/icons/label-whatsapp.png">
+                            </a> <a href="mailto:mail@amstroj.com" class="social-item"> <noscript><img
+                                        src="wp-content/themes/super_dom/icons/label-email.png"></noscript><img
+                                    class="lazyload"
+                                    src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                    data-src="wp-content/themes/super_dom/icons/label-email.png">
+                            </a></div>
+                    </div>
+                </div>
+                <div class="header-phone-wrapper">
+                    <div class="socials-text flicker-text before-phone-text"> <span
+                            class="green-dot animate-flicker"></span> <span class="flicker-text-content">Без
+                            выходных: 9:00-18:00</span></div>
+                    <div class="phone-box"> <a href="tel:+7 (967) 555-75-92">+7 (967) 555-75-92</a></div>
+                    <div class="call-phone-box"> <a href="#modal" data-modal="#call-modal">Заказать звонок</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="header-menu-wrapper hidden-print">
+        <div class="container">
+            <div class="header-menu-cont">
+                <div class="header-menu-box" id="header-menu-box">
+                    <div class="menu-osnovnoe-menyu-container">
+                        <ul id="menu-osnovnoe-menyu" class="menu">
+                            <li id="menu-item-17"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a
+                                    href="o-nas/">О компании</a></li>
+                            <li id="menu-item-465"
+                                class="mega-menu menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor menu-item-has-children menu-item-465">
+                                <a href="projects">Проекты и цены</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-416"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-416">
+                                        <a href="#">1</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-460"
+                                                class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category current-menu-ancestor current-menu-parent menu-item-has-children menu-item-460">
+                                                <a href="kamennye-doma/">Каменные дома</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-443"
+                                                        class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-has-children menu-item-443">
+                                                        <a href="doma-iz-blokov/" aria-current="page">Дома из блоков</a>
+                                                        <ul class="sub-menu">
+                                                            <li id="menu-item-446"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-446">
+                                                                <a href="doma-iz-gazobetona/">Газобетон</a>
+                                                            </li>
+                                                            <li id="menu-item-450"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-450">
+                                                                <a href="doma-iz-keramicheskih-blokov/">Теплая
+                                                                    керамика</a>
+                                                            </li>
+                                                            <li id="menu-item-441"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-441">
+                                                                <a href="doma-iz-arbolita/">Арболит</a>
+                                                            </li>
+                                                            <li id="menu-item-447"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-447">
+                                                                <a href="doma-iz-gazosilikatnyh-blokov/">Газосиликат</a>
+                                                            </li>
+                                                            <li id="menu-item-456"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-456">
+                                                                <a href="doma-iz-penoblokov/">Пеноблок</a>
+                                                            </li>
+                                                            <li id="menu-item-449"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-449">
+                                                                <a
+                                                                    href="doma-iz-keramzitobetonnyh-blokov/">Керамзитобетон</a>
+                                                            </li>
+                                                            <li id="menu-item-457"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-457">
+                                                                <a href="doma-iz-polistirolbetona/">Полистиролбетон</a>
+                                                            </li>
+                                                            <li id="menu-item-459"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-459">
+                                                                <a href="doma-iz-teploblokov/">Теплоблок</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-451"
+                                                        class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-451">
+                                                        <a href="doma-iz-kirpicha/">Дома из
+                                                            кирпича</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-466"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-466">
+                                        <a href="#">2</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-439"
+                                                class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-439">
+                                                <a href="derevyannye-doma/">Деревянные дома</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-445"
+                                                        class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-445">
+                                                        <a href="doma-iz-brusa/">Дома из
+                                                            бруса</a>
+                                                        <ul class="sub-menu">
+                                                            <li id="menu-item-452"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-452">
+                                                                <a href="doma-iz-kleenogo-brusa/">Клееный</a>
+                                                            </li>
+                                                            <li id="menu-item-458"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-458">
+                                                                <a
+                                                                    href="doma-iz-profilirovannogo-brusa/">Профилированный</a>
+                                                            </li>
+                                                            <li id="menu-item-448"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-448">
+                                                                <a href="doma-iz-dvojnogo-brusa/">Двойной</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-444"
+                                                        class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-444">
+                                                        <a href="doma-iz-brevna/">Дома из
+                                                            бревна</a>
+                                                        <ul class="sub-menu">
+                                                            <li id="menu-item-455"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-455">
+                                                                <a
+                                                                    href="doma-iz-oczilindrovannogo-brevna/">Оцилиндрованное</a>
+                                                            </li>
+                                                            <li id="menu-item-10310"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10310">
+                                                                <a href="doma-iz-rublennogo-brevna/">Рубленное</a>
+                                                            </li>
+                                                            <li id="menu-item-453"
+                                                                class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-453">
+                                                                <a href="doma-iz-lafeta/">Лафет</a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-462"
+                                                        class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-462">
+                                                        <a href="kombinirovannye-doma/">Комбинированные
+                                                            дома</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-473"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-473">
+                                        <a href="#">3</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-438"
+                                                class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-438">
+                                                <a href="bystrovozvodimye-doma/">Быстровозводимые
+                                                    дома</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-461"
+                                                        class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-461">
+                                                        <a href="karkasnye-doma/">Каркасные</a>
+                                                    </li>
+                                                    <li id="menu-item-440"
+                                                        class="mega-item-medium menu-item menu-item-type-taxonomy menu-item-object-category menu-item-440">
+                                                        <a href="doma-iz-sip-panelej/">SIP-панели</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-463"
+                                                class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-463">
+                                                <a href="monolitnye-doma/">Монолитные дома</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-454"
+                                                        class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-454">
+                                                        <a href="doma-iz-nesemnoj-opalubki/">Несъемная
+                                                            опалубка</a>
+                                                    </li>
+                                                    <li id="menu-item-442"
+                                                        class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-442">
+                                                        <a href="doma-iz-betona/">Бетон</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-10318"
+                                                class="mega-item-big menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-10318">
+                                                <a href="bani/">Бани под ключ</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-10317"
+                                                        class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10317">
+                                                        <a href="bani-iz-brusa/">Из бруса</a>
+                                                    </li>
+                                                    <li id="menu-item-10316"
+                                                        class="mega-item-small menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10316">
+                                                        <a href="bani-iz-brevna/">Из бревна</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-474"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-474">
+                                        <a href="#">4</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-379"
+                                                class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-379">
+                                                <a href="#">Вид дома</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-468"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-468">
+                                                        <a href="/projectskottedj/">Коттедж</a>
+                                                    </li>
+                                                    <li id="menu-item-469"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-469">
+                                                        <a href="/projectsdachnyi/">Дачный</a>
+                                                    </li>
+                                                    <li id="menu-item-472"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-472">
+                                                        <a href="/projectsdupleks/">Дуплекс</a>
+                                                    </li>
+                                                    <li id="menu-item-470"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-470">
+                                                        <a href="/projectsgostevoi/">Гостевой</a>
+                                                    </li>
+                                                    <li id="menu-item-90800"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-90800">
+                                                        <a href="/stroitelstvo-gostinic-pod-klyuch/">Гостиница</a>
+                                                    </li>
+                                                    <li id="menu-item-471"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-471">
+                                                        <a href="/projectstaunhaus/">Таунхаус</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-413"
+                                                class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-413">
+                                                <a href="#">Проживание</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-414"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-414">
+                                                        <a href="/projectspostoyannoe/">Постоянное</a>
+                                                    </li>
+                                                    <li id="menu-item-415"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-415">
+                                                        <a href="/projectsletnee/">Летнее</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-419"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-419">
+                                        <a href="#">5</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-385"
+                                                class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-385">
+                                                <a href="#">Особенности</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-387"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-387">
+                                                        <a href="/projectss-terrasoi/">терраса</a>
+                                                    </li>
+                                                    <li id="menu-item-386"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-386">
+                                                        <a href="/projectss-garajom/">гараж</a>
+                                                    </li>
+                                                    <li id="menu-item-388"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-388">
+                                                        <a href="/projectss-verandoi/">веранда</a>
+                                                    </li>
+                                                    <li id="menu-item-389"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-389">
+                                                        <a href="/projectss-balkonom/">балкон</a>
+                                                    </li>
+                                                    <li id="menu-item-390"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-390">
+                                                        <a href="/projectss-panoramnymi-oknami/">панорамные окна</a>
+                                                    </li>
+                                                    <li id="menu-item-391"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-391">
+                                                        <a href="/projectsso-vtorym-svetom/">второй свет</a>
+                                                    </li>
+                                                    <li id="menu-item-392"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-392">
+                                                        <a href="/projectss-kotelnoi/">котельная</a>
+                                                    </li>
+                                                    <li id="menu-item-393"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-393">
+                                                        <a href="/projectss-saunoi/">с сауной</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-420"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-420">
+                                        <a href="#">6</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-10433"
+                                                class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10433">
+                                                <a href="#">Стиль</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-10441"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10441">
+                                                        <a href="/projectssovremennyi/">Современный</a>
+                                                    </li>
+                                                    <li id="menu-item-10435"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10435">
+                                                        <a href="/projectsfahverk/">Фахверк</a>
+                                                    </li>
+                                                    <li id="menu-item-10436"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10436">
+                                                        <a href="/projectsshale/">Шале</a>
+                                                    </li>
+                                                    <li id="menu-item-10437"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10437">
+                                                        <a href="/projectsstil-raita/">Стиль Райта</a>
+                                                    </li>
+                                                    <li id="menu-item-10438"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10438">
+                                                        <a href="/projectshai-tek/">Хай-тек</a>
+                                                    </li>
+                                                    <li id="menu-item-10439"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10439">
+                                                        <a href="/projectsbarnhaus/">Барнхаус</a>
+                                                    </li>
+                                                    <li id="menu-item-10440"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10440">
+                                                        <a href="/projectsevropeiskii/">Европейский</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-421"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-421">
+                                        <a href="#">7</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-394"
+                                                class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-394">
+                                                <a href="#">Этажность</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-395"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-395">
+                                                        <a href="/projectsodnoetajnye/">одноэтажные</a>
+                                                    </li>
+                                                    <li id="menu-item-396"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-396">
+                                                        <a href="/projectss-mansardoi/">с мансардой</a>
+                                                    </li>
+                                                    <li id="menu-item-397"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-397">
+                                                        <a href="/projectsdvuhetajnye/">двухэтажные</a>
+                                                    </li>
+                                                    <li id="menu-item-398"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-398">
+                                                        <a href="/projectss-cokolnym-etajom/">цокольный этаж</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-408"
+                                                class="mega-item-big menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-408">
+                                                <a href="#">Площадь</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-10053"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10053">
+                                                        <a href="/projects50-kv-m/">50 кв.м</a>
+                                                    </li>
+                                                    <li id="menu-item-409"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-409">
+                                                        <a href="/projects100-kv-m/">100 кв.м</a>
+                                                    </li>
+                                                    <li id="menu-item-410"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-410">
+                                                        <a href="/projects150-kv-m/">150 кв.м</a>
+                                                    </li>
+                                                    <li id="menu-item-411"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-411">
+                                                        <a href="/projects200-kv-m/">200 кв.м</a>
+                                                    </li>
+                                                    <li id="menu-item-412"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-412">
+                                                        <a href="/projects300-kv-m/">300 кв.м</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-68"
+                                class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-68">
+                                <a href="#">Услуги</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-10184"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10184">
+                                        <a href="#">8</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-10169"
+                                                class="mega-item-medium menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10169">
+                                                <a href="fundament/">Фундамент</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-10182"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10182">
+                                                        <a href="lentochnyj-fundament/">Ленточный</a>
+                                                    </li>
+                                                    <li id="menu-item-10168"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10168">
+                                                        <a href="stolbchatyj-fundament/">Столбчатый</a>
+                                                    </li>
+                                                    <li id="menu-item-10175"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10175">
+                                                        <a href="fundament-na-vintovyh-svayah/">На
+                                                            винтовых сваях</a>
+                                                    </li>
+                                                    <li id="menu-item-10174"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10174">
+                                                        <a href="fundament-monolitnaya-plita/">Монолитная
+                                                            плита</a>
+                                                    </li>
+                                                    <li id="menu-item-10179"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10179">
+                                                        <a href="fundament-svajno-rostverkovyj/">Свайно-ростверковый</a>
+                                                    </li>
+                                                    <li id="menu-item-10178"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10178">
+                                                        <a href="fundament-s-czokolnym-etazhom/">С
+                                                            цокольным этажом</a>
+                                                    </li>
+                                                    <li id="menu-item-10180"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10180">
+                                                        <a href="blochnyj-fundament/">Блочный</a>
+                                                    </li>
+                                                    <li id="menu-item-10181"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10181">
+                                                        <a href="buronabivnoj-fundament/">Буронабивной</a>
+                                                    </li>
+                                                    <li id="menu-item-10183"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10183">
+                                                        <a href="uteplennaya-shvedskaya-plita/">Утепленная
+                                                            шведская плита</a>
+                                                    </li>
+                                                    <li id="menu-item-10177"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10177">
+                                                        <a href="fundament-pod-kirpichnyj-dom/">Под
+                                                            кирпичный дом</a>
+                                                    </li>
+                                                    <li id="menu-item-10172"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10172">
+                                                        <a href="fundament-dlya-derevyannogo-doma/">Для
+                                                            деревянного дома</a>
+                                                    </li>
+                                                    <li id="menu-item-10176"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10176">
+                                                        <a href="fundament-pod-garazh/">Под
+                                                            гараж</a>
+                                                    </li>
+                                                    <li id="menu-item-10171"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10171">
+                                                        <a href="fundament-dlya-dachi/">Для
+                                                            дачи</a>
+                                                    </li>
+                                                    <li id="menu-item-10170"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10170">
+                                                        <a href="fundament-dlya-bani/">Для
+                                                            бани</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-10324"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10324">
+                                        <a href="#">10</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-10319"
+                                                class="mega-item-medium menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10319">
+                                                <a href="/create-houses">Проектирование домов</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-10320"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10320">
+                                                        <a href="/create-houseskarkasnyh-domov/">Каркасных</a>
+                                                    </li>
+                                                    <li id="menu-item-10323"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10323">
+                                                        <a href="/create-housesiz-brevna/">Из бревна</a>
+                                                    </li>
+                                                    <li id="menu-item-10321"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10321">
+                                                        <a href="/create-housesdomov-iz-brusa/">Из бруса</a>
+                                                    </li>
+                                                    <li id="menu-item-10322"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10322">
+                                                        <a href="/create-housesiz-gazobetona/">Из
+                                                            газобетона</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li id="menu-item-10185"
+                                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-10185">
+                                        <a href="#">9</a>
+                                        <ul class="sub-menu">
+                                            <li id="menu-item-10188"
+                                                class="mega-item-medium menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-10188">
+                                                <a href="engineer-systems">Монтаж
+                                                    инженерных систем</a>
+                                                <ul class="sub-menu">
+                                                    <li id="menu-item-10187"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10187">
+                                                        <a href="montazh-otopleniya-chastnyh-domov/">Монтаж
+                                                            отопления частных домов</a>
+                                                    </li>
+                                                    <li id="menu-item-10186"
+                                                        class="mega-item-small menu-item menu-item-type-post_type menu-item-object-page menu-item-10186">
+                                                        <a href="montazh-kotlov-otopleniya/">Монтаж
+                                                            котлов отопления</a>
+                                                    </li>
+                                                    <li id="menu-item-10456"
+                                                        class="mega-item-small menu-item menu-item-type-custom menu-item-object-custom menu-item-10456">
+                                                        <a href="/septik-pod-klyuch/">Установка септиков</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-69"
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-69"><a
+                                    href="/sales">Акции</a></li>
+                            <li id="menu-item-277"
+                                class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-277"><a
+                                    href="portfolio/">Портфолио и отзывы</a></li>
+                            <li id="menu-item-19"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a
+                                    href="contacts">Контакты</a></li>
+                            <li class="menu-item menu-item-after menu-item-favorite"><a href="favorites/">Избранное</a>
+                            </li>
+                            <li class="menu-item menu-item-after menu-item-search"><a href="#">Поиск</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-menu-btns"> <a href="#" class="mobile-menu-btn mobile-menu-btn-left"
+                            data-menu="#main"> <span class="mobile-menu-btn-icon"> <span
+                                    class="mobile-menu-btn-icon-bar"></span> <span
+                                    class="mobile-menu-btn-icon-bar"></span> <span
+                                    class="mobile-menu-btn-icon-bar"></span> </span> <span
+                                class="mobile-menu-btn-text">Меню</span> </a> <a href="#"
+                            class="mobile-menu-btn mobile-menu-btn-right" data-menu="#katalog"> <span
+                                class="mobile-menu-btn-text">Проекты</span> <span class="mobile-menu-btn-icon">
+                                <span class="mobile-menu-btn-icon-bar"></span> <span
+                                    class="mobile-menu-btn-icon-bar"></span> <span
+                                    class="mobile-menu-btn-icon-bar"></span> </span> </a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="top-preroll">
+        <div class="container">
+            <div class="flex-row">
+                <div class="top-preroll-wrap">
+                    <div class="breadcrumbs-real hidden-print"><span><span><a href="lugansk/">ОдессаСтрой</a> <span
+                                    class="separator">|</span> <span><a href="projects">Проекты</a> <span
+                                        class="separator">|</span> <span class="breadcrumb_last"
+                                        aria-current="page">Дома из блоков</span></span></span></span></div>
+                    <h1 class="breadcrumbs catalog">Дома из блоков под ключ</h1>
+                    <div class="imitation-h1 categoryH1">Строим надежные дома из блоков со сроком эксплуатации от
+                        150 лет</div>
+                    <div class="after-title">По индивидуальному или готовому проекту</div>
+                    <ul class="top-preroll-pluses">
+                        <li class="top-preroll-plus"><b>Цена не изменится</b> в процессе строительства</li>
+                        <li class="top-preroll-plus">Расширенная <b>гарантия 5 лет</b> включена в договор</li>
+                        <li class="top-preroll-plus">От проекта до дома <b>”под ключ” за 120 дней</b></li>
+                    </ul>
+                    <div class="top-preroll-button-box"> <a href="#modal"
+                            class="button orange top-preroll-button scroll-to-calc" data-modal="#quiz-modal">
+                            Рассчитать стоимость<br>строительства дома </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <main>
@@ -646,14 +671,14 @@ Template Name: project-page
                                 <div class="swiper-slide swiper-seo-slide" data-group="s_group-0"> <a
                                         href="/doma-iz-blokov/6-na-6/" class="btn btn-info btn-seo">6 на 6</a></div>
                                 <div class="swiper-slide swiper-seo-slide" data-group="s_group-1"> <a
-                                        href="/doma-iz-blokov/odnoetajnye/"
-                                        class="btn btn-info btn-seo">Одноэтажные</a></div>
+                                        href="/doma-iz-blokov/odnoetajnye/" class="btn btn-info btn-seo">Одноэтажные</a>
+                                </div>
                                 <div class="swiper-slide swiper-seo-slide" data-group="s_group-1"> <a
                                         href="/doma-iz-blokov/s-mansardoi/" class="btn btn-info btn-seo">С
                                         мансардой</a></div>
                                 <div class="swiper-slide swiper-seo-slide" data-group="s_group-1"> <a
-                                        href="/doma-iz-blokov/dvuhetajnye/"
-                                        class="btn btn-info btn-seo">Двухэтажные</a></div>
+                                        href="/doma-iz-blokov/dvuhetajnye/" class="btn btn-info btn-seo">Двухэтажные</a>
+                                </div>
                                 <div class="swiper-slide swiper-seo-slide" data-group="s_group-2"> <a
                                         href="/doma-iz-blokov/s-terrasoi/" class="btn btn-info btn-seo">С
                                         террасой</a></div>
@@ -674,8 +699,11 @@ Template Name: project-page
                                 </div>
                                 <div class="swiper-slide swiper-seo-slide" data-group="s_group-3"> <a
                                         href="/doma-iz-blokov/dachnyi/" class="btn btn-info btn-seo">Дачи</a></div>
-                                <script
-                                    type="text/javascript">var seo_data = JSON.parse('{"s_group-0":{"group_title":"\u0413\u0430\u0431\u0430\u0440\u0438\u0442\u044b","group_list":[]},"s_group-1":{"group_title":"\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044d\u0442\u0430\u0436\u0435\u0439","group_list":[]},"s_group-2":{"group_title":"\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438","group_list":[]},"s_group-3":{"group_title":"\u0412\u0438\u0434 \u043f\u043e\u0441\u0442\u0440\u043e\u0439\u043a\u0438","group_list":[]}}');</script>
+                                <script type="text/javascript">
+                                var seo_data = JSON.parse(
+                                    '{"s_group-0":{"group_title":"\u0413\u0430\u0431\u0430\u0440\u0438\u0442\u044b","group_list":[]},"s_group-1":{"group_title":"\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044d\u0442\u0430\u0436\u0435\u0439","group_list":[]},"s_group-2":{"group_title":"\u041e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0438","group_list":[]},"s_group-3":{"group_title":"\u0412\u0438\u0434 \u043f\u043e\u0441\u0442\u0440\u043e\u0439\u043a\u0438","group_list":[]}}'
+                                    );
+                                </script>
                             </div>
                         </div>
                         <div class="swiper-button-next seo-swiper-button"></div>
@@ -689,19 +717,17 @@ Template Name: project-page
                 <div class="catalog-sidebar">
                     <div class="sidebar-filter-overlay"></div>
                     <div class="sidebar-filter-wrapper"> <a href="#" class="mobile-filter-close">&times;</a>
-                        <form id="sidebar-filter" class="sidebar-filter" method="GET" action="/"> <input
-                                type="hidden" name="s" value="filter">
-                            <div class="sidebar-title"> <noscript><img
-                                        src="wp-content/themes/super_dom/icons/hand.png"
+                        <form id="sidebar-filter" class="sidebar-filter" method="GET" action="/"> <input type="hidden"
+                                name="s" value="filter">
+                            <div class="sidebar-title"> <noscript><img src="wp-content/themes/super_dom/icons/hand.png"
                                         alt="Рука"></noscript><img class="lazyload"
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="wp-content/themes/super_dom/icons/hand.png"
-                                    alt="Рука">
+                                    data-src="wp-content/themes/super_dom/icons/hand.png" alt="Рука">
                                 <h2>Поиск проектов <br>по ценам и характеристикам</h2>
                             </div>
                             <div class="form-group filter-group select-group">
-                                <div class="filter-title">Материал:</div> <select name="category_id"
-                                    id="category_id" class="form-select">
+                                <div class="filter-title">Материал:</div> <select name="category_id" id="category_id"
+                                    class="form-select">
                                     <option value="1">Выбрать</option>
                                     <option value="49">Каменные дома</option>
                                     <option value="50" selected>Дома из блоков</option>
@@ -738,12 +764,12 @@ Template Name: project-page
                                 </select>
                             </div>
                             <div class="form-group filter-group slider-group"> <input type="hidden"
-                                    name="filter-price[min]" id="filter-price-min" value="0.34"> <input
-                                    type="hidden" name="filter-price[max]" id="filter-price-max" value="12.95">
+                                    name="filter-price[min]" id="filter-price-min" value="0.34"> <input type="hidden"
+                                    name="filter-price[max]" id="filter-price-max" value="12.95">
                                 <div class="filter-title">Стоимость строительства, млн.руб</div>
-                                <div id="price-slider" class="slider-item" data-target="#filter-price"
-                                    data-min="0.34" data-max="12.95" data-value-min="0.34" data-value-max="12.95"
-                                    data-step="0.01"></div>
+                                <div id="price-slider" class="slider-item" data-target="#filter-price" data-min="0.34"
+                                    data-max="12.95" data-value-min="0.34" data-value-max="12.95" data-step="0.01">
+                                </div>
                                 <div class="slider-comment"> <span>0.34</span> <span>12.95</span></div>
                             </div>
                             <div class="form-group filter-group slider-group"> <input type="hidden"
@@ -759,8 +785,9 @@ Template Name: project-page
                                 <div class="filter-title">Габариты:</div>
                                 <div class="inputs-columns"> <label class="input-column"> <span>Длина:</span> <input
                                             type="number" name="length" class="form-control" value=""> </label>
-                                    <label class="input-column"> <span>Ширина:</span> <input type="number"
-                                            name="width" class="form-control" value=""> </label></div>
+                                    <label class="input-column"> <span>Ширина:</span> <input type="number" name="width"
+                                            class="form-control" value=""> </label>
+                                </div>
                             </div>
                             <div class="form-group filter-group checkbox-group ">
                                 <div class="filter-title">Этажность</div>
@@ -768,25 +795,25 @@ Template Name: project-page
                                             name="tags[]" value="odnoetajnye"> <span>Одноэтажные</span> </label>
                                     <label class="input-column"> <input type="checkbox" name="tags[]"
                                             value="dvuhetajnye"> <span>Двухэтажные</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="trehetajnye"> <span>Трехэтажные</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="s-mansardoi"> <span>С мансардой</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
+                                        class="input-column"> <input type="checkbox" name="tags[]" value="trehetajnye">
+                                        <span>Трехэтажные</span> </label> <label class="input-column"> <input
+                                            type="checkbox" name="tags[]" value="s-mansardoi"> <span>С мансардой</span>
+                                    </label> <label class="input-column"> <input type="checkbox" name="tags[]"
                                             value="s-cokolnym-etajom"> <span>С цокольным этажом</span> </label>
                                 </div>
                             </div>
                             <div class="form-group filter-group checkbox-line-group">
                                 <div class="filter-title">Спален:</div>
-                                <div class="checkbox-list"> <label> <input type="checkbox" name="bedrooms[]"
-                                            value="1"> <span>1</span> </label> <label> <input type="checkbox"
-                                            name="bedrooms[]" value="2"> <span>2</span> </label> <label> <input
-                                            type="checkbox" name="bedrooms[]" value="3"> <span>3</span> </label>
+                                <div class="checkbox-list"> <label> <input type="checkbox" name="bedrooms[]" value="1">
+                                        <span>1</span> </label> <label> <input type="checkbox" name="bedrooms[]"
+                                            value="2"> <span>2</span> </label> <label> <input type="checkbox"
+                                            name="bedrooms[]" value="3"> <span>3</span> </label>
                                     <label> <input type="checkbox" name="bedrooms[]" value="4"> <span>4</span>
                                     </label> <label> <input type="checkbox" name="bedrooms[]" value="5">
                                         <span>5</span> </label> <label> <input type="checkbox" name="bedrooms[]"
                                             value="6"> <span>6</span> </label> <label> <input type="checkbox"
-                                            name="bedrooms[]" value="7"> <span>7</span> </label></div>
+                                            name="bedrooms[]" value="7"> <span>7</span> </label>
+                                </div>
                             </div>
                             <div class="form-group filter-group checkbox-group ">
                                 <div class="filter-title">Особенности</div>
@@ -794,23 +821,23 @@ Template Name: project-page
                                             name="tags[]" value="so-vtorym-svetom"> <span>Со вторым светом</span>
                                     </label> <label class="input-column"> <input type="checkbox" name="tags[]"
                                             value="s-erkerom"> <span>С эркером</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="s-terrasoi"> <span>С террасой</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]" value="s-saunoi">
+                                        class="input-column"> <input type="checkbox" name="tags[]" value="s-terrasoi">
+                                        <span>С террасой</span> </label> <label class="input-column"> <input
+                                            type="checkbox" name="tags[]" value="s-saunoi">
                                         <span>С сауной</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="s-podvalom"> <span>С
-                                            подвалом</span> </label> <label class="input-column"> <input
-                                            type="checkbox" name="tags[]" value="s-panoramnymi-oknami"> <span>С
+                                            подвалом</span> </label> <label class="input-column"> <input type="checkbox"
+                                            name="tags[]" value="s-panoramnymi-oknami"> <span>С
                                             панорамными окнами</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="s-kotelnoi"> <span>С
                                             котельной</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="s-garajom"> <span>С гаражом</span>
                                     </label> <label class="input-column"> <input type="checkbox" name="tags[]"
                                             value="s-verandoi"> <span>С верандой</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="s-basseinom"> <span>С бассейном</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="s-balkonom"> <span>С балконом</span> </label></div>
+                                        class="input-column"> <input type="checkbox" name="tags[]" value="s-basseinom">
+                                        <span>С бассейном</span> </label> <label class="input-column"> <input
+                                            type="checkbox" name="tags[]" value="s-balkonom"> <span>С балконом</span>
+                                    </label></div>
                             </div>
                             <div class="form-group filter-group checkbox-group filter-group-default-hide"
                                 style="display: none;">
@@ -835,26 +862,26 @@ Template Name: project-page
                                     </label> <label class="input-column"> <input type="checkbox" name="tags[]"
                                             value="angliiskii"> <span>Английский</span> </label> <label
                                         class="input-column"> <input type="checkbox" name="tags[]" value="loft">
-                                        <span>Лофт</span> </label> <label class="input-column"> <input
-                                            type="checkbox" name="tags[]" value="russkii"> <span>Русский</span>
+                                        <span>Лофт</span> </label> <label class="input-column"> <input type="checkbox"
+                                            name="tags[]" value="russkii"> <span>Русский</span>
                                     </label> <label class="input-column"> <input type="checkbox" name="tags[]"
                                             value="evropeiskii"> <span>Европейский</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="minimalizm"> <span>Минимализм</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="alpiiskii"> <span>Альпийский</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
+                                        class="input-column"> <input type="checkbox" name="tags[]" value="minimalizm">
+                                        <span>Минимализм</span> </label> <label class="input-column"> <input
+                                            type="checkbox" name="tags[]" value="alpiiskii"> <span>Альпийский</span>
+                                    </label> <label class="input-column"> <input type="checkbox" name="tags[]"
                                             value="klassicheskii"> <span>Классический</span> </label> <label
                                         class="input-column"> <input type="checkbox" name="tags[]" value="provans">
                                         <span>Прованс</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="norvejskii">
                                         <span>Норвежский</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="stil-raita"> <span>Стиль
-                                            Райта</span> </label> <label class="input-column"> <input
-                                            type="checkbox" name="tags[]" value="avstriiskii">
+                                            Райта</span> </label> <label class="input-column"> <input type="checkbox"
+                                            name="tags[]" value="avstriiskii">
                                         <span>Австрийский</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="shalash-a-frame"> <span>Шалаш
-                                            (A-Frame)</span> </label></div>
+                                            (A-Frame)</span> </label>
+                                </div>
                             </div>
                             <div class="form-group filter-group checkbox-group filter-group-default-hide"
                                 style="display: none;">
@@ -865,8 +892,8 @@ Template Name: project-page
                                         <span>Таунхаус</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="dom-banya"> <span>Дом-баня</span>
                                     </label> <label class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="dachnyi"> <span>Дачный</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]" value="gostevoi">
+                                            value="dachnyi"> <span>Дачный</span> </label> <label class="input-column">
+                                        <input type="checkbox" name="tags[]" value="gostevoi">
                                         <span>Гостевой</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="osobnyak"> <span>Особняк</span>
                                     </label></div>
@@ -891,9 +918,9 @@ Template Name: project-page
                                 <div class="filter-title">Вид участка</div>
                                 <div class="inputs-columns"> <label class="input-column"> <input type="checkbox"
                                             name="tags[]" value="uzkii"> <span>Узкий</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="s-uklonom"> <span>С уклоном</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]" value="3-sotki">
+                                        class="input-column"> <input type="checkbox" name="tags[]" value="s-uklonom">
+                                        <span>С уклоном</span> </label> <label class="input-column"> <input
+                                            type="checkbox" name="tags[]" value="3-sotki">
                                         <span>3 сотки</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="6-sotok"> <span>6 соток</span>
                                     </label> <label class="input-column"> <input type="checkbox" name="tags[]"
@@ -918,13 +945,13 @@ Template Name: project-page
                                             value="s-fundamentomm"> <span>С фундаментом</span> </label> <label
                                         class="input-column"> <input type="checkbox" name="tags[]"
                                             value="s-kommunikaciyami-i-otdelkoi"> <span>С коммуникациями и
-                                            отделкой</span> </label> <label class="input-column"> <input
-                                            type="checkbox" name="tags[]" value="gotovyi"> <span>Готовый</span>
+                                            отделкой</span> </label> <label class="input-column"> <input type="checkbox"
+                                            name="tags[]" value="gotovyi"> <span>Готовый</span>
                                     </label> <label class="input-column"> <input type="checkbox" name="tags[]"
                                             value="pod-usadku"> <span>Под усадку</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="na-svayah"> <span>На сваях</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]" value="korobka">
+                                        class="input-column"> <input type="checkbox" name="tags[]" value="na-svayah">
+                                        <span>На сваях</span> </label> <label class="input-column"> <input
+                                            type="checkbox" name="tags[]" value="korobka">
                                         <span>Коробка</span> </label></div>
                             </div>
                             <div class="form-group filter-group checkbox-group filter-group-default-hide"
@@ -932,8 +959,8 @@ Template Name: project-page
                                 <div class="filter-title">Время проживания</div>
                                 <div class="inputs-columns"> <label class="input-column"> <input type="checkbox"
                                             name="tags[]" value="letnee"> <span>Летнее</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="postoyannoe"> <span>Постоянное</span> </label></div>
+                                        class="input-column"> <input type="checkbox" name="tags[]" value="postoyannoe">
+                                        <span>Постоянное</span> </label></div>
                             </div>
                             <div class="form-group filter-group checkbox-group filter-group-default-hide"
                                 style="display: none;">
@@ -950,11 +977,11 @@ Template Name: project-page
                                 <div class="filter-title">Площадь</div>
                                 <div class="inputs-columns"> <label class="input-column"> <input type="checkbox"
                                             name="tags[]" value="do-50-kv"> <span>до 50 кв</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="50-100-kv-m"> <span>50-100 кв м</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]"
-                                            value="100-150-kv-m"> <span>100-150 кв м</span> </label> <label
-                                        class="input-column"> <input type="checkbox" name="tags[]" value="150-200">
+                                        class="input-column"> <input type="checkbox" name="tags[]" value="50-100-kv-m">
+                                        <span>50-100 кв м</span> </label> <label class="input-column"> <input
+                                            type="checkbox" name="tags[]" value="100-150-kv-m"> <span>100-150 кв
+                                            м</span> </label> <label class="input-column"> <input type="checkbox"
+                                            name="tags[]" value="150-200">
                                         <span>150-200</span> </label> <label class="input-column"> <input
                                             type="checkbox" name="tags[]" value="200-bolee"> <span>200 +</span>
                                     </label></div>
@@ -993,10 +1020,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectssolovi/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectssolovi/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/353c05d3b97f9d563d23307668e6bb72-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Соловьи" itemprop="image" title="Соловьи" /></noscript><img
@@ -1006,13 +1031,15 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Соловьи" itemprop="image" title="Соловьи" /></a>
                                 <div class="project-item-like" data-id="25311"> <span class="number">139</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectssolovi/"><span>"Соловьи"</span></a></div>
+                                <div class="project-item-title"><a href="projectssolovi/"><span>"Соловьи"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х15</b>
@@ -1031,17 +1058,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1058,10 +1081,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectssharm/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectssharm/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/77cbbedcbe84abc89abe3dcf6f5c5237-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Шарм" itemprop="image" title="Шарм"
@@ -1076,8 +1097,7 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectssharm/"><span>"Шарм"</span></a></div>
+                                <div class="project-item-title"><a href="projectssharm/"><span>"Шарм"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х12</b>
@@ -1096,17 +1116,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1123,10 +1139,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectszarya/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectszarya/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/069cefae7c7a3d6f1196ec76bcd7c029-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Заря" itemprop="image" title="Заря"
@@ -1141,8 +1155,7 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectszarya/"><span>"Заря"</span></a></div>
+                                <div class="project-item-title"><a href="projectszarya/"><span>"Заря"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>7х9</b></div>
@@ -1160,17 +1173,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1190,8 +1199,7 @@ Template Name: project-page
                                 <div class="project-labels"> <span class="project-label project-label-top_10">Топ
                                         10</span> <span class="project-label project-label-sales">Акция</span> <span
                                         class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsprimula/"><noscript><img width="416"
-                                            height="250"
+                                    href="projectsprimula/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/9f0e5cc58a3245d00014497d8659ff76-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Примула" itemprop="image" title="Примула"
@@ -1206,8 +1214,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsprimula/"><span>"Примула"</span></a></div>
+                                <div class="project-item-title"><a href="projectsprimula/"><span>"Примула"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>17х17</b>
@@ -1226,17 +1234,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1253,10 +1257,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsdubrovnik/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsdubrovnik/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/33fa03c22eccb3057e097eb30d86adca-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Дубровник" itemprop="image" title="Дубровник"
@@ -1264,10 +1266,10 @@ Template Name: project-page
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
                                         data-src="superuploads/2021/09/33fa03c22eccb3057e097eb30d86adca-416x250.jpg"
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
-                                        alt="Проект Дубровник" itemprop="image" title="Дубровник"
-                                        loading="lazy" /></a>
+                                        alt="Проект Дубровник" itemprop="image" title="Дубровник" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25333"> <span class="number">103</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
@@ -1292,17 +1294,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1319,10 +1317,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectskarambola/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectskarambola/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/104c70c2c4a0b63044f5c7298f2378c0-416x250.png"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Карамбола" itemprop="image" title="Карамбола"
@@ -1330,12 +1326,12 @@ Template Name: project-page
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
                                         data-src="superuploads/2021/07/104c70c2c4a0b63044f5c7298f2378c0-416x250.png"
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
-                                        alt="Проект Карамбола" itemprop="image" title="Карамбола"
-                                        loading="lazy" /></a>
+                                        alt="Проект Карамбола" itemprop="image" title="Карамбола" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="3553"> <span class="number">104</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
                                 <div class="project-item-title"><a
@@ -1359,17 +1355,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1390,10 +1382,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsnordik/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsnordik/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/f0fdd4b0e5c669b503f6957c415cdab7-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Нордик" itemprop="image" title="Нордик"
@@ -1408,8 +1398,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsnordik/"><span>"Нордик"</span></a></div>
+                                <div class="project-item-title"><a href="projectsnordik/"><span>"Нордик"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х9</b></div>
@@ -1427,17 +1417,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1454,9 +1440,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsriga/"><noscript><img width="333" height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsriga/"><noscript><img width="333" height="250"
                                             src="superuploads/2021/09/34a3863bb62ecc6f094a6e53600a8b50.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Рига" itemprop="image" title="Рига"
@@ -1466,13 +1451,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Рига" itemprop="image" title="Рига" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25312"> <span class="number">129</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsriga/"><span>"Рига"</span></a></div>
+                                <div class="project-item-title"><a href="projectsriga/"><span>"Рига"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>12х14</b>
@@ -1491,17 +1477,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1511,16 +1493,15 @@ Template Name: project-page
                                     <div class="single-price-value">
                                         Стоимость&nbsp;от<br><span>5&nbsp;100&nbsp;000</span>&nbsp;руб</div>
                                 </div>
-                            </div> <a href="projectsriga/" class="project-item-btn"><span
-                                    class="orange-link">Посмотреть проект</span></a>
+                            </div> <a href="projectsriga/" class="project-item-btn"><span class="orange-link">Посмотреть
+                                    проект</span></a>
                         </div>
                     </div>
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectselen/"><noscript><img width="416" height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectselen/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/105bba692ea358c0b903eed44a4e0010-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Элен" itemprop="image" title="Элен"
@@ -1535,8 +1516,7 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectselen/"><span>"Элен"</span></a></div>
+                                <div class="project-item-title"><a href="projectselen/"><span>"Элен"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>14х11</b>
@@ -1555,17 +1535,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1575,17 +1551,15 @@ Template Name: project-page
                                     <div class="single-price-value">
                                         Стоимость&nbsp;от<br><span>4&nbsp;062&nbsp;500</span>&nbsp;руб</div>
                                 </div>
-                            </div> <a href="projectselen/" class="project-item-btn"><span
-                                    class="orange-link">Посмотреть проект</span></a>
+                            </div> <a href="projectselen/" class="project-item-btn"><span class="orange-link">Посмотреть
+                                    проект</span></a>
                         </div>
                     </div>
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsmichigan/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsmichigan/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/2ddbe2f62d660d7f55b193a58f3a47e0-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Мичиган" itemprop="image" title="Мичиган"
@@ -1600,8 +1574,7 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsmichigan/"><span>"Мичиган"</span></a>
+                                <div class="project-item-title"><a href="projectsmichigan/"><span>"Мичиган"</span></a>
                                 </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
@@ -1620,17 +1593,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1649,8 +1618,7 @@ Template Name: project-page
                             <div class="project-item-image">
                                 <div class="project-labels"> <span class="project-label project-label-top_10">Топ
                                         10</span> <span class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsglyasse/"><noscript><img width="416"
-                                            height="250"
+                                    href="projectsglyasse/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/6da50e2b72281aaa283cf4e5c003dca2-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Гляссе" itemprop="image" title="Гляссе"
@@ -1665,8 +1633,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsglyasse/"><span>"Гляссе"</span></a></div>
+                                <div class="project-item-title"><a href="projectsglyasse/"><span>"Гляссе"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>17х9</b></div>
@@ -1684,17 +1652,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1711,10 +1675,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsnadezhda/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsnadezhda/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/a2affe8f69a46eca1bfdb5a73ca26cac-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Надежда" itemprop="image" title="Надежда"
@@ -1724,13 +1686,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Надежда" itemprop="image" title="Надежда" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25334"> <span class="number">114</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsnadezhda/"><span>"Надежда"</span></a>
+                                <div class="project-item-title"><a href="projectsnadezhda/"><span>"Надежда"</span></a>
                                 </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
@@ -1750,17 +1713,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1777,10 +1736,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsevelina/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsevelina/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/ce191bf25f07cbedb157af0fca9ac854-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Эвелина" itemprop="image" title="Эвелина"
@@ -1795,8 +1752,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsevelina/"><span>"Эвелина"</span></a></div>
+                                <div class="project-item-title"><a href="projectsevelina/"><span>"Эвелина"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х12</b>
@@ -1815,17 +1772,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1842,10 +1795,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsprovansa/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsprovansa/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/a9a453f97f88c41770e4eadb60aa5e00-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Прованс" itemprop="image" title="Прованс"
@@ -1855,13 +1806,13 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Прованс" itemprop="image" title="Прованс" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25324"> <span class="number">142</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsprovansa/"><span>"Прованс"</span></a>
+                                <div class="project-item-title"><a href="projectsprovansa/"><span>"Прованс"</span></a>
                                 </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
@@ -1880,17 +1831,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1909,8 +1856,7 @@ Template Name: project-page
                             <div class="project-item-image">
                                 <div class="project-labels"> <span class="project-label project-label-top_10">Топ
                                         10</span> <span class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectskizhi/"><noscript><img width="416"
-                                            height="250"
+                                    href="projectskizhi/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/e3e8b28c73f3f221dd7877ffd6e248d1-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Кижи" itemprop="image" title="Кижи"
@@ -1922,11 +1868,11 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="4768"> <span class="number">180</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectskizhi/"><span>"Кижи"</span></a></div>
+                                <div class="project-item-title"><a href="projectskizhi/"><span>"Кижи"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>15х10</b>
@@ -1945,17 +1891,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -1972,10 +1914,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectssidnej/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectssidnej/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/126da7c6d4b7c8eab493157f7fab0c32-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Сидней" itemprop="image" title="Сидней"
@@ -1990,8 +1930,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectssidnej/"><span>"Сидней"</span></a></div>
+                                <div class="project-item-title"><a href="projectssidnej/"><span>"Сидней"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>9х9</b></div>
@@ -2009,17 +1949,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2036,10 +1972,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectstalicza/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectstalicza/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/9f70f6d6a638fd997f804dcbcf4cd60e-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Талица" itemprop="image" title="Талица"
@@ -2049,13 +1983,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Талица" itemprop="image" title="Талица" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25335"> <span class="number">108</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectstalicza/"><span>"Талица"</span></a></div>
+                                <div class="project-item-title"><a href="projectstalicza/"><span>"Талица"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х14</b>
@@ -2074,17 +2009,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2101,9 +2032,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsfort/"><noscript><img width="416" height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsfort/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/82dff9106eed93233dc056e4e03452aa-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Форт" itemprop="image" title="Форт"
@@ -2115,11 +2045,11 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="25314"> <span class="number">79</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsfort/"><span>"Форт"</span></a></div>
+                                <div class="project-item-title"><a href="projectsfort/"><span>"Форт"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>12х17</b>
@@ -2138,17 +2068,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2158,17 +2084,15 @@ Template Name: project-page
                                     <div class="single-price-value">
                                         Стоимость&nbsp;от<br><span>6&nbsp;525&nbsp;000</span>&nbsp;руб</div>
                                 </div>
-                            </div> <a href="projectsfort/" class="project-item-btn"><span
-                                    class="orange-link">Посмотреть проект</span></a>
+                            </div> <a href="projectsfort/" class="project-item-btn"><span class="orange-link">Посмотреть
+                                    проект</span></a>
                         </div>
                     </div>
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsgerczog/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsgerczog/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/009d46f51262fee2ec96f9839f5879c9-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Герцог" itemprop="image" title="Герцог"
@@ -2180,11 +2104,12 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="4652"> <span class="number">189</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsgerczog/"><span>"Герцог"</span></a></div>
+                                <div class="project-item-title"><a href="projectsgerczog/"><span>"Герцог"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х10</b>
@@ -2203,17 +2128,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2232,8 +2153,7 @@ Template Name: project-page
                             <div class="project-item-image">
                                 <div class="project-labels"> <span class="project-label project-label-top_10">Топ
                                         10</span> <span class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsbergen/"><noscript><img width="416"
-                                            height="250"
+                                    href="projectsbergen/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/22155ee8eba368e4b531751c1633a7f0-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Берген" itemprop="image" title="Берген"
@@ -2248,8 +2168,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsbergen/"><span>"Берген"</span></a></div>
+                                <div class="project-item-title"><a href="projectsbergen/"><span>"Берген"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х13</b>
@@ -2268,17 +2188,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2297,8 +2213,7 @@ Template Name: project-page
                             <div class="project-item-image">
                                 <div class="project-labels"> <span class="project-label project-label-top_10">Топ
                                         10</span> <span class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectssaturn/"><noscript><img width="416"
-                                            height="250"
+                                    href="projectssaturn/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/bc12a906dd24eaeee369e396ac40da99-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Сатурн" itemprop="image" title="Сатурн"
@@ -2313,8 +2228,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectssaturn/"><span>"Сатурн"</span></a></div>
+                                <div class="project-item-title"><a href="projectssaturn/"><span>"Сатурн"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>25х18</b>
@@ -2333,17 +2248,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2360,10 +2271,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsdubrava/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsdubrava/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/34bd161f0f49cd0629c29be648368ddb-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Дубрава" itemprop="image" title="Дубрава"
@@ -2375,11 +2284,12 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="25325"> <span class="number">0</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsdubrava/"><span>"Дубрава"</span></a></div>
+                                <div class="project-item-title"><a href="projectsdubrava/"><span>"Дубрава"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х12</b>
@@ -2398,17 +2308,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2427,8 +2333,7 @@ Template Name: project-page
                             <div class="project-item-image">
                                 <div class="project-labels"> <span class="project-label project-label-top_10">Топ
                                         10</span> <span class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsbekli/"><noscript><img width="416"
-                                            height="250"
+                                    href="projectsbekli/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/bef11d355d8dd5264becd8a993283add-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Бекли" itemprop="image" title="Бекли"
@@ -2440,11 +2345,11 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="3054"> <span class="number">199</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsbekli/"><span>"Бекли"</span></a></div>
+                                <div class="project-item-title"><a href="projectsbekli/"><span>"Бекли"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>12х9</b></div>
@@ -2462,17 +2367,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2489,10 +2390,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsmarianna/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsmarianna/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/6edfb56bd02de34f26bfce68153b2978-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Марианна" itemprop="image" title="Марианна"
@@ -2500,16 +2399,14 @@ Template Name: project-page
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
                                         data-src="superuploads/2021/09/6edfb56bd02de34f26bfce68153b2978-416x250.jpg"
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
-                                        alt="Проект Марианна" itemprop="image" title="Марианна"
-                                        loading="lazy" /></a>
+                                        alt="Проект Марианна" itemprop="image" title="Марианна" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25336"> <span class="number">77</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsmarianna/"><span>"Марианна"</span></a>
+                                <div class="project-item-title"><a href="projectsmarianna/"><span>"Марианна"</span></a>
                                 </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
@@ -2529,17 +2426,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2556,10 +2449,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsdivnyj/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsdivnyj/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/e89d2bd278ff016c45b2076672bb6aa0-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Дивный" itemprop="image" title="Дивный"
@@ -2574,8 +2465,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsdivnyj/"><span>"Дивный"</span></a></div>
+                                <div class="project-item-title"><a href="projectsdivnyj/"><span>"Дивный"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>13х8</b></div>
@@ -2593,17 +2484,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2620,10 +2507,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsrubin/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsrubin/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/a75d37b3ddf1d4444d7ea279581b517b-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Рубин" itemprop="image" title="Рубин"
@@ -2633,13 +2518,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Рубин" itemprop="image" title="Рубин" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25315"> <span class="number">149</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsrubin/"><span>"Рубин"</span></a></div>
+                                <div class="project-item-title"><a href="projectsrubin/"><span>"Рубин"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х10</b>
@@ -2658,17 +2544,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2685,10 +2567,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsoliva/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsoliva/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/9725d6ef9d3ab65fd6398853a0c9f143-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Олива" itemprop="image" title="Олива"
@@ -2703,8 +2583,7 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsoliva/"><span>"Олива"</span></a></div>
+                                <div class="project-item-title"><a href="projectsoliva/"><span>"Олива"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х9</b></div>
@@ -2722,17 +2601,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2749,10 +2624,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectskalambur/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectskalambur/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/4f53ba203a12f6a7471b23f3980f8275-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Каламбур" itemprop="image" title="Каламбур"
@@ -2760,16 +2633,15 @@ Template Name: project-page
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
                                         data-src="superuploads/2021/07/4f53ba203a12f6a7471b23f3980f8275-416x250.jpg"
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
-                                        alt="Проект Каламбур" itemprop="image" title="Каламбур"
-                                        loading="lazy" /></a>
+                                        alt="Проект Каламбур" itemprop="image" title="Каламбур" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="2480"> <span class="number">80</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectskalambur/"><span>"Каламбур"</span></a>
+                                <div class="project-item-title"><a href="projectskalambur/"><span>"Каламбур"</span></a>
                                 </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
@@ -2788,17 +2660,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2815,10 +2683,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsrazdole/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsrazdole/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/6f7e3bb67e3afa7ae321b9a336a4d7ca-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Раздолье" itemprop="image" title="Раздолье"
@@ -2826,16 +2692,15 @@ Template Name: project-page
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
                                         data-src="superuploads/2021/09/6f7e3bb67e3afa7ae321b9a336a4d7ca-416x250.jpg"
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
-                                        alt="Проект Раздолье" itemprop="image" title="Раздолье"
-                                        loading="lazy" /></a>
+                                        alt="Проект Раздолье" itemprop="image" title="Раздолье" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25305"> <span class="number">105</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsrazdole/"><span>"Раздолье"</span></a>
+                                <div class="project-item-title"><a href="projectsrazdole/"><span>"Раздолье"</span></a>
                                 </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
@@ -2855,17 +2720,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2882,10 +2743,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsterek/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsterek/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/96fd587264a87edd30203ba3beb4c869-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Терек" itemprop="image" title="Терек"
@@ -2895,13 +2754,13 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Терек" itemprop="image" title="Терек" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25337"> <span class="number">116</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsterek/"><span>"Терек"</span></a></div>
+                                <div class="project-item-title"><a href="projectsterek/"><span>"Терек"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>16х14</b>
@@ -2920,17 +2779,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -2947,10 +2802,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsenisej/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsenisej/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/f1694defeedebd45d6b73d87ffeb9472-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Енисей" itemprop="image" title="Енисей"
@@ -2962,11 +2815,12 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="25316"> <span class="number">70</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsenisej/"><span>"Енисей"</span></a></div>
+                                <div class="project-item-title"><a href="projectsenisej/"><span>"Енисей"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>14х16</b>
@@ -2985,17 +2839,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3012,10 +2862,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsistok/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsistok/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/dc8e13e6cfc15bac2225a5d1baef238a-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Исток" itemprop="image" title="Исток"
@@ -3030,8 +2878,7 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsistok/"><span>"Исток"</span></a></div>
+                                <div class="project-item-title"><a href="projectsistok/"><span>"Исток"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>17х21</b>
@@ -3050,17 +2897,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3077,10 +2920,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectskapriz/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectskapriz/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/d447682514aa94688f9d6ccb777e2fa8-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Каприз" itemprop="image" title="Каприз"
@@ -3095,8 +2936,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectskapriz/"><span>"Каприз"</span></a></div>
+                                <div class="project-item-title"><a href="projectskapriz/"><span>"Каприз"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х8</b></div>
@@ -3114,17 +2955,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3141,10 +2978,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectspolyot/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectspolyot/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/d5b0e17a5a3b80f064071018c3cc8abd-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Полёт" itemprop="image" title="Полёт"
@@ -3156,11 +2991,11 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="25338"> <span class="number">64</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectspolyot/"><span>"Полёт"</span></a></div>
+                                <div class="project-item-title"><a href="projectspolyot/"><span>"Полёт"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х9</b></div>
@@ -3178,17 +3013,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3205,10 +3036,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsshtil/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsshtil/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/6f5d87fe7930e046089477aec3745632-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Штиль" itemprop="image" title="Штиль"
@@ -3220,11 +3049,11 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="25317"> <span class="number">99</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsshtil/"><span>"Штиль"</span></a></div>
+                                <div class="project-item-title"><a href="projectsshtil/"><span>"Штиль"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>12х12</b>
@@ -3243,17 +3072,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3270,10 +3095,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectstarlok/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectstarlok/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/8d92497a93361c2cbea8b77f9f0af7c6-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Тарлок" itemprop="image" title="Тарлок"
@@ -3283,13 +3106,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Тарлок" itemprop="image" title="Тарлок" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25328"> <span class="number">146</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectstarlok/"><span>"Тарлок"</span></a></div>
+                                <div class="project-item-title"><a href="projectstarlok/"><span>"Тарлок"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>15х16</b>
@@ -3308,17 +3132,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3335,10 +3155,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsyunona/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsyunona/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/859e559c82e2e9edee4685c7d4a953be-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Юнона" itemprop="image" title="Юнона"
@@ -3348,13 +3166,13 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Юнона" itemprop="image" title="Юнона" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25307"> <span class="number">107</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsyunona/"><span>"Юнона"</span></a></div>
+                                <div class="project-item-title"><a href="projectsyunona/"><span>"Юнона"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>9х10</b></div>
@@ -3372,17 +3190,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3399,10 +3213,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectshutorok/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectshutorok/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/c17124e7a638276415e7e3ef8b9bfd30-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Хуторок" itemprop="image" title="Хуторок"
@@ -3412,13 +3224,15 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Хуторок" itemprop="image" title="Хуторок" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25339"> <span class="number">144</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectshutorok/"><span>"Хуторок"</span></a></div>
+                                <div class="project-item-title"><a href="projectshutorok/"><span>"Хуторок"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х12</b>
@@ -3437,17 +3251,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3464,10 +3274,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsyahont/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsyahont/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/f66441b961affa04d31118a525a1f48d-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Яхонт" itemprop="image" title="Яхонт"
@@ -3477,13 +3285,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Яхонт" itemprop="image" title="Яхонт" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25318"> <span class="number">129</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsyahont/"><span>"Яхонт"</span></a></div>
+                                <div class="project-item-title"><a href="projectsyahont/"><span>"Яхонт"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х8</b></div>
@@ -3501,17 +3310,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3528,10 +3333,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsmarika/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsmarika/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/18c9766d956cf8dba61efddb752ab222-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Марика" itemprop="image" title="Марика"
@@ -3543,11 +3346,12 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="3928"> <span class="number">149</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsmarika/"><span>"Марика"</span></a></div>
+                                <div class="project-item-title"><a href="projectsmarika/"><span>"Марика"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>13х8</b></div>
@@ -3565,17 +3369,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3592,10 +3392,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectspavlin/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectspavlin/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/0a090a8da2ded43ee5add9813344b3b7-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Павлин" itemprop="image" title="Павлин"
@@ -3607,11 +3405,12 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="25329"> <span class="number">74</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectspavlin/"><span>"Павлин"</span></a></div>
+                                <div class="project-item-title"><a href="projectspavlin/"><span>"Павлин"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>18х15</b>
@@ -3630,17 +3429,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3657,10 +3452,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsprostor/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsprostor/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/3bf899eaab2d3b652a53a74eb08e9f00-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Простор" itemprop="image" title="Простор"
@@ -3670,13 +3463,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Простор" itemprop="image" title="Простор" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25308"> <span class="number">137</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsprostor/"><span>"Простор"</span></a></div>
+                                <div class="project-item-title"><a href="projectsprostor/"><span>"Простор"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х13</b>
@@ -3695,17 +3489,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3722,10 +3512,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsmechta/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsmechta/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/cb3367816f4be712f17da720d8b783a4-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Мечта" itemprop="image" title="Мечта"
@@ -3735,13 +3523,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Мечта" itemprop="image" title="Мечта" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25340"> <span class="number">120</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsmechta/"><span>"Мечта"</span></a></div>
+                                <div class="project-item-title"><a href="projectsmechta/"><span>"Мечта"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х13</b>
@@ -3760,17 +3549,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3801,11 +3586,11 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="2050"> <span class="number">70</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectskrit/"><span>"Крит"</span></a></div>
+                                <div class="project-item-title"><a href="projectskrit/"><span>"Крит"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>18х9</b></div>
@@ -3823,17 +3608,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3843,17 +3624,15 @@ Template Name: project-page
                                     <div class="single-price-value">
                                         Стоимость&nbsp;от<br><span>4&nbsp;980&nbsp;000</span>&nbsp;руб</div>
                                 </div>
-                            </div> <a href="projectskrit/" class="project-item-btn"><span
-                                    class="orange-link">Посмотреть проект</span></a>
+                            </div> <a href="projectskrit/" class="project-item-btn"><span class="orange-link">Посмотреть
+                                    проект</span></a>
                         </div>
                     </div>
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectslerua/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectslerua/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/cb7a0d76fb21c9141af061462140c8eb-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Леруа" itemprop="image" title="Леруа"
@@ -3865,11 +3644,11 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="25319"> <span class="number">69</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectslerua/"><span>"Леруа"</span></a></div>
+                                <div class="project-item-title"><a href="projectslerua/"><span>"Леруа"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>7х14</b></div>
@@ -3887,17 +3666,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3914,10 +3689,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectspersej/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectspersej/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/6ff289ec40e32b7bd00da36ff94f9e43-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Персей" itemprop="image" title="Персей"
@@ -3927,13 +3700,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Персей" itemprop="image" title="Персей" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25330"> <span class="number">111</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectspersej/"><span>"Персей"</span></a></div>
+                                <div class="project-item-title"><a href="projectspersej/"><span>"Персей"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х13</b>
@@ -3952,17 +3726,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -3979,10 +3749,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectseverett/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectseverett/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/2f7444eb03e8cb37a796e4b1d9aa7afb-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Эверетт" itemprop="image" title="Эверетт"
@@ -3997,8 +3765,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectseverett/"><span>"Эверетт"</span></a></div>
+                                <div class="project-item-title"><a href="projectseverett/"><span>"Эверетт"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х10</b>
@@ -4017,17 +3785,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4044,10 +3808,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsrodina/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsrodina/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/a0280226bf184f3e85c75ad9ba9a58da-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Родина" itemprop="image" title="Родина"
@@ -4062,8 +3824,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsrodina/"><span>"Родина"</span></a></div>
+                                <div class="project-item-title"><a href="projectsrodina/"><span>"Родина"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х13</b>
@@ -4082,17 +3844,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4109,10 +3867,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectstersa/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectstersa/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/529fd3bf6fd365ea12ec00e1e6952e3d-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Терса" itemprop="image" title="Терса"
@@ -4127,8 +3883,7 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectstersa/"><span>"Терса"</span></a></div>
+                                <div class="project-item-title"><a href="projectstersa/"><span>"Терса"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>8х14</b></div>
@@ -4146,17 +3901,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4173,10 +3924,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsmeridian/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsmeridian/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/759c3f91e9869a98c37e2d99cd2f6ecf-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Меридиан" itemprop="image" title="Меридиан"
@@ -4184,16 +3933,15 @@ Template Name: project-page
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
                                         data-src="superuploads/2021/09/759c3f91e9869a98c37e2d99cd2f6ecf-416x250.jpg"
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
-                                        alt="Проект Меридиан" itemprop="image" title="Меридиан"
-                                        loading="lazy" /></a>
+                                        alt="Проект Меридиан" itemprop="image" title="Меридиан" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25320"> <span class="number">105</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsmeridian/"><span>"Меридиан"</span></a>
+                                <div class="project-item-title"><a href="projectsmeridian/"><span>"Меридиан"</span></a>
                                 </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
@@ -4213,17 +3961,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4242,8 +3986,7 @@ Template Name: project-page
                             <div class="project-item-image">
                                 <div class="project-labels"> <span class="project-label project-label-top_10">Топ
                                         10</span> <span class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsmassiv/"><noscript><img width="416"
-                                            height="250"
+                                    href="projectsmassiv/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/07/ba06751ad6cab652162729518791b385-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Массив" itemprop="image" title="Массив"
@@ -4258,8 +4001,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsmassiv/"><span>"Массив"</span></a></div>
+                                <div class="project-item-title"><a href="projectsmassiv/"><span>"Массив"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>11х10</b>
@@ -4278,17 +4021,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4305,10 +4044,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsskarlett/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsskarlett/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/f79e4a897a405cd6c58841fd9fd09802-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Скарлетт" itemprop="image" title="Скарлетт"
@@ -4316,16 +4053,14 @@ Template Name: project-page
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20416%20250%22%3E%3C/svg%3E'
                                         data-src="superuploads/2021/09/f79e4a897a405cd6c58841fd9fd09802-416x250.jpg"
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
-                                        alt="Проект Скарлетт" itemprop="image" title="Скарлетт"
-                                        loading="lazy" /></a>
+                                        alt="Проект Скарлетт" itemprop="image" title="Скарлетт" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25331"> <span class="number">76</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsskarlett/"><span>"Скарлетт"</span></a>
+                                <div class="project-item-title"><a href="projectsskarlett/"><span>"Скарлетт"</span></a>
                                 </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
@@ -4345,17 +4080,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4372,10 +4103,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsmarina/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsmarina/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/ab7fbba0e6fd257317600f53512f665b-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Марина" itemprop="image" title="Марина"
@@ -4390,8 +4119,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsmarina/"><span>"Марина"</span></a></div>
+                                <div class="project-item-title"><a href="projectsmarina/"><span>"Марина"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>13х13</b>
@@ -4410,17 +4139,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4437,10 +4162,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsfortuna/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsfortuna/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/dbb416e7865af8e7c2607a3c5041379c-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Фортуна" itemprop="image" title="Фортуна"
@@ -4450,13 +4173,14 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Фортуна" itemprop="image" title="Фортуна" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25342"> <span class="number">102</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsfortuna/"><span>"Фортуна"</span></a></div>
+                                <div class="project-item-title"><a href="projectsfortuna/"><span>"Фортуна"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х10</b>
@@ -4475,17 +4199,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4502,10 +4222,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsshafran/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsshafran/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/7253ccdb4e10f7e66f4d3bb0cb4bd89e-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Шафран" itemprop="image" title="Шафран"
@@ -4515,13 +4233,15 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Шафран" itemprop="image" title="Шафран" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25321"> <span class="number">119</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsshafran/"><span>"Шафран"</span></a></div>
+                                <div class="project-item-title"><a href="projectsshafran/"><span>"Шафран"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>7х8</b></div>
@@ -4539,17 +4259,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4566,10 +4282,8 @@ Template Name: project-page
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span
-                                        class="project-label project-label-hit">Хит</span></div> <a
-                                    href="projectsiskra/"><noscript><img width="416"
-                                            height="250"
+                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
+                                </div> <a href="projectsiskra/"><noscript><img width="416" height="250"
                                             src="superuploads/2021/09/a780d3d0e250d4b4dc5498979a60499d-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Искра" itemprop="image" title="Искра"
@@ -4579,13 +4293,13 @@ Template Name: project-page
                                         class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                         alt="Проект Искра" itemprop="image" title="Искра" loading="lazy" /></a>
                                 <div class="project-item-like" data-id="25332"> <span class="number">117</span>
-                                    <span class="heart"></span></div>
+                                    <span class="heart"></span>
+                                </div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span> <span
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsiskra/"><span>"Искра"</span></a></div>
+                                <div class="project-item-title"><a href="projectsiskra/"><span>"Искра"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х9</b></div>
@@ -4603,17 +4317,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4629,8 +4339,7 @@ Template Name: project-page
                     </div>
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
-                            <div class="project-item-image"> <a
-                                    href="projectstoledo/"><noscript><img width="416"
+                            <div class="project-item-image"> <a href="projectstoledo/"><noscript><img width="416"
                                             height="250"
                                             src="superuploads/2021/07/ca2bf39cefdf8f52417e2416da5b35cf-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
@@ -4646,8 +4355,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectstoledo/"><span>"Толедо"</span></a></div>
+                                <div class="project-item-title"><a href="projectstoledo/"><span>"Толедо"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>18х25</b>
@@ -4666,17 +4375,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4692,8 +4397,7 @@ Template Name: project-page
                     </div>
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
-                            <div class="project-item-image"> <a
-                                    href="projectssnegiri/"><noscript><img width="416"
+                            <div class="project-item-image"> <a href="projectssnegiri/"><noscript><img width="416"
                                             height="250"
                                             src="superuploads/2021/07/6a021d800f28e586f6ef0d5572c992a0-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
@@ -4706,11 +4410,12 @@ Template Name: project-page
                                 <div class="project-item-like" data-id="4846"> <span class="number">154</span> <span
                                         class="heart"></span></div>
                                 <div class="rating"> <span></span> <span></span> <span></span> <span></span>
-                                    <span></span></div>
+                                    <span></span>
+                                </div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectssnegiri/"><span>"Снегири"</span></a></div>
+                                <div class="project-item-title"><a href="projectssnegiri/"><span>"Снегири"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>17х19</b>
@@ -4729,17 +4434,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4755,8 +4456,7 @@ Template Name: project-page
                     </div>
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
-                            <div class="project-item-image"> <a
-                                    href="projectsamber/"><noscript><img width="416"
+                            <div class="project-item-image"> <a href="projectsamber/"><noscript><img width="416"
                                             height="250"
                                             src="superuploads/2021/07/f08f9b8cc65734ac10686e32795c8e53-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
@@ -4772,8 +4472,7 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectsamber/"><span>"Амбер"</span></a></div>
+                                <div class="project-item-title"><a href="projectsamber/"><span>"Амбер"</span></a></div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>12х9</b></div>
@@ -4791,17 +4490,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4817,8 +4512,7 @@ Template Name: project-page
                     </div>
                     <div class="project-item-wrapper">
                         <div class="project-item default-hide-mobile">
-                            <div class="project-item-image"> <a
-                                    href="projectssuzdal/"><noscript><img width="416"
+                            <div class="project-item-image"> <a href="projectssuzdal/"><noscript><img width="416"
                                             height="250"
                                             src="superuploads/2021/07/f52ec8c1025f9c507aeb40ea8320e989-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
@@ -4834,8 +4528,8 @@ Template Name: project-page
                                         class="star-half"></span></div>
                             </div>
                             <div class="project-item-content">
-                                <div class="project-item-title"><a
-                                        href="projectssuzdal/"><span>"Суздаль"</span></a></div>
+                                <div class="project-item-title"><a href="projectssuzdal/"><span>"Суздаль"</span></a>
+                                </div>
                                 <div class="project-item-attrs">
                                     <div class="project-item-attr project-item-attr-size">
                                         <div class="project-item-attr-text"> <span>Размеры:</span> <b>10х10</b>
@@ -4854,17 +4548,13 @@ Template Name: project-page
                                 </div>
                                 <div class="project-item-features">
                                     <ul class="project-item-features-list">
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Тип дома:</span><b>Блоки</b></li>
-                                        <li class="project-item-feature"><span><svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px"
-                                                    height="7px">
+                                        <li class="project-item-feature"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink" width="7px" height="7px">
                                                     <path fill-rule="evenodd" fill="rgb(116, 187, 22)"
                                                         d="M3.500,0.000 C5.433,0.000 7.000,1.567 7.000,3.500 C7.000,5.433 5.433,7.000 3.500,7.000 C1.567,7.000 0.000,5.433 0.000,3.500 C0.000,1.567 1.567,0.000 3.500,0.000 Z" />
                                                 </svg>Срок строительства:</span><b>3 месяца</b></li>
@@ -4879,19 +4569,22 @@ Template Name: project-page
                         </div>
                     </div>
                     <div id="after-projects"></div>
-                    <script type="text/javascript">const query = '{"category_name":"doma-iz-blokov","error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"tag":"","cat":50,"tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"hit","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":false,"suppress_filters":false,"cache_results":true,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","posts_per_page":60,"nopaging":false,"comments_per_page":"50","no_found_rows":false}';
-                        const max_pages = 9;
-                        var page = 1;
-                        var template = 'project';</script>
-                    <div class="load-more-link-wrapper text-center"> <a href="#"
-                            class="load-more-link"><span>Показать ещё</span></a>
+                    <script type="text/javascript">
+                    const query =
+                        '{"category_name":"doma-iz-blokov","error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"tag":"","cat":50,"tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"hit","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":false,"suppress_filters":false,"cache_results":true,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","posts_per_page":60,"nopaging":false,"comments_per_page":"50","no_found_rows":false}';
+                    const max_pages = 9;
+                    var page = 1;
+                    var template = 'project';
+                    </script>
+                    <div class="load-more-link-wrapper text-center"> <a href="#" class="load-more-link"><span>Показать
+                                ещё</span></a>
                         <nav class="navigation pagination" role="navigation">
                             <div class="nav-links"><span aria-current="page" class="page-numbers current">1</span>
                                 <a class="page-numbers" href="doma-iz-blokov/page/2/">2</a>
                                 <span class="page-numbers dots">&hellip;</span> <a class="page-numbers"
-                                    href="doma-iz-blokov/page/9/">9</a> <a
-                                    class="next page-numbers"
-                                    href="doma-iz-blokov/page/2/">Далее</a></div>
+                                    href="doma-iz-blokov/page/9/">9</a> <a class="next page-numbers"
+                                    href="doma-iz-blokov/page/2/">Далее</a>
+                            </div>
                         </nav>
                     </div>
                     <div class="category-description text-center"></div>
@@ -4899,10 +4592,9 @@ Template Name: project-page
                         <div class="seo-box-item">
                             <div class="seo-box-item-title">У нас заказывают блочные дома</div>
                             <div class="seo-box-item-links"> <a href="/doma-iz-blokov/100-kv-m/"
-                                    class="btn btn-info btn-seo">Площадью 100 кв м</a> <a
-                                    class="btn btn-info btn-seo" style="opacity:0.8;" data-bs-toggle="modal"
-                                    data-bs-target="#quiz-modal">120 кв м</a> <a class="btn btn-info btn-seo"
-                                    style="opacity:0.8;" data-bs-toggle="modal"
+                                    class="btn btn-info btn-seo">Площадью 100 кв м</a> <a class="btn btn-info btn-seo"
+                                    style="opacity:0.8;" data-bs-toggle="modal" data-bs-target="#quiz-modal">120 кв
+                                    м</a> <a class="btn btn-info btn-seo" style="opacity:0.8;" data-bs-toggle="modal"
                                     data-bs-target="#quiz-modal">Небольшие</a> <a class="btn btn-info btn-seo"
                                     style="opacity:0.8;" data-bs-toggle="modal" data-bs-target="#quiz-modal">Для
                                     зимнего проживания</a> <a href="/doma-iz-blokov/gotovyi/"
@@ -4910,16 +4602,15 @@ Template Name: project-page
                                     style="opacity:0.8;" data-bs-toggle="modal"
                                     data-bs-target="#quiz-modal">Модульные</a> <a class="btn btn-info btn-seo"
                                     style="opacity:0.8;" data-bs-toggle="modal"
-                                    data-bs-target="#quiz-modal">Домокомплекты</a> <a
-                                    href="/doma-iz-blokov/dom-banya/" class="btn btn-info btn-seo">Дом-баня</a> <a
-                                    class="btn btn-info btn-seo" style="opacity:0.8;" data-bs-toggle="modal"
-                                    data-bs-target="#quiz-modal">Садовые</a> <a class="btn btn-info btn-seo"
-                                    style="opacity:0.8;" data-bs-toggle="modal" data-bs-target="#quiz-modal">5 на
-                                    5</a> <a class="btn btn-info btn-seo" style="opacity:0.8;"
-                                    data-bs-toggle="modal" data-bs-target="#quiz-modal">Бюджетные</a> <a
-                                    class="btn btn-info btn-seo" style="opacity:0.8;" data-bs-toggle="modal"
-                                    data-bs-target="#quiz-modal">Типовые</a> <a class="btn btn-info btn-seo"
-                                    style="opacity:0.8;" data-bs-toggle="modal"
+                                    data-bs-target="#quiz-modal">Домокомплекты</a> <a href="/doma-iz-blokov/dom-banya/"
+                                    class="btn btn-info btn-seo">Дом-баня</a> <a class="btn btn-info btn-seo"
+                                    style="opacity:0.8;" data-bs-toggle="modal" data-bs-target="#quiz-modal">Садовые</a>
+                                <a class="btn btn-info btn-seo" style="opacity:0.8;" data-bs-toggle="modal"
+                                    data-bs-target="#quiz-modal">5 на
+                                    5</a> <a class="btn btn-info btn-seo" style="opacity:0.8;" data-bs-toggle="modal"
+                                    data-bs-target="#quiz-modal">Бюджетные</a> <a class="btn btn-info btn-seo"
+                                    style="opacity:0.8;" data-bs-toggle="modal" data-bs-target="#quiz-modal">Типовые</a>
+                                <a class="btn btn-info btn-seo" style="opacity:0.8;" data-bs-toggle="modal"
                                     data-bs-target="#quiz-modal">Красивые</a> <a class="btn btn-info btn-seo"
                                     style="opacity:0.8;" data-bs-toggle="modal"
                                     data-bs-target="#quiz-modal">Полутораэтажные</a> <a class="btn btn-info btn-seo"
@@ -5071,84 +4762,103 @@ Template Name: project-page
         </div>
         </div>
     </section>
-    <script type="application/ld+json">{
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-            {
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{
             "@type": "Question",
             "name": "Какие существуют виды строительных блоков? ",
             "acceptedAnswer": {
                 "@type": "Answer",
-                    "text": "Сегодня застройщики частных домов отдают предпочтение следующим видам блоков:
+                "text": "Сегодня застройщики частных домов отдают предпочтение следующим видам блоков:
 
-бетонные;
-газобетонные;
-газосиликатные;
-керамзитобетонные блоки;
-а также блоки из самана, шлакоблоки и другие
+                бетонные;
+                газобетонные;
+                газосиликатные;
+                керамзитобетонные блоки;
+                а также блоки из самана,
+                шлакоблоки и другие
 
-Традиционным материалом в строительстве являются пустотелые бетонные блоки Они находят широкое применение в качестве несущих конструкций, а также перегородок для любых типов сооружений, и применяются как в малоэтажном строительстве, так и для возведения высотных зданий
-"
+                Традиционным материалом в строительстве являются пустотелые бетонные блоки Они находят широкое применение в качестве несущих конструкций,
+                а также перегородок для любых типов сооружений,
+                и применяются как в малоэтажном строительстве,
+                так и для возведения высотных зданий "
             }
-        },		  		{
+        }, {
             "@type": "Question",
             "name": "Комфортно ли жить в блочных домах?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                    "text": "Бетонные дома успешно выдерживают сложные климатические условия, перепады температур и отвечают всем нормам пожарной безопасности Другим преимуществом строительства домов из бетонных блоков является экономичность постройки, за счет минимального потребления кладочного раствора и снижение затрат на рабочую силу
-Газобетон, пенобетон, газосиликат составляют группу так называемых ячеистых бетонов
-Блоки из этого материала имеют пористую структуру и характеризуются высокими шумо- и теплоизоляционными свойствами Они значительно легче обычного бетона, благодаря чему нет необходимости возводить мощный фундамент Единственным неудобством является то, что этот материал не способен выдерживать большие нагрузки, поэтому, используя массивные перекрытия, следует создавать дополнительный бетонный пояс
-"
+                "text": "Бетонные дома успешно выдерживают сложные климатические условия, перепады температур и отвечают всем нормам пожарной безопасности Другим преимуществом строительства домов из бетонных блоков является экономичность постройки, за счет минимального потребления кладочного раствора и снижение затрат на рабочую силу
+                Газобетон,
+                пенобетон,
+                газосиликат составляют группу так называемых ячеистых бетонов
+                Блоки из этого материала имеют пористую структуру и характеризуются высокими шумо -
+                и теплоизоляционными свойствами Они значительно легче обычного бетона,
+                благодаря чему нет необходимости возводить мощный фундамент Единственным неудобством является то,
+                что этот материал не способен выдерживать большие нагрузки,
+                поэтому,
+                используя массивные перекрытия,
+                следует создавать дополнительный бетонный пояс "
             }
-        },		  		{
+        }, {
             "@type": "Question",
             "name": "Как выбрать фундамент для дома из блоков? ",
             "acceptedAnswer": {
                 "@type": "Answer",
-                    "text": "Любой проект дачного домика из пеноблоков предусматривает прочное основание, поскольку данный материал нуждается в устойчивом фундаменте, который сводит до минимума деформации, возникающие вследствие пучения грунтов Поэтому некоторые специалисты рекомендуют устанавливать такие постройки на монолитном основании
-"
+                "text": "Любой проект дачного домика из пеноблоков предусматривает прочное основание, поскольку данный материал нуждается в устойчивом фундаменте, который сводит до минимума деформации, возникающие вследствие пучения грунтов Поэтому некоторые специалисты рекомендуют устанавливать такие постройки на монолитном основании
+                "
             }
-        },		  		{
+        }, {
             "@type": "Question",
             "name": "Преимущества домов из блоков? ",
             "acceptedAnswer": {
                 "@type": "Answer",
-                    "text": "
-Обладают хорошими теплотехническими показателями;
-Имеют относительно небольшой вес;
-Надежны и долговечны;
-Высокая биологическая инертность (не подвержены гниению и разложению);
+                "text": "
+                Обладают хорошими теплотехническими показателями;
+                Имеют относительно небольшой вес;
+                Надежны и долговечны;
+                Высокая биологическая инертность(не подвержены гниению и разложению);
 
-"
+                "
             }
-        },		  		{
+        }, {
             "@type": "Question",
             "name": "Особенности строительства домов из блоков",
             "acceptedAnswer": {
                 "@type": "Answer",
-                    "text": "Возведение домов из блоков ведется в несколько этапов
-Сначала необходимо определить месторасположение будущей постройки на участке Выбрать готовый проект или заказать индивидуальное проектирование Непосредственное строительство предваряют земляные работы и обустройство фундамента Затем возводятся стены, перекрытия и укладывается кровельное покрытие Для повышения прочности постройки несущие стены и внутренние перегородки мы возводим из блоков Завершают работы монтаж инженерных коммуникаций, внешняя и внутренняя отделка здания
-Постройка дома из блоков осуществляется за считанные месяцы Возведение стандартной коробки площадью 150–200 кв м занимает всего 1 квартал
-"
+                "text": "Возведение домов из блоков ведется в несколько этапов
+                Сначала необходимо определить месторасположение будущей постройки на участке Выбрать готовый проект или заказать индивидуальное проектирование Непосредственное строительство предваряют земляные работы и обустройство фундамента Затем возводятся стены,
+                перекрытия и укладывается кровельное покрытие Для повышения прочности постройки несущие стены и внутренние перегородки мы возводим из блоков Завершают работы монтаж инженерных коммуникаций,
+                внешняя и внутренняя отделка здания
+                Постройка дома из блоков осуществляется за считанные месяцы Возведение стандартной коробки площадью 150– 200 кв м занимает всего 1 квартал "
             }
-        },		  		{
+        }, {
             "@type": "Question",
             "name": "Чем отличаются дома из блоков? ",
             "acceptedAnswer": {
                 "@type": "Answer",
-                    "text": "Например дома из пенобетона и газобетонных блоков имеют ряд отличий
-Вот лишь некоторые из них:
+                "text": "Например дома из пенобетона и газобетонных блоков имеют ряд отличий
+                Вот лишь некоторые из них:
 
-Цена Дома из пенобетона дешевле газобетонных сооружений примерно в 15-2 раза, поскольку для изготовления газобетона используется более сложное оборудование и достаточно дорогостоящее сырье
-Характеристики здания Дома из газоблоков практически не подвержены усадке, обладают большей несущей способностью (можно строить сооружения в несколько этажей) и улучшенными теплоизоляционными свойствами
-Расход сопутствующего материала Для строительства пенобетонного дома потребуется достаточно много цементно-песчаного раствора, поскольку геометрия блоков менее точна, нежели у «конкурента» Кладка газобетонных блоков осуществляется на специальный клей, минимальный расход которого обусловлен идеально точной геометрией газобетона
-Скорость возведения Указанный выше фактор влияет также на скорость строительства – дом из газобетона будет готов быстрее
+                    Цена Дома из пенобетона дешевле газобетонных сооружений примерно в 15 - 2 раза,
+                поскольку для изготовления газобетона используется более сложное оборудование и достаточно дорогостоящее сырье
+                Характеристики здания Дома из газоблоков практически не подвержены усадке,
+                обладают большей несущей способностью(
+                можно строить сооружения в несколько этажей) и улучшенными теплоизоляционными свойствами
+                Расход сопутствующего материала Для строительства пенобетонного дома потребуется достаточно много цементно -
+                песчаного раствора,
+                поскольку геометрия блоков менее точна,
+                нежели у« конкурента» Кладка газобетонных блоков осуществляется на специальный клей,
+                минимальный расход которого обусловлен идеально точной геометрией газобетона
+                Скорость возведения Указанный выше фактор влияет также на скорость строительства– дом из газобетона будет готов быстрее
 
-"
+                "
             }
-        }        ]
-}</script>
+        }]
+    }
+    </script>
     <section id="contacts" class="hidden-print"> <span style="display: none;" itemprop="name">СтройДом</span>
         <div class="container">
             <div class="flex-row">
@@ -5167,10 +4877,12 @@ Template Name: project-page
                     </div>
                     <div class="foorter-contacts-map" id="foorter-contacts-map" style="width: 100%;height: 200px;">
                     </div>
-                    <script type="text/javascript">var coords = JSON.parse('["46.481861","30.747392"]');
-                        var address = 'Одесса, Греческая улица, 1А<br>(Перед приездом - позвоните!)';
-                        var coords_2 = undefined;
-                        var address_2 = undefined;</script>
+                    <script type="text/javascript">
+                    var coords = JSON.parse('["46.481861","30.747392"]');
+                    var address = 'Одесса, Греческая улица, 1А<br>(Перед приездом - позвоните!)';
+                    var coords_2 = undefined;
+                    var address_2 = undefined;
+                    </script>
                 </div>
                 <div class="contacts-col contacts-col-data">
                     <div class="section-title-small text-center"><b>Наши контакты</b></div>
@@ -5181,8 +4893,7 @@ Template Name: project-page
                         data-modal="#call-modal">Позвоните мне</a>
                     <div class="contacts-title text-center">Пишите в мессенджер,<br>отвечаем мгновенно</div>
                     <div class="socials-list contacts-socials-list"> <a href="#viber" class="social-item">
-                            <noscript><img
-                                    src="wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
+                            <noscript><img src="wp-content/themes/super_dom/icons/label-viber.png"></noscript><img
                                 class="lazyload"
                                 src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
                                 data-src="wp-content/themes/super_dom/icons/label-viber.png">
@@ -5210,17 +4921,15 @@ Template Name: project-page
                 <div class="contacts-col contacts-col-photos">
                     <div class="section-title-small text-center"><b>До встречи</b></div>
                     <div class="meeting-box"> <noscript><img
-                                src="wp-content/themes/super_dom/images/meeting1.png"></noscript><img
-                            class="lazyload"
+                                src="wp-content/themes/super_dom/images/meeting1.png"></noscript><img class="lazyload"
                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="wp-content/themes/super_dom/images/meeting1.png"> <span
-                            class="meeting-label">В офисе</span></div>
+                            data-src="wp-content/themes/super_dom/images/meeting1.png"> <span class="meeting-label">В
+                            офисе</span></div>
                     <div class="meeting-box"> <noscript><img
-                                src="wp-content/themes/super_dom/images/meeting2.png"></noscript><img
-                            class="lazyload"
+                                src="wp-content/themes/super_dom/images/meeting2.png"></noscript><img class="lazyload"
                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                            data-src="wp-content/themes/super_dom/images/meeting2.png"> <span
-                            class="meeting-label">На участке</span></div>
+                            data-src="wp-content/themes/super_dom/images/meeting2.png"> <span class="meeting-label">На
+                            участке</span></div>
                 </div>
                 <div class="contacts-col contacts-col-bookmark">
                     <div class="add-bookmark-box text-center">

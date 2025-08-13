@@ -40,7 +40,7 @@ Template Name: create-houses
                     </div>
                 </div>
                 <div class="text-center header-button-wrapper">
-                    <a href="#modal" class="button green header-button" data-modal="#smeta-phone">Отправить проект на просчет</a>
+                    <a href="#modal" class="button green header-button custom-modal-open-button" data-modal="#smeta-phone">Отправить проект на просчет</a>
                 </div>
                 <div class="header-socials-wrapper">
                     <div class="socials-box">
