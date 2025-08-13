@@ -678,7 +678,7 @@ Template Name: o-nas
                 </div>
                 <div class="excursion-info-item">
                     <div class="swiper-container gallery-slider">
-                        <div class="swiper-wrapper gallery-swiper-wrapper">
+                        <div class="swiper-wrapper gallery-swiper-wrapper o-nas-gallery-wrapper">
                             <div class="swiper-slide"> <a
                                     href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg"
                                     class="slider-image" data-fancybox="excursion"> <noscript><img
@@ -687,7 +687,8 @@ Template Name: o-nas
                                         class="lazyload"
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
                                         data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg"
-                                        alt="О компании СтройДом" title="О компании СтройДом"> </a></div>
+                                        alt="О компании СтройДом" title="О компании СтройДом"> </a>
+                            </div>
                             <div class="swiper-slide"> <a
                                     href="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg"
                                     class="slider-image" data-fancybox="excursion"> <noscript><img
@@ -699,24 +700,7 @@ Template Name: o-nas
                                         alt="О компании СтройДом" title="О компании СтройДом"> </a></div>
                         </div>
                     </div>
-                    <div thumbsSlider class="swiper-container thumbs-slider hidden-print">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"> <a href="#" class="slider-thumb"> <noscript><img
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg"
-                                            alt="О компании СтройДом" title="О компании СтройДом"></noscript><img
-                                        class="lazyload"
-                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3.jpg"
-                                        alt="О компании СтройДом" title="О компании СтройДом"> </a></div>
-                            <div class="swiper-slide"> <a href="#" class="slider-thumb"> <noscript><img
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/16fed8ce85995a5d6ba43a1bc276003c-3.jpg"
-                                            alt="О компании СтройДом" title="О компании СтройДом"></noscript><img
-                                        class="lazyload"
-                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/16fed8ce85995a5d6ba43a1bc276003c-3.jpg"
-                                        alt="О компании СтройДом" title="О компании СтройДом"> </a></div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -2908,6 +2908,17 @@ section#instagram {
 .excursion-info-item {
   width: calc(50% - 10px);
 }
+
+.o-nas-gallery-wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
 .excursion-info-list {
   padding: 0;
   margin: 0;
