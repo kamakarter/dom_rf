@@ -214,7 +214,7 @@ section#excursion {
 /* Стили для слайдера отзывов */
 
 #reviews-slider {
-  padding: 128px 0 40px;
+  padding: 128px 0;
 }
 
 #reviews-slider .flex-row {
@@ -341,7 +341,8 @@ section#excursion {
   display: block;
   width: calc(100% - 20px);
   height: calc(100% - 20px);
-  border: 1px solid #efefef;
+  /* border: 1px solid #efefef; */
+  border: none;
   border-radius: 5px;
   position: absolute;
   left: 10px;
@@ -431,7 +432,8 @@ section#excursion {
   width: calc(100% - 20px);
   height: calc(100% - 20px);
   background-color: #fff;
-  border: 1px solid #efefef;
+  /* border: 1px solid #efefef; */
+  border: none;
   border-radius: 5px;
   position: absolute;
   left: 10px;
@@ -1365,4 +1367,83 @@ a.review-item-read-more:after {
   .licenses-description {
     font-size: 14px;
   }
+}
+
+
+/* .portfolio-item */
+
+.portfolio-item {
+  height: auto;
+  width: 100%;
+  -webkit-box-shadow: -2px 10px 36px -5px rgba(34, 60, 80, 0.09);
+  -moz-box-shadow: -2px 10px 36px -5px rgba(34, 60, 80, 0.09);
+  box-shadow: -2px 10px 36px -5px rgba(34, 60, 80, 0.09);
+}
+
+.project-item-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+
+.project-items-with-projects {
+  margin-top: 16px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 16px;
+  row-gap: 16px;
+
+}
+
+.project-item-image {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 16px;
+}
+
+.project-item-btn {
+  font-size: 20px;
+  /* background:#faf2e9; */
+}
+
+.project-item-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* end .portfolio-item */
+
+
+/* directors-word */
+
+section#directors-word {
+  border-bottom: 1px #ebebeb solid;
+  border-top: 1px #ebebeb solid;
+}
+
+/* end directors-word */
+
+.service-price input {
+  border: 1px solid #e0e0e0;
+}
+
+/* service-portfolio */
+
+
+section#service-portfolio {
+  padding: 128px 0;
+}
+
+
+
+
+/* end service-portfolio */
+
+.heart-imitation {
+  width: 36px;
 }
