@@ -27,7 +27,6 @@ Template Name: portfolio
 		}
 	</style>
 
-
     <?php
         include_once 'blocks/header.php';
     ?>

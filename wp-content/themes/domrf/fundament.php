@@ -6,6 +6,10 @@ Template Name: fundament
 
 <?php get_header(); ?>
 
+<?php
+    include_once 'modal-windows/modal-form-with-contacts.php';
+?>
+
 <div class="lazyload default-header" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/images/single-bg.jpg"
     style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/superuploads/images/single-bg.jpg">
 
@@ -68,7 +72,7 @@ Template Name: fundament
                         <div class="left-manager-photo"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-8.jpg"
                                     alt="Иван Михайленков" title="Иван Михайленков"></noscript><img class="lazyload"
                                 src=''
-                                data-src="superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
+                                data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
                                 title="Иван Михайленков"></div> 
                         <div class="left-manager-fio">Иван Михайленков</div>
                         <div class="left-manager-post">Ведущий архитектор</div>
@@ -116,13 +120,15 @@ Template Name: fundament
                                         id="quiz-fund-0-0" name="quiz-fund[0]" value="Монолитная плита"> <label
                                         for="quiz-fund-0-0"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/assets/superuploads/2021/08/bez-imeni-4.png"
-                                                class="quiz-label-item-image" alt="Монолитная плита"
-                                                title="Монолитная плита"></noscript><img
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-4.png"
-                                            class="lazyload quiz-label-item-image" alt="Монолитная плита"
-                                            title="Монолитная плита">
+                                                    <noscript>
+                                                        <img
+                                                        src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-4.png"
+                                                        class="quiz-label-item-image" alt="Монолитная плита"
+                                                        title="Монолитная плита"></noscript><img
+                                                        src='<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-4.png'
+                                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-4.png"
+                                                        class="lazyload quiz-label-item-image" alt="Монолитная плита"
+                                                        title="Монолитная плита">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
                                         <div class="quiz-label-item-text">Монолитная плита</div>
@@ -131,7 +137,7 @@ Template Name: fundament
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
                                         <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-6.png"
                                                 class="quiz-label-item-image" alt="УШП" title="УШП"></noscript><img
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                            src='<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-6.png'
                                             data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-6.png"
                                             class="lazyload quiz-label-item-image" alt="УШП" title="УШП">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -143,7 +149,7 @@ Template Name: fundament
                                         <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-1.png"
                                                 class="quiz-label-item-image" alt="Ленточный"
                                                 title="Ленточный"></noscript><img
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                            src='<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-1.png'
                                             data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-1.png"
                                             class="lazyload quiz-label-item-image" alt="Ленточный" title="Ленточный">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -178,11 +184,11 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-0-5"
                                         name="quiz-fund[0]" value="Другой"> <label for="quiz-fund-0-5"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/superuploads/2021/08/bez-imeni-2.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-2.png"
                                                 class="quiz-label-item-image" alt="Другой"
                                                 title="Другой"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/superuploads/2021/08/bez-imeni-2.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-2.png"
                                             class="lazyload quiz-label-item-image" alt="Другой" title="Другой">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -197,10 +203,10 @@ Template Name: fundament
                                 <div class="quiz-step-item-content"> <input type="radio" class="radio-hidden"
                                         id="quiz-fund-1-0" name="quiz-fund[1]" value="Дом"> <label for="quiz-fund-1-0"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2022/02/42dfd86d4054ddb77a3cdda7492806092.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2022/02/42dfd86d4054ddb77a3cdda7492806092.png"
                                                 class="quiz-label-item-image" alt="Дом" title="Дом"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2022/02/42dfd86d4054ddb77a3cdda7492806092.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2022/02/42dfd86d4054ddb77a3cdda7492806092.png"
                                             class="lazyload quiz-label-item-image" alt="Дом" title="Дом">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -208,10 +214,10 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-1-1"
                                         name="quiz-fund[1]" value="Баня"> <label for="quiz-fund-1-1"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2021/08/3-1-300x200.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/3-1-300x200.png"
                                                 class="quiz-label-item-image" alt="Баня" title="Баня"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/3-1-300x200.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/3-1-300x200.png"
                                             class="lazyload quiz-label-item-image" alt="Баня" title="Баня">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -220,10 +226,10 @@ Template Name: fundament
                                         name="quiz-fund[1]" value="Гараж"> <label for="quiz-fund-1-2"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
                                         <noscript><img
-                                                src="superuploads/2022/02/f116c94bf245d5a1289c739fb4fcfc072-300x218.png"
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2022/02/f116c94bf245d5a1289c739fb4fcfc072-300x218.png"
                                                 class="quiz-label-item-image" alt="Гараж" title="Гараж"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2022/02/f116c94bf245d5a1289c739fb4fcfc072-300x218.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2022/02/f116c94bf245d5a1289c739fb4fcfc072-300x218.png"
                                             class="lazyload quiz-label-item-image" alt="Гараж" title="Гараж">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -231,10 +237,10 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-1-3"
                                         name="quiz-fund[1]" value="Коммерческий объект"> <label for="quiz-fund-1-3"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2021/08/f3-1.png" class="quiz-label-item-image"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/f3-1.png" class="quiz-label-item-image"
                                                 alt="Коммерческий объект" title="Коммерческий объект"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/f3-1.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/f3-1.png"
                                             class="lazyload quiz-label-item-image" alt="Коммерческий объект"
                                             title="Коммерческий объект">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -243,10 +249,10 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-1-4"
                                         name="quiz-fund[1]" value="Дача"> <label for="quiz-fund-1-4"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2021/08/f2-1-300x225.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/f2-1-300x225.png"
                                                 class="quiz-label-item-image" alt="Дача" title="Дача"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/f2-1-300x225.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/f2-1-300x225.png"
                                             class="lazyload quiz-label-item-image" alt="Дача" title="Дача">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -254,11 +260,11 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-1-5"
                                         name="quiz-fund[1]" value="Другое"> <label for="quiz-fund-1-5"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2022/02/718f02c507a5e1f4948bf9dee56f9ed62.jpg"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2022/02/718f02c507a5e1f4948bf9dee56f9ed62.jpg"
                                                 class="quiz-label-item-image" alt="Другое"
                                                 title="Другое"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2022/02/718f02c507a5e1f4948bf9dee56f9ed62.jpg"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2022/02/718f02c507a5e1f4948bf9dee56f9ed62.jpg"
                                             class="lazyload quiz-label-item-image" alt="Другое" title="Другое">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -339,11 +345,11 @@ Template Name: fundament
                                         id="quiz-fund-4-0" name="quiz-fund[4]" value="Бассейн"> <label
                                         for="quiz-fund-4-0"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image label-item-is_long">
-                                        <noscript><img src="superuploads/2021/05/doma-p-1-198x300.png"
-                                                class="quiz-label-item-image" alt="Бассейн"
-                                                title="Бассейн"></noscript><img
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/05/doma-p-1-198x300.png"
+                                                                                 <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p-1-198x300.png"
+                                                  class="quiz-label-item-image" alt="Бассейн"
+                                                  title="Бассейн"></noscript><img
+                                               src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                             data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p-1-198x300.png"
                                             class="lazyload quiz-label-item-image" alt="Бассейн" title="Бассейн">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -351,11 +357,11 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-4-1"
                                         name="quiz-fund[4]" value="Беседка"> <label for="quiz-fund-4-1"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image label-item-is_long">
-                                        <noscript><img src="superuploads/2021/05/doma-p-2-198x300.png"
-                                                class="quiz-label-item-image" alt="Беседка"
-                                                title="Беседка"></noscript><img
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/05/doma-p-2-198x300.png"
+                                                                                 <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p-2-198x300.png"
+                                                  class="quiz-label-item-image" alt="Беседка"
+                                                  title="Беседка"></noscript><img
+                                               src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                             data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p-2-198x300.png"
                                             class="lazyload quiz-label-item-image" alt="Беседка" title="Беседка">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -363,11 +369,11 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-4-2"
                                         name="quiz-fund[4]" value="Качели"> <label for="quiz-fund-4-2"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image label-item-is_long">
-                                        <noscript><img src="superuploads/2021/05/doma-p3-198x300.png"
-                                                class="quiz-label-item-image" alt="Качели"
-                                                title="Качели"></noscript><img
-                                            src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/05/doma-p3-198x300.png"
+                                                                                 <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p3-198x300.png"
+                                                  class="quiz-label-item-image" alt="Качели"
+                                                  title="Качели"></noscript><img
+                                               src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                             data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/doma-p3-198x300.png"
                                             class="lazyload quiz-label-item-image" alt="Качели" title="Качели">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -388,35 +394,35 @@ Template Name: fundament
                                                 id="whatsapp-quiz-fund" name="send_to" value="whatsapp"> <label
                                                 class="form-group-social-label" for="whatsapp-quiz-fund">
                                                 <noscript><img
-                                                        src="wp-content/themes/super_dom/icons/label-whatsapp.png"
+                                                        src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
                                                         alt="Whatsapp" title="Whatsapp"></noscript><img class="lazyload"
                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                    data-src="wp-content/themes/super_dom/icons/label-whatsapp.png"
+                                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png"
                                                     alt="Whatsapp" title="Whatsapp"> <span
                                                     class="form-group-social-label-text">Whatsapp</span> </label>
                                             <input type="radio" id="viber-quiz-fund" name="send_to" value="viber">
                                             <label class="form-group-social-label" for="viber-quiz-fund">
-                                                <noscript><img src="wp-content/themes/super_dom/icons/label-viber.png"
+                                                <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
                                                         alt="Viber" title="Viber"></noscript><img class="lazyload"
                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                    data-src="wp-content/themes/super_dom/icons/label-viber.png"
+                                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png"
                                                     alt="Viber" title="Viber"> <span
                                                     class="form-group-social-label-text">Viber</span> </label>
                                             <input type="radio" id="telegram-quiz-fund" name="send_to" value="telegram">
                                             <label class="form-group-social-label" for="telegram-quiz-fund">
                                                 <noscript><img
-                                                        src="wp-content/themes/super_dom/icons/label-telegram.png"
+                                                        src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
                                                         alt="Telegram" title="Telegram"></noscript><img class="lazyload"
                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                    data-src="wp-content/themes/super_dom/icons/label-telegram.png"
+                                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png"
                                                     alt="Telegram" title="Telegram"> <span
                                                     class="form-group-social-label-text">Telegram</span> </label>
                                             <input type="radio" id="pphone-quiz-fund" name="send_to" value="Телефон"
                                                 checked> <label class="form-group-social-label" for="pphone-quiz-fund">
-                                                <noscript><img src="wp-content/themes/super_dom/icons/label-phone.png"
+                                                <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
                                                         alt="Телефон" title="Телефон"></noscript><img class="lazyload"
                                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                                    data-src="wp-content/themes/super_dom/icons/label-phone.png"
+                                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png"
                                                     alt="Телефон" title="Телефон"> <span
                                                     class="form-group-social-label-text">Телефон</span> </label>
                                         </div>
@@ -486,6 +492,12 @@ Template Name: fundament
     </section>
 
     <section id="service-pluses1">
+        <style>
+            #service-pluses1 .gflag-item {
+                background-image: url('assets/superuploads/2021/07/f40a847f292621493b2dbb5f95882ffc-416x250.jpg');
+            }
+        </style>
+
         <div class="container">
             <div class="section-title text-center"><b>Строим фундаменты</b> для больших и<br>малых строительных
                 объектов</div>
@@ -493,8 +505,8 @@ Template Name: fundament
                 <div class="service-plus-item">
                     <div class="gflag-item-box gflag-item-box-1 gflag-item-has-bg">
                         <div class="gflag-item-flag">01</div>
-                        <div class="lazyload gflag-item" data-bg="superuploads/2021/07/f1-1.png"
-                            style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
+                        <div class="lazyload gflag-item" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/f1-1.png"
+                            style="">
                             <div class="gflag-item-title">Частный дом</div>
                         </div>
                     </div>
@@ -502,7 +514,7 @@ Template Name: fundament
                 <div class="service-plus-item">
                     <div class="gflag-item-box gflag-item-box-2 gflag-item-has-bg">
                         <div class="gflag-item-flag">02</div>
-                        <div class="lazyload gflag-item" data-bg="superuploads/2021/07/f2-1.png"
+                        <div class="lazyload gflag-item" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/f2-1.png"
                             style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
                             <div class="gflag-item-title">Дача</div>
                         </div>
@@ -511,7 +523,7 @@ Template Name: fundament
                 <div class="service-plus-item">
                     <div class="gflag-item-box gflag-item-box-3 gflag-item-has-bg">
                         <div class="gflag-item-flag">03</div>
-                        <div class="lazyload gflag-item" data-bg="superuploads/2021/07/f3-1.png"
+                        <div class="lazyload gflag-item" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/f3-1.png"
                             style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
                             <div class="gflag-item-title">Коммерческий объект</div>
                         </div>
@@ -520,7 +532,7 @@ Template Name: fundament
                 <div class="service-plus-item">
                     <div class="gflag-item-box gflag-item-box-4 gflag-item-has-bg">
                         <div class="gflag-item-flag">04</div>
-                        <div class="lazyload gflag-item" data-bg="superuploads/2021/07/f4-1.png"
+                        <div class="lazyload gflag-item" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/f4-1.png"
                             style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
                             <div class="gflag-item-title">Гараж</div>
                         </div>
@@ -529,7 +541,7 @@ Template Name: fundament
                 <div class="service-plus-item">
                     <div class="gflag-item-box gflag-item-box-5 gflag-item-has-bg">
                         <div class="gflag-item-flag">05</div>
-                        <div class="lazyload gflag-item" data-bg="superuploads/2021/08/3-1-1.png"
+                        <div class="lazyload gflag-item" data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/3-1-1.png"
                             style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
                             <div class="gflag-item-title">Баня</div>
                         </div>
@@ -681,32 +693,32 @@ Template Name: fundament
                             <div class="form-group form-group-socials-labels"> <input type="radio"
                                     id="whatsapp-price-form" name="send_to" value="whatsapp"> <label
                                     class="form-group-social-label" for="whatsapp-price-form"> <noscript><img
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/icons/label-whatsapp.png" alt="Whatsapp"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png" alt="Whatsapp"
                                             title="Whatsapp"></noscript><img class="lazyload"
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/icons/label-whatsapp.png" alt="Whatsapp"
+                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-whatsapp.png" alt="Whatsapp"
                                         title="Whatsapp"> <span class="form-group-social-label-text">Whatsapp</span>
                                 </label> <input type="radio" id="viber-price-form" name="send_to" value="viber"> <label
                                     class="form-group-social-label" for="viber-price-form"> <noscript><img
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/icons/label-viber.png" alt="Viber"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png" alt="Viber"
                                             title="Viber"></noscript><img class="lazyload"
                                         src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/icons/label-viber.png" alt="Viber"
+                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-viber.png" alt="Viber"
                                         title="Viber"> <span class="form-group-social-label-text">Viber</span> </label>
                                 <input type="radio" id="telegram-price-form" name="send_to" value="telegram"> <label
                                     class="form-group-social-label" for="telegram-price-form"> <noscript><img
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/icons/label-telegram.png" alt="Telegram"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png" alt="Telegram"
                                             title="Telegram"></noscript><img class="lazyload"
-                                        src='<?php echo get_template_directory_uri(); ?>/assets/icons/label-telegram.png'
-                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/icons/label-telegram.png" alt="Telegram"
+                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-telegram.png" alt="Telegram"
                                         title="Telegram"> <span class="form-group-social-label-text">Telegram</span>
                                 </label> <input type="radio" id="pphone-price-form" name="send_to" value="Телефон"
                                     checked>
                                 <label class="form-group-social-label" for="pphone-price-form"> <noscript><img
-                                            src="<?php echo get_template_directory_uri(); ?>/assets/icons/label-phone.png" alt="Телефон"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png" alt="Телефон"
                                             title="Телефон"></noscript><img class="lazyload"
-                                        src='<?php echo get_template_directory_uri(); ?>/assets/icons/label-phone.png'
-                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/icons/label-phone.png" alt="Телефон"
+                                        src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
+                                        data-src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/label-phone.png" alt="Телефон"
                                         title="Телефон"> <span class="form-group-social-label-text">Телефон</span>
                                 </label>
                             </div>
@@ -746,11 +758,11 @@ Template Name: fundament
                     <div class="project-item portfolio-item">
                         <div class="project-item-image"> <a
                                 href="portfolio/dom-v-stile-haj-tek-123-kv-m/"><noscript><img width="416" height="250"
-                                        src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-416x250.jpg"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg"
                                         class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image" alt=""
                                         loading="lazy" /></noscript><img width="416" height="250"
-                                    src='<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-416x250.jpg'
-                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-416x250.jpg"
+                                    src='<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg'
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/0343df85df4792fd22ec38db0d57bf1d-3-300x225.jpg
                                     class="lazyload attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                     alt="" loading="lazy" /></a></div>
                         <div class="project-item-content">
@@ -806,7 +818,7 @@ Template Name: fundament
                                         alt="Консультация и замер участка" title="Консультация и замер участка"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss1.png" alt="Консультация и замер участка"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss1.png" alt="Консультация и замер участка"
                                     title="Консультация и замер участка" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Консультация и замер участка</div>
                                 <div class="gflag-item-text">Мастер приедет к вам на участок, проведет замеры и
@@ -817,11 +829,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-2 gflag-item-has-icon">
                             <div class="vflag-item-flag">02</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss3.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss3.png"
                                         alt="Геодезические работы" title="Геодезические работы"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss3.png" alt="Геодезические работы"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss3.png" alt="Геодезические работы"
                                     title="Геодезические работы" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Геодезические работы</div>
                                 <div class="gflag-item-text">Строительные оси с проекта переносятся на участок.
@@ -830,11 +842,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-3 gflag-item-has-icon">
                             <div class="vflag-item-flag">03</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss5.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png"
                                         alt="Разметка фундамента" title="Разметка фундамента"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss5.png" alt="Разметка фундамента"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png" alt="Разметка фундамента"
                                     title="Разметка фундамента" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Разметка фундамента</div>
                                 <div class="gflag-item-text">Разметка производится лазерным нивелиром, для точного
@@ -843,11 +855,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-4 gflag-item-has-icon">
                             <div class="vflag-item-flag">04</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss4.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss4.png"
                                         alt="Земляные работы спецтехникой" title="Земляные работы спецтехникой"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss4.png" alt="Земляные работы спецтехникой"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss4.png" alt="Земляные работы спецтехникой"
                                     title="Земляные работы спецтехникой" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Земляные работы спецтехникой</div>
                                 <div class="gflag-item-text">Котлован и траншеи будут идеально ровными и пригодными
@@ -856,11 +868,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-5 gflag-item-has-icon">
                             <div class="vflag-item-flag">05</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss5.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png"
                                         alt="Монтаж опалубки" title="Монтаж опалубки"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss5.png" alt="Монтаж опалубки"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png" alt="Монтаж опалубки"
                                     title="Монтаж опалубки" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Монтаж опалубки</div>
                                 <div class="gflag-item-text">В зависимости от твердости грунта опалубка
@@ -869,11 +881,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-6 gflag-item-has-icon">
                             <div class="vflag-item-flag">06</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss6.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss6.png"
                                         alt="Армирование каркаса" title="Армирование каркаса"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss6.png" alt="Армирование каркаса"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss6.png" alt="Армирование каркаса"
                                     title="Армирование каркаса" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Армирование каркаса</div>
                                 <div class="gflag-item-text">Армирование производится сеткой или решёткой с
@@ -882,11 +894,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-7 gflag-item-has-icon">
                             <div class="vflag-item-flag">07</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss2.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss2.png"
                                         alt="Прием бетонной смеси" title="Прием бетонной смеси"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss2.png" alt="Прием бетонной смеси"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss2.png" alt="Прием бетонной смеси"
                                     title="Прием бетонной смеси" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Прием бетонной смеси</div>
                                 <div class="gflag-item-text">Укладку бетонной смеси ведут параллельно с
@@ -895,11 +907,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-8 gflag-item-has-icon">
                             <div class="vflag-item-flag">08</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/08/sp12.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/sp12.png"
                                         alt="Окончательный расчет" title="Окончательный расчет"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/08/sp12.png" alt="Окончательный расчет"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/sp12.png" alt="Окончательный расчет"
                                     title="Окончательный расчет" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Окончательный расчет</div>
                                 <div class="gflag-item-text">После завершения всех работ подписываем акт о приемке
@@ -912,11 +924,11 @@ Template Name: fundament
                     <div class="flex-row pluses-row">
                         <div class="gflag-item-box vflag-item-box gflag-item-box-1 gflag-item-has-icon">
                             <div class="vflag-item-flag">01</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss1.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss1.png"
                                         alt="Расчет винтового фундамента" title="Расчет винтового фундамента"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss1.png" alt="Расчет винтового фундамента"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss1.png" alt="Расчет винтового фундамента"
                                     title="Расчет винтового фундамента" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Расчет винтового фундамента</div>
                                 <div class="gflag-item-text">Мастер приедет к вам на участок, проведет замеры и
@@ -927,10 +939,10 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-2 gflag-item-has-icon">
                             <div class="vflag-item-flag">02</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss3.png" alt="Выбор свай"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss3.png" alt="Выбор свай"
                                         title="Выбор свай" class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss3.png" alt="Выбор свай" title="Выбор свай"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss3.png" alt="Выбор свай" title="Выбор свай"
                                     class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Выбор свай</div>
                                 <div class="gflag-item-text">Залогом получения надежного основания под дом является
@@ -939,11 +951,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-3 gflag-item-has-icon">
                             <div class="vflag-item-flag">03</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss5.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png"
                                         alt="Нанесение разметки" title="Нанесение разметки"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss5.png" alt="Нанесение разметки"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png" alt="Нанесение разметки"
                                     title="Нанесение разметки" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Нанесение разметки</div>
                                 <div class="gflag-item-text">В соответствии с проектом выполняется разметка участка
@@ -952,11 +964,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-4 gflag-item-has-icon">
                             <div class="vflag-item-flag">04</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss4.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss4.png"
                                         alt="Закручивание свай" title="Закручивание свай"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss4.png" alt="Закручивание свай"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss4.png" alt="Закручивание свай"
                                     title="Закручивание свай" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Закручивание свай</div>
                                 <div class="gflag-item-text">Винтовой фундамент привлекателен тем, что работу по
@@ -965,11 +977,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-5 gflag-item-has-icon">
                             <div class="vflag-item-flag">05</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss5.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png"
                                         alt="Выравнивание фундамента" title="Выравнивание фундамента"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss5.png" alt="Выравнивание фундамента"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png" alt="Выравнивание фундамента"
                                     title="Выравнивание фундамента" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Выравнивание фундамента</div>
                                 <div class="gflag-item-text">Удаляем излишки при выравнивании свайного поля по
@@ -978,11 +990,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-6 gflag-item-has-icon">
                             <div class="vflag-item-flag">06</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss6.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss6.png"
                                         alt="Бетонирование" title="Бетонирование"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss6.png" alt="Бетонирование" title="Бетонирование"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss6.png" alt="Бетонирование" title="Бетонирование"
                                     class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Бетонирование</div>
                                 <div class="gflag-item-text">Чтобы обеспечить защиту внутренних стенок, в полость
@@ -991,10 +1003,10 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-7 gflag-item-has-icon">
                             <div class="vflag-item-flag">07</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss2.png" alt="Ростверк"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss2.png" alt="Ростверк"
                                         title="Ростверк" class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss2.png" alt="Ростверк" title="Ростверк"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss2.png" alt="Ростверк" title="Ростверк"
                                     class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Ростверк</div>
                                 <div class="gflag-item-text">Ростверк крепится на оголовок сваи. В случае
@@ -1003,11 +1015,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-8 gflag-item-has-icon">
                             <div class="vflag-item-flag">08</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/08/sp12.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/sp12.png"
                                         alt="Уход за свайным фундаментом" title="Уход за свайным фундаментом"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/08/sp12.png" alt="Уход за свайным фундаментом"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/sp12.png" alt="Уход за свайным фундаментом"
                                     title="Уход за свайным фундаментом" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Уход за свайным фундаментом</div>
                                 <div class="gflag-item-text">После установки винтового фундамента можно сразу
@@ -1020,11 +1032,11 @@ Template Name: fundament
                     <div class="flex-row pluses-row">
                         <div class="gflag-item-box vflag-item-box gflag-item-box-1 gflag-item-has-icon">
                             <div class="vflag-item-flag">01</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss1.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss1.png"
                                         alt="Консультация и замер участка" title="Консультация и замер участка"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss1.png" alt="Консультация и замер участка"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss1.png" alt="Консультация и замер участка"
                                     title="Консультация и замер участка" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Консультация и замер участка</div>
                                 <div class="gflag-item-text">Мастер приедет к вам на участок, проведет замеры и
@@ -1035,11 +1047,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-2 gflag-item-has-icon">
                             <div class="vflag-item-flag">02</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss3.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss3.png"
                                         alt="Геодезические работы" title="Геодезические работы"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss3.png" alt="Геодезические работы"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss3.png" alt="Геодезические работы"
                                     title="Геодезические работы" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Геодезические работы</div>
                                 <div class="gflag-item-text">Строительные оси с проекта переносятся на участок.
@@ -1048,11 +1060,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-3 gflag-item-has-icon">
                             <div class="vflag-item-flag">03</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss5.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png"
                                         alt="Разметка фундамента" title="Разметка фундамента"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss5.png" alt="Разметка фундамента"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png" alt="Разметка фундамента"
                                     title="Разметка фундамента" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Разметка фундамента</div>
                                 <div class="gflag-item-text">Разметка производится лазерным нивелиром, для точного
@@ -1061,11 +1073,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-4 gflag-item-has-icon">
                             <div class="vflag-item-flag">04</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss4.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss4.png"
                                         alt="Земляные работы спецтехникой" title="Земляные работы спецтехникой"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss4.png" alt="Земляные работы спецтехникой"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss4.png" alt="Земляные работы спецтехникой"
                                     title="Земляные работы спецтехникой" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Земляные работы спецтехникой</div>
                                 <div class="gflag-item-text">Котлован и траншеи будут идеально ровными и пригодными
@@ -1074,11 +1086,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-5 gflag-item-has-icon">
                             <div class="vflag-item-flag">05</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss3.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss3.png"
                                         alt="Укладка основания под плиту" title="Укладка основания под плиту"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss3.png" alt="Укладка основания под плиту"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss3.png" alt="Укладка основания под плиту"
                                     title="Укладка основания под плиту" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Укладка основания под плиту</div>
                                 <div class="gflag-item-text">Основанием служит пирог из нескольких слоев</div>
@@ -1086,11 +1098,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-6 gflag-item-has-icon">
                             <div class="vflag-item-flag">06</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss5.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png"
                                         alt="Монтаж опалубки и армирование" title="Монтаж опалубки и армирование"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss5.png" alt="Монтаж опалубки и армирование"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss5.png" alt="Монтаж опалубки и армирование"
                                     title="Монтаж опалубки и армирование" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Монтаж опалубки и армирование</div>
                                 <div class="gflag-item-text">Опалубка для монолита может быть двух видов:
@@ -1100,11 +1112,11 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-7 gflag-item-has-icon">
                             <div class="vflag-item-flag">07</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/07/ss6.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss6.png"
                                         alt="Заливка бетонной смеси" title="Заливка бетонной смеси"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/07/ss6.png" alt="Заливка бетонной смеси"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/ss6.png" alt="Заливка бетонной смеси"
                                     title="Заливка бетонной смеси" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Заливка бетонной смеси</div>
                                 <div class="gflag-item-text">Укладку бетонной смеси ведут параллельно с
@@ -1113,12 +1125,12 @@ Template Name: fundament
                         </div>
                         <div class="gflag-item-box vflag-item-box gflag-item-box-8 gflag-item-has-icon">
                             <div class="vflag-item-flag">08</div>
-                            <div class="gflag-item"> <noscript><img src="superuploads/2021/08/sp12.png"
+                            <div class="gflag-item"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/sp12.png"
                                         alt="Уход за бетоном, распалубочные работы"
                                         title="Уход за бетоном, распалубочные работы"
                                         class="gflag-item-icon"></noscript><img
                                     src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                    data-src="superuploads/2021/08/sp12.png" alt="Уход за бетоном, распалубочные работы"
+                                    data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/sp12.png" alt="Уход за бетоном, распалубочные работы"
                                     title="Уход за бетоном, распалубочные работы" class="lazyload gflag-item-icon">
                                 <div class="gflag-item-title">Уход за бетоном, распалубочные работы</div>
                                 <div class="gflag-item-text">Накрывание залитой поверхности полиэтиленом для
