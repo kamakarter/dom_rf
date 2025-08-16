@@ -9,7 +9,8 @@ Template Name: engineer-systems
 <div class="service-header" style="background-image: url('<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/home_bg.jpg');">
     <style>
         .service-header {
-            height: 75vh;
+            height: 100vh;
+
         }
     </style>
     

@@ -479,7 +479,7 @@ a.review-item-read-more:after {
 
 .single-header,
 .default-header {
-  background-image: url("<?php echo get_template_directory_uri(); ?>/assets/superuploads/images/single-bg.jpg");
+  /* background-image: url("<?php echo get_template_directory_uri(); ?>/assets/superuploads/images/single-bg.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center center; */
@@ -1403,7 +1403,7 @@ a.review-item-read-more:after {
   position: relative;
   overflow: hidden;
   border: none;
-  border-radius: 16px;
+  /* border-radius: 16px; */
 }
 
 .project-item-btn {

@@ -67,7 +67,7 @@
                             class="green-dot animate-flicker"></span> <span class="flicker-text-content">Без
                             выходных: 9:00-18:00</span></div>
                     <div class="phone-box"> <a href="tel:+7 (967) 555-75-92">+7 (967) 555-75-92</a></div>
-                    <div class="call-phone-box"> <a class="custom-modal-open-button">Заказать звонок</a>
+                    <div class="call-phone-box"> <a href="#" class="custom-modal-open-button">Заказать звонок</a>
                     </div>
                 </div>
             </div>

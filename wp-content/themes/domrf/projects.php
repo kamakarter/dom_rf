@@ -7,15 +7,15 @@ Template Name: projects
 <?php get_header(); ?>
 
 <?php
-    include_once 'modal-windows/modal-form-with-contacts.php';
+include_once 'modal-windows/modal-form-with-contacts.php';
 ?>
 
 <div class="lazyload category-header category-catalog-header"
     data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/06/category-bg.png"
     style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
-    
+
     <?php
-        include_once 'blocks/header.php';
+    include_once 'blocks/header.php';
     ?>
 
     <div class="top-preroll">
@@ -386,8 +386,10 @@ Template Name: projects
                     <div class="project-item-wrapper">
                         <div class="project-item">
                             <div class="project-item-image">
-                                <div class="project-labels"> <span class="project-label project-label-hit">Хит</span>
-                                </div> <a href=""><noscript><img width="416" height="250"
+                                <div class="project-labels">
+                                    <span class="project-label project-label-hit">Хит</span>
+                                </div>
+                                <a href=""><noscript><img width="416" height="250"
                                             src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/09/62caf0a1905507495e685dd19d6511c5-416x250.jpg"
                                             class="attachment-catalog-thumbnail size-catalog-thumbnail wp-post-image"
                                             alt="Проект Ульяна" itemprop="image" title="Ульяна" /></noscript><img
@@ -438,19 +440,21 @@ Template Name: projects
                                     <div class="single-price-value">
                                         Стоимость&nbsp;от<br><span>3&nbsp;673&nbsp;800</span>&nbsp;руб</div>
                                 </div>
-                            </div> <a href="projectsulyana/" class="project-item-btn"><span
-                                    class="orange-link">Посмотреть проект</span></a>
+                            </div>
+                            <a href="/project-page/" class="project-item-btn">
+                                <span class="orange-link">Посмотреть проект</span>
+                            </a>
                         </div>
                     </div>
 
 
                     <div id="after-projects"></div>
                     <script type="text/javascript">
-                    const query =
-                        '{"category_name":"proekty","error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"tag":"","cat":1,"tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"hit","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":false,"suppress_filters":false,"cache_results":true,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","posts_per_page":60,"nopaging":false,"comments_per_page":"50","no_found_rows":false}';
-                    const max_pages = 15;
-                    var page = 1;
-                    var template = 'project';
+                        const query =
+                            '{"category_name":"proekty","error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"tag":"","cat":1,"tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"hit","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"orderby":"meta_value_num","order":"DESC","ignore_sticky_posts":false,"suppress_filters":false,"cache_results":true,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","posts_per_page":60,"nopaging":false,"comments_per_page":"50","no_found_rows":false}';
+                        const max_pages = 15;
+                        var page = 1;
+                        var template = 'project';
                     </script>
                     <div class="load-more-link-wrapper text-center"> <a href="#" class="load-more-link"><span>Показать
                                 ещё</span></a>

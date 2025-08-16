@@ -23,7 +23,7 @@ Template Name: portfolio
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center center;
-            height: 50vh;
+            height: 55vh;
 		}
 	</style>
 

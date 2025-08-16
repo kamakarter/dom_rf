@@ -31,10 +31,13 @@ Template Name: fundament
                     <div class="breadcrumbs-real hidden-print"><span><span><a href="lugansk/">ОдессаСтрой</a> <span
                                     class="separator">|</span> <span class="breadcrumb_last"
                                     aria-current="page">Фундамент</span></span></span></div>
-                    <h1 class="breadcrumbs"><b>Строительство фундамента с вековой надежностью,</b> под ключ в Одессе
+                    
+
+                    <h1 class="breadcrumbs" style="font-size: 40px;">
+                        <b>Строительство фундамента с вековой надежностью,</b> под ключ в Одессе
                     </h1>
-                    <div class="imitation-h1"></div>
-                    <div class="after-title"></div>
+                    <!-- <div class="imitation-h1"></div> -->
+                    <!-- <div class="after-title"></div> -->
                     <ul class="top-preroll-pluses">
                         <li class="top-preroll-plus"><b class="fsz-big">8</b> лет<br><b>Строим</b> фундаменты</li>
                         <li class="top-preroll-plus"><b class="fsz-big">5</b> лет<br><b>Гарантия</b> по договору
@@ -42,9 +45,11 @@ Template Name: fundament
                         <li class="top-preroll-plus">до <b class="fsz-big">15%</b><br><b>Скидка</b> на песок и бетон
                         </li>
                     </ul>
-                    <div class="top-preroll-button-box"> <a href="#modal"
-                            class="button orange top-preroll-button scroll-to-calc" data-modal="#quiz-modal">
-                            Рассчитать стоимость<br>фундамента </a></div>
+                    <div class="top-preroll-button-box">
+                        <a href="#modal" class="button orange top-preroll-button scroll-to-calc">
+                            Рассчитать стоимость<br>фундамента
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -52,7 +57,7 @@ Template Name: fundament
 </div>
 
 <main>
-    <section id="quiz-fund" class="quiz-section lazyload">
+    <section id="quiz-fund" class="quiz-section lazyload" style="magrin-top: 64px;">
         <div class="container">
             <div class="quiz-container">
                 <div class="quiz-content">
@@ -60,7 +65,7 @@ Template Name: fundament
                     <div class="section-title text-center"><b>Получите предварительный расчет<br> стоимости</b>
                         фундамента за 1 минуту</div>
                     <div class="left-manager-box">
-                        <div class="left-manager-photo"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assetssuperuploads/2021/07/sotrudnik-8.jpg"
+                        <div class="left-manager-photo"> <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/07/sotrudnik-8.jpg"
                                     alt="Иван Михайленков" title="Иван Михайленков"></noscript><img class="lazyload"
                                 src=''
                                 data-src="superuploads/2021/07/sotrudnik-8.jpg" alt="Иван Михайленков"
@@ -72,22 +77,22 @@ Template Name: fundament
                         <div class="left-manager-pluses-title">Ответив на вопросы <b>вы получите:</b></div>
                         <div class="left-manager-pluses-list">
                             <div class="lazyload left-manager-plus-item left-manager-plus-item-0"
-                                data-bg="superuploads/2021/05/lm1.png"
-                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
+                                data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/lm1.png"
+                                style="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/lm1.png">
                                 <span class="left-manager-plus-item-icon"></span> <span
                                     class="left-manager-plus-item-text"><b>Ориентировочную стоимость</b>
                                     строительства</span>
                             </div>
                             <div class="lazyload left-manager-plus-item left-manager-plus-item-1"
-                                data-bg="superuploads/2021/05/lm2.png"
-                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
+                                data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/lm2.png"
+                                style="">
                                 <span class="left-manager-plus-item-icon"></span> <span
                                     class="left-manager-plus-item-text"><b>Точную подборку проектов</b> исходя из
                                     ваших ответов либо предложим новый вариант</span>
                             </div>
                             <div class="lazyload left-manager-plus-item left-manager-plus-item-2"
-                                data-bg="superuploads/2021/05/lm3.png"
-                                style="background-image: url(data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20500%20300%22%3E%3C/svg%3E);">
+                                data-bg="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/05/lm3.png"
+                                style="">
                                 <span class="left-manager-plus-item-icon"></span> <span
                                     class="left-manager-plus-item-text"><b>Один из 3-х подарков</b> при заказе
                                     строительства у нас</span>
@@ -111,11 +116,11 @@ Template Name: fundament
                                         id="quiz-fund-0-0" name="quiz-fund[0]" value="Монолитная плита"> <label
                                         for="quiz-fund-0-0"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="assets/superuploads/2021/08/bez-imeni-4.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/assets/superuploads/2021/08/bez-imeni-4.png"
                                                 class="quiz-label-item-image" alt="Монолитная плита"
                                                 title="Монолитная плита"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/bez-imeni-4.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-4.png"
                                             class="lazyload quiz-label-item-image" alt="Монолитная плита"
                                             title="Монолитная плита">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -124,10 +129,10 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-0-1"
                                         name="quiz-fund[0]" value="УШП"> <label for="quiz-fund-0-1"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2021/08/bez-imeni-6.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-6.png"
                                                 class="quiz-label-item-image" alt="УШП" title="УШП"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/bez-imeni-6.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-6.png"
                                             class="lazyload quiz-label-item-image" alt="УШП" title="УШП">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -135,11 +140,11 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-0-2"
                                         name="quiz-fund[0]" value="Ленточный"> <label for="quiz-fund-0-2"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2021/08/bez-imeni-1.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-1.png"
                                                 class="quiz-label-item-image" alt="Ленточный"
                                                 title="Ленточный"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/bez-imeni-1.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-1.png"
                                             class="lazyload quiz-label-item-image" alt="Ленточный" title="Ленточный">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>
@@ -147,11 +152,11 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-0-3"
                                         name="quiz-fund[0]" value="Свайно-винтовой"> <label for="quiz-fund-0-3"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2021/08/bez-imeni-3.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-3.png"
                                                 class="quiz-label-item-image" alt="Свайно-винтовой"
                                                 title="Свайно-винтовой"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/bez-imeni-3.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-3.png"
                                             class="lazyload quiz-label-item-image" alt="Свайно-винтовой"
                                             title="Свайно-винтовой">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -160,11 +165,11 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-0-4"
                                         name="quiz-fund[0]" value="Свайно-ростверковый"> <label for="quiz-fund-0-4"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2021/08/bez-imeni-5.png"
+                                        <noscript><img src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-5.png"
                                                 class="quiz-label-item-image" alt="Свайно-ростверковый"
                                                 title="Свайно-ростверковый"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/bez-imeni-5.png"
+                                            data-src="<?php echo get_template_directory_uri(); ?>/assets/superuploads/2021/08/bez-imeni-5.png"
                                             class="lazyload quiz-label-item-image" alt="Свайно-ростверковый"
                                             title="Свайно-ростверковый">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
@@ -173,11 +178,11 @@ Template Name: fundament
                                     </label> <input type="radio" class="radio-hidden" id="quiz-fund-0-5"
                                         name="quiz-fund[0]" value="Другой"> <label for="quiz-fund-0-5"
                                         class="quiz-label-item quiz-label-type-radio label-item-small label-item-with_image">
-                                        <noscript><img src="superuploads/2021/08/bez-imeni-2.png"
+                                        <noscript><img src="superuploads/superuploads/2021/08/bez-imeni-2.png"
                                                 class="quiz-label-item-image" alt="Другой"
                                                 title="Другой"></noscript><img
                                             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
-                                            data-src="superuploads/2021/08/bez-imeni-2.png"
+                                            data-src="superuploads/superuploads/2021/08/bez-imeni-2.png"
                                             class="lazyload quiz-label-item-image" alt="Другой" title="Другой">
                                         <div class="quiz-label-item-radio"> <span class="checked"></span> <span
                                                 class="unchecked"></span></div>

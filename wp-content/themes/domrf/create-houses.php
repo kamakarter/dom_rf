@@ -10,7 +10,7 @@ Template Name: create-houses
 
     <style>
         .service-header {
-            height: 75vh;
+            height: 100vh;
         }
     </style>
     

@@ -215,7 +215,7 @@
                     положениями ГК РФ. Для получения подробной информации о наличии, видах, характеристиках и
                     стоимости домов обращайтесь в офис продаж.</p>
                 <p class="footer-privacy" style="padding-top: 0px;"> <span
-                        onclick="window.open('/privacy-policy/')">Политики
+                        onclick="window.open('/policy/')">Политики
                         конфиденциальности</span> <a href="/sitemap/">Карта сайта</a>
                     <noscript><img
                             src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/logo_pay.png"
@@ -267,8 +267,9 @@
         </svg>
     </a>
 
-    <a href="#modal" class="right-fixed-item" data-modal="#quiz-modal">
-        <noscript><img
+    <a href="/#quiz-doma" class="right-fixed-item" data-modal="#quiz-modal">
+        <noscript>
+            <img
                 src="<?php echo get_template_directory_uri(); ?>/assets/wp-content/themes/super_dom/icons/fixed-calc.png"
                 class="right-fixed-item-icon" alt="Рассчитать стоимость" title="Рассчитать стоимость"></noscript><img
             src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E'
