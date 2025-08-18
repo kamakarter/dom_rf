@@ -1,5 +1,10 @@
 * {
   font-family: "Montserrat";
+  transition: ease-in 0.5s;
+}
+
+*:not(:hover){
+  transition: 0.5s;
 }
 
 .header-google-rating-value:before {
@@ -675,10 +680,7 @@ a.review-item-read-more:after {
   outline-offset: 2px;
 }
 
-.container {
-  border-left: 1px solid red;
-  border-right: 1px solid red;
-}
+
 
 .portfolio-slide-gallery {
   width: 400px;
@@ -1446,4 +1448,337 @@ section#service-portfolio {
 
 .heart-imitation {
   width: 36px;
+}
+
+
+.custom-projects-slider {
+  position: relative;
+  max-width: 100%;
+  /* overflow: hidden;   */
+}
+
+.custom-projects-slider__container {
+  overflow: hidden;
+}
+
+.custom-projects-slider__track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-projects-slider__slide {
+  min-width: 100%;
+  
+  /* padding: 20px; */
+  box-sizing: border-box;
+  /* background: #f5f5f5; */
+  border: 1.5px solid #edeef2;
+  border-radius: 32px;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.custom-projects-slider__slide-content {
+  display: flex;
+  height: 100%;
+}
+
+.custom-projects-slider__image-slider {
+  width: 45%;
+  aspect-ratio: 1;  
+  position: relative;
+  /* padding-bottom: 40%; Создаем квадрат */
+  border-radius: 24px;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.custom-projects-slider__image-track {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: transform 0.5s ease;
+
+}
+
+.custom-projects-slider__image-slide {
+  min-width: 100%;
+  height: 100%;
+}
+
+.custom-projects-slider__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custom-projects-slider__pagination {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  z-index: 10;
+}
+
+.custom-projects-slider__pagination-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.5);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.custom-projects-slider__pagination-dot.active {
+  background: white;
+}
+
+
+
+.custom-projects-slider__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.custom-projects-slider__description {
+  margin-bottom: 30px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.custom-projects-slider__details-button {
+  align-self: flex-start;
+  padding: 10px 25px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.custom-projects-slider__details-button:hover {
+  background: #0056b3;
+}
+
+.custom-projects-slider__arrow {
+  position: absolute;
+  top: 50%;
+  /* right: 0; */
+  transform: translateX(75%);
+  width: 50px;
+  height: 50px;
+  background: #2c3e50;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000000;
+  transition: background 0.3s;
+  box-shadow: 0px 4px 16px #131b2310;
+}
+
+
+.custom-projects-slider__arrow:hover {
+  background: #33475b;
+  box-shadow: 0px 7px 16px #131b2325;
+  transition: ease-in 0.5s;
+
+}
+
+.custom-projects-slider__arrow svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
+
+.custom-projects-slider__arrow--prev {
+  left: 0;
+  transform: translateX(-50%);
+}
+
+.custom-projects-slider__arrow--next {
+  right: 15px;
+}
+
+section#custom-projects-portfolio-slider {
+  margin: 128px 0;
+}
+
+/* --- */
+
+.custom-projects-slider__info-block {
+  width: 55%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 16px;
+  align-items: start;
+  /* border: 1px solid red; */
+
+}
+
+.custom-projects-slider__info-block * {
+  text-align: left;
+  margin: 0;
+}
+
+.custom-projects-slider hr {
+  /* width: 75%; */
+  /* opacity: 0.5; */
+  /* margin: 16px 0; */
+  display: none;
+}
+
+.custom-projects-slider-components {
+  display: flex;
+  align-items: start;
+  gap: 4px;
+}
+.custom-projects-slider-components-item {
+  padding: 12px 16px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  border: none;
+  border-radius: 90px;
+  background-color: #f9921c;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.custom-projects-slider-components-item:nth-child(2){
+  background-color: #FCED8A;
+  color: #171717;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.custom-projects-slider-components-item:nth-child(3){
+  background:#78ce16;
+  color: #fff;
+}
+
+.custom-projects-slider__title {
+  font-size: 40px;
+  margin-top: 16px;
+}
+
+.custom-projects-slider-more-information {
+  /* border: 1px solid #ccc;
+  border-radius: 25px; */
+  /* padding: 16px; */
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.custom-projects-slider-price-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.custom-projects-slider-price-box .price {
+  font-size: 30px;
+  color:#6cbb05;
+  font-weight: 700;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 6px;
+  background:#e5f3d2;
+
+}
+
+.custom-projects-slider-price-box .price span{
+  font-size: 25px;
+}
+
+.custom-projects-slider-price-box .text {
+  font-weight: 600;
+}
+
+.custom-projects-slider-expenses-box {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 1fr;
+  column-gap: 0;
+  row-gap: 0;
+  align-items: start;
+
+}
+.expense {
+  font-size: 15px;
+  line-height: 140%;
+}
+
+
+.custom-projects-slider-review-box {
+  margin-top: 16px;
+}
+
+.custom-projects-slider-review-title {
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.custom-projects-slider-review {
+  /*  */
+}
+
+.custom-projects-slider-review-grid {
+  background: #f1f1f2;
+  padding: 32px 25px;
+  border:none;
+  border-radius: 16px;
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+
+.custom-projects-slider-review-grid-column {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.custom-projects-slider-image-box {
+  border: none;
+  border-radius: 90px;
+  overflow: hidden;
+  max-width: 25%;
+  aspect-ratio: 1
+}
+.custom-projects-slider-image {
+  width: 100%;
+  object-fit: cover;
+}
+.custom-projects-slider-review .name {
+  font-size: 22px;
+  font-weight: 600;
+}
+.custom-projects-slider-review .date {
+  color:#4CAF50;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+.custom-projects-slider-review .review-text {
+  font-size: 16px;
+  line-height: 140%;
 }

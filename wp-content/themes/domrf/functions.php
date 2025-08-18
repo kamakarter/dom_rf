@@ -32,6 +32,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_enqueue_script('custom-modal-window-script', get_template_directory_uri() . './assets/wp-content/cache/autoptimize/js/custom-modal.js', array(), 'null', true);
     wp_enqueue_script('project-filters-open-script', get_template_directory_uri() . './assets/wp-content/cache/autoptimize/js/project-filters-open.js', array(), 'null', true);
     wp_enqueue_script('sercificate-slider', get_template_directory_uri() . './assets/wp-content/cache/autoptimize/js/sercificate-slider.js', array(), 'null', true);
+    wp_enqueue_script('custom-projects-slider', get_template_directory_uri() . './assets/wp-content/cache/autoptimize/js/custom-projects-slider.js', array(), 'null', true);
 
     // Новый аккордеон FAQ
     wp_enqueue_script('new-faq-accordion', get_template_directory_uri() . './assets/wp-content/cache/autoptimize/js/new-faq-accordion.js', array(), '1.0.0', true);

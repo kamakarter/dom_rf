@@ -926,7 +926,7 @@ get_header();
         </div>
     </section>
 
-    <section id="portfolio-slider">
+    <!-- <section id="portfolio-slider">
         <div class="container">
             <div class="flex-row">
                 <div class="projects-map-title section-title">С нами, за прошлый год <b>въехали в новый дом 257
@@ -1306,10 +1306,11 @@ get_header();
                         class="lazyload instagram-box-photo"></div>
             </div>
         </div>
-    </section>
-
+    </section> -->
     
-    
+    <?php
+    include_once 'blocks/custom-projects-slider.php';
+    ?>
 
     <?php
     include_once 'blocks/excursion.php';
